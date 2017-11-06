@@ -158,7 +158,7 @@ Measuring the impact of WOM
 In order to understand the measurement challenges and possible solutions
  when estimating the impact of WOM, it is instructive to draw parallels
  to the measurement of advertising effectiveness.
- The apporaches to estimation in both realms share some common features,
+ The approaches to estimation in both realms share some common features,
  but also diverge in important ways which we outline below.
  As an illustration for the general measurement framework we consider the
  case of a firm offering multiple products that are characterized by different
@@ -197,19 +197,11 @@ Demand_{j}=\alpha+\beta\times Marketing_{j}+\varepsilon_{j}
 \end_layout
 
 \begin_layout Standard
-where 
-\begin_inset Formula $Demand_{j}$
-\end_inset
-
- and 
-\begin_inset Formula $Marketing_{j}$
-\end_inset
-
- denotes demand and marketing activity for product 
+where the index 
 \begin_inset Formula $j$
 \end_inset
 
-.
+ refers to a product.
  One would then run a separate regression using either advertising or word-of-mo
 uth as the explanatory marketing variable.
  This regression effectively compares products with high and low advertising
@@ -301,10 +293,9 @@ key "Lewis_Reiley_2014"
 \begin_layout Standard
 In the case of WOM a similar type of bias can occur for slightly different
  reasons.
- Contrary to advertising, WOM is of course not under the firm's control
- and hence we need to ask whether any product characteristics that lead
- consumers to talk about the product might also have a direct effect on
- demand.
+ Contrary to advertising, WOM is not directly under the firm's control and
+ hence we need to ask whether any product characteristics that lead consumers
+ to talk about the product might also have a direct effect on demand.
  Here a scenario of reverse causality seems likely, i.e.
  high demand products that a lot of consumers buy will likely also be talked
  about by a lot of consumers.
@@ -330,7 +321,7 @@ An alternative approach that deals with some of the problems outlined above
  is one that relies on panel data with fixed effects at the level of the
  cross-sectional unit.
  Such an analysis requires data on demand and marketing for various products
- over time, which is typically available to firms.
+ over time, which is often available to firms.
  The fixed effect regression takes the following form
 \end_layout
 
@@ -365,8 +356,8 @@ where
 \end_layout
 
 \begin_layout Standard
-In contrast to the cross-sectional approach earlier we are now relating
- changes in marketing over time to changes in demand.
+In contrast to the cross-sectional approach, we are now relating changes
+ in marketing over time to changes in demand.
  I.e.
  we are asking whether in time-periods with relatively higher marketing
  intensity (for a given product) demand for that product increases.
@@ -462,8 +453,8 @@ ase basis.
 \end_layout
 
 \begin_layout Standard
-Turning to WOM, we think that the panel approach is likely to work in this
- setting.
+Turning to WOM, we think that the panel approach is less likely to work
+ in this setting.
  This is due to an extension of the argument made in the cross-sectional
  case above.
  If demand increases for a given product over time, it is likely that WOM
@@ -568,12 +559,18 @@ SS: would be good to have more papers here, need to check literature.
 \end_layout
 
 \begin_layout Standard
-The set of papers on WOM is much smaller, especially with regards to careful
- causal designs, however tentative evidence pointing to an upward bias also
- exists.
- Seiler, Yao and Wang (2017) find an elasticity of demand with respect to
- WOM of 0.016 whereas the meta-analysis of mostly correlational studies in
+The set of papers on WOM is much smaller, especially with regards to causal
+ research designs, however tentative evidence pointing to an upward bias
+ also exists.
  
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Seiler_et_al_2017"
+
+\end_inset
+
+ find an elasticity of demand with respect to WOM of 0.016 whereas the meta-analy
+sis of mostly correlational studies in 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "you_et_al_2010"
@@ -613,9 +610,12 @@ An important point with regards to the decision how to allocate dollars
  across different marketing channels is the fact that while both advertising
  and WOM elasticity are biased upwards, they magnitude of the bias is not
  identical.
- As a result, WOM compares favorably with advertising when considering correlati
-onal studies with an elasticity of 0.12 and 0.2 for advertising and WOM respective
-ly.
+ Existing evidence suggests that the upward bias is larger in the case of
+ WOM and hence one might incorrectly conclude the WOM is more effective
+ than advertising.
+ Specifically, WOM compares favorably with advertising when considering
+ correlational studies with an elasticity of 0.12 and 0.2 for advertising
+ and WOM respectively.
  The relative effectiveness however flips when we focus on causal estimates
  which yield an elasticities of 0.03 and 0.016 for advertising and WOM.
  It is however important to point out that there are few causal studies
@@ -623,23 +623,14 @@ ly.
  taken with caution at this point.
 \end_layout
 
-\begin_layout Subsection
-Correctly measuring causal effects
+\begin_layout Subsubsection*
+A/B-test and WOM
 \end_layout
 
 \begin_layout Standard
-xyz
-\end_layout
-
-\begin_layout Subsection
-OLD STUFF
-\end_layout
-
-\begin_layout Standard
-Measurement of marketing effectiveness in the online realm has changed dramatica
-lly in the last several years due to A/B tests (/ randomized field experiments)
- which allow for clean causal inference.
- Such methods are now routinely used in many academic studies (
+A/B tests (also referred to as randomized field experiments) allow for clean
+ causal inference and are increasingly used to used in many academic studies
+ of advertising effectiveness (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "Lewis_Reiley_2014"
@@ -668,15 +659,200 @@ key "brett_florian"
 \end_inset
 
 ) as well as by practitioners [find some citations].
- A/B test have been applied predominantly in the context of advertising
- and typically involve randomizing advertising exposure across individual
- consumers, i.e.
- each consumer that visits specific website will be be exposed to an ad
- with a certain probability.
- We can then compare any outcome of interest, such as click-through rates
- or spending on the webpage, between exposed consumers (the treatment group)
- and consumers that were not served the ad (the control group).
+ A/B test involve randomly allocating different amounts of advertising to
+ different products or groups of consumers.
+ For example, in the context of social media advertising, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "gong_et_al_2015"
+
+\end_inset
+
+ randomly sent tweets about TV shows from the company's official account.
+ The authors of the study randomly sent tweets for a subset of TV show and
+ then compared viewership of these shows with the viewership number of shows
+ that were not tweeted about (the control group).
+ Such an approach circumvents the concerns raised above in the context of
+ cross-sectional and panel regressions.
+ If tweets (or any other type of marketing activity) is randomly assigned,
+ it is by construction not correlated with the error regression error and
+ a simple regression of the relevant outcome measure can be used to recover
+ the causal impact.
+ In this example the relevant regression would be
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Viewership_{j}=\alpha+\beta\times Treatment_{j}+\varepsilon_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $Treatment_{j}$
+\end_inset
+
+ is equal to one if a tweet was sent out regarding show 
+\begin_inset Formula $j$
+\end_inset
+
+, i.e.
+ show 
+\begin_inset Formula $j$
+\end_inset
+
+ was in the treatment group.
+\end_layout
+
+\begin_layout Standard
+It is easy to see that this research paradigm can not be easily exported
+ to study WOM or more generally, the impact of any type of activity that
+ is not under the firm's control.
+ Running an A/B-test requires direct control of the variable of interests,
+ e.g.
+ the company's tweets in the example above, in order to implement a random
+ assignment of that variable.
+ In the case of WOM however, firms will generally not have the ability to
+ randomly generate or eliminate WOM for some subset of products.
+ This leads to one of the most effective and simple tools of causal measurement
+ not being available in the case of measuring WOM effectiveness.
  
+\end_layout
+
+\begin_layout Standard
+We note that there could be situations where an experimental manipulation
+ of WOM is feasible, but the scope for such manipulations is likely to be
+ limited.
+ For instance, in principle one could imagine that a social media platform
+ could decide not to show tweets pertaining to a randomly selected group
+ of products.
+ A firm that was interested in studying the impact of WOM and was able to
+ convince the platform to co-operate in the experiment could achieve an
+ experimental manipulation of WOM due to randomly elimination of tweets
+ across products.
+ Our sense is that platforms will be unlikely to cooperate in such experiments
+ as there might be backlash from users whose tweets do not appear due to
+ the A/B test.
+ A further option would be randomly generate rather than eliminate WOM by
+ generating tweets from fake accounts or incentivizing users to tweets on
+ the firm's behalf.
+ Such activity is however likely to be something the platform would oppose
+ and could potentially also violate the FTC's truth-in-advertising standard
+ as paid tweets would have to be disclosed.
+\end_layout
+
+\begin_layout Subsection
+Correctly measuring causal effects
+\end_layout
+
+\begin_layout Standard
+We argued in the previous section, that WOM effectiveness is difficult to
+ measure reliably and methods that can be applied to studies of advertising
+ impact are either not available (in the case of A/B tests) or unlikely
+ to work (in the case of fixed effects regressions).
+ Having clearly outlined the obstacles to correct measurement, we now turn
+ to a more positive outlook on methods that can be used to estimate causal
+ WOM effects.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Natural Experiments
+\end_layout
+
+\begin_layout Standard
+The tool for causal inference that we think is available to researchers
+ in the context of WOM are natural experiments or so-called quasi-experimental
+ variation.
+ Natural experiments are based on historic data that does not contain randomized
+ variation and isolates specific parts of the historic that are driven by
+ events that affected WOM but are arguably unrelated to demand.
+ 
+\end_layout
+
+\begin_layout Standard
+To fix ideas, we first discuss a concrete example taken from 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Seiler_et_al_2017"
+
+\end_inset
+
+.
+ This paper studies the impact of user-generated microblogging activity
+ on demand for TV shows in China.
+ The authors have data on the daily number of tweets pertaining to each
+ show as well as viewership numbers for different episodes of the same show.
+ Importantly, during the time period covered by their data, the primary
+ Chinese microblogging platform, Sina Weibo, was temporarily shut-down due
+ to political events.
+ The paper harnesses this shock and isolates the variation in microblogging
+ activity that is driven by the shut-down in order to isolate the impact
+ of the WOM on demand.
+ In more formal terms, the authors implement an instrumental variable (IV)
+ approach in a panel fixed effect regression framework (similar to the framework
+ outlined above).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Demand_{jt}=\xi_{j}+\gamma\times WOM{}_{jt}+\nu_{jt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $Demand_{jt}$
+\end_inset
+
+ denotes demand for the episode of show 
+\begin_inset Formula $j$
+\end_inset
+
+ that aired on day 
+\begin_inset Formula $t$
+\end_inset
+
+ and 
+\begin_inset Formula $WOM_{jt}$
+\end_inset
+
+ denotes the number of tweets pertaining to the show on day 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ Crucially, the WOM measure in the regression is instrumented with a dummy
+ variable that is equal to one if the specific episode aired during the
+ shut-down.
+ In technical terms, the instruments allows us to estimate the causal impact
+ of WOM ( in the regression above) even if WOM is correlated with the regression
+ error term.
+ The sufficient conditions for this method to work is that the instrument
+ is not correlated with the regression and hence only affect demand via
+ its impact on WOM.
+\end_layout
+
+\begin_layout Standard
+In general, any event on the platform of interest that affected WOM, but
+ that was not directly related to demand would qualify as an instrument.
+ Another example for such an event is the merger of two review platforms
+ which [cit Giorgos paper] led to a sudden increase in the number of reviews
+ (because the platforms combined the reviews that were formerly on each
+ platform separately).
+ Similar to the shut-down described above, the merger constituted an exogenous
+ shift in WOM.
+ [are there any other example we can cite here?]
 \end_layout
 
 \begin_layout Standard
@@ -684,10 +860,16 @@ key "brett_florian"
 status open
 
 \begin_layout Plain Layout
-SS: My idea here was to talk about causal inference generally and outline
- why A/B tests get at causality and why they are not available here.
- We can then discuss other non-experimental methods (not sure which level
- of knowledge we can / should assume) and how they can be applied here.
+SS: apart from instruments, there is also the 
+\begin_inset Quotes eld
+\end_inset
+
+controlling for stuff
+\begin_inset Quotes erd
+\end_inset
+
+ approach that some of the cross-platform diff-in-diff papers take.
+ I left this out for now, but it could also go here.
 \end_layout
 
 \end_inset
@@ -695,12 +877,84 @@ SS: My idea here was to talk about causal inference generally and outline
 
 \end_layout
 
-\begin_layout Section
-How effective is Word-of-Mouth?
+\begin_layout Standard
+Unfortunately, these type of events are likely to be relatively rare which
+ limits the scope for this approach.
+ Furthermore, exploiting events of this kind requires a less mechanical
+ approach because one cannot simply apply a standardized method to any given
+ set of data.
+ Instead, exploiting such events requires the analyst to find suitable events
+ that provide the desired variation.
+ Such natural experiments therefore can only provide specific case studies.
+ This is in contrast to A/B tests or simpler methods such as fixed effect
+ regression which can be implemented repeatedly by firms and provide a standardi
+zed and continuous analytical toolkit.
+ On the positive side, specific events such as the shut-down or the platform
+ merger are often broad in scope and hence can be leveraged to analyze many
+ different product markets that were affected by these events due their
+ presence on the platform.
+\end_layout
+
+\begin_layout Subsubsection*
+A/B tests as Instruments
 \end_layout
 
 \begin_layout Standard
-xyz
+A method that is related to the one just outlined, but more readily available
+ is an indirect manipulation of WOM.
+ The key idea is to use information on any activity that a firm might be
+ using to foster WOM among its users.
+ For instance, it could be the case that firms is running a targeted advertising
+ campaigns to users that provided positive WOM in the past.
+ In a setting where the firms sells different products, it could randomly
+ assign products to such a targeted advertising campaigns.
+ Hence, for some randomly selected set of products, active users are targeted
+ with advertising and start generating additional WOM.
+ Relative to a standard A/B test the random assignment has been applied
+ not directly to the variable of interest, but to an activity (targeted
+ advertising in this case) that is under the firm's control and correlated
+ with the variable of interest.
+ This approach allows us to combine some of the strengths of A/B tests with
+ the natural experiment framework.
+ Namely, we can now regress demand on WOM and use the randomly assigned
+ variable as an instrument for WOM.
+ As before, we are thus isolating the variation in WOM that is due to the
+ randomly assigned variable.
+ 
+\end_layout
+
+\begin_layout Standard
+Such an approach has the advantage that it is scale-able.
+ Contrary to natural experiments, we are not constraint to leverage existing
+ variation that might occur infrequently, but can instead generate useful
+ (i.e.
+ random) variation ourselves.
+ At the same time, by applying the A/B test mechanics indirectly, we circumvent
+ the issue that WOM is not directly under the firm's control.
+\end_layout
+
+\begin_layout Standard
+The main downside of this approach is that it might be hard to find intervention
+s that affect WOM without also directly affecting demand.
+ In our example above, it is likely that the targeted advertising campaign
+ not only affect the amount of WOM but also make the users receiving advertising
+ more likely to buy the product.
+ Hence the instrument will be impact demand directly and not only via its
+ impact on WOM.
+ In this particular case, the problem could be solved if one can track the
+ sales of users that were targeted with advertising and only study the impact
+ of WOM on demand of users that did not receive any advertising/
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+How effective is Word-of-Mouth?
 \end_layout
 
 \begin_layout Subsection
@@ -713,10 +967,6 @@ Online Conversations
 
 \begin_layout Section
 Why does Word-of-Mouth Marketing work?
-\end_layout
-
-\begin_layout Standard
-xyz
 \end_layout
 
 \begin_layout Subsection
