@@ -1,0 +1,170 @@
+\documentclass[letter,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{setspace}
+\usepackage{fullpage}
+
+\usepackage[
+backend=biber,
+style=authoryear,
+natbib=true
+]{biblatex}
+
+\addbibresource{wom.bib}
+
+\usepackage[]{hyperref}
+\hypersetup{
+    colorlinks=false,
+}
+
+\begin{document}
+\title{Word of mouth}
+\author{
+	Stephan Seiler \\
+	Stanford Graduate School of Business
+	\and
+	Song Yao \\
+	Carlson School of Management, University of Minnesota
+	\and
+	Georgios Zervas \\
+	Boston University Questrom School of Business
+}
+\maketitle
+
+\doublespacing
+
+\section{The Impact of Reviews on Consumer Demand and Firm Pricing}
+
+Academic interest in consumer reviews goes nearly as far back as the
+appearance of the first online reputation systems on e-commerce platforms like
+eBay and Amazon. Reviews -- the information units of reputation systems --
+typically consist of a numeric score (typically represented as a rating
+between 1 and 5 stars), the review submission date, and some open-ended text
+that allows consumers to evaluate a business in their own words. Some
+reputation systems allow consumers to attach pictures to their reviews, and to
+separately rate businesses on dimensions such as service and price. Another
+commonly implemented feature lets consumers rate others' reviews as
+``helpful'' or ``useful''. Reputation systems display certain basic facts
+about reviewers such as their review history, a profile picture, and location,
+though they do not require that reviewers disclose their true identity. Most
+reputation systems allow anyone to submit to review, which has raised concerns
+about review fraud~\citep{mayzlin2014promotional,luca2016fake}. Various
+strategies are in place to mitigate this concern including publishing reviews
+only by consumers whose purchases can be verified, highlighting reviews that
+can be linked to verified purchases using special badges, and relying on
+fraud-detection algorithms to discard fake reviews.
+
+\subsection{Review valence}
+
+The most common method of aggregating the plethora of information reputation
+systems collect is to compute an average rating for each business.\footnote{An
+average rating is simply the \emph{unweighted} mean of all individual ratings
+a business or product has received, often rounded to the nearest decimal point
+of half-star.} Average ratings, which are meant to capture overall quality,
+are prominently displayed and used to rank products and businesses in response
+to user queries. For instance, the query ``hotels in San Francisco'' on
+TripAdvisor is likely to return higher-rated hotels as the top search results.
+Maybe due to their simplicity, average ratings have been well-studied. By now,
+it is well-established that average ratings have a substantial causal impact
+on demand and pricing, though the magnitude of these effect varies by the
+timing and context of the study.
+
+eBay's reputation system, which allows buyers and sellers on the platform to
+rate each other, was among the first to be studied and has been the focus of
+tens of studies~\citep{ba2002evidence,houser2006reputation,lucking2007pennies,eaton2002value,bajari2003winner,kalyanam2001return,mcdonald2002reputation,cabral2010dynamics,dewally2006reputation,jin2006price}.
+The findings of these papers, which rely on different methods and study
+different eBay product categories are broadly consistent: highly-rated sellers
+attract more bidders in their auctions, fetch higher prices, and sell their
+items with higher probability. Interestingly, \citet{jin2006price} show that
+the while high-rated sellers can charge a premium, this is not because they
+sell higher quality products.
+
+Similar effects for review valence have been demonstrated on other review and
+e-commerce platforms. \citet{chevalier2006effect} finds that the sales ranks
+of books on Amazon depend on their average ratings. For example, looking at
+Yelp, \citet{luca2016reviews} and \citet{anderson2012learning} estimate the
+impact of average ratings on restaurant demand and respectively find that a
+one-star increase in ratings causes a 5\% increase in revenue and a 50\%
+increase in the probability of being sold out. \citet{luca2013digitizing}
+study ZocDoc, a platform that allows consumers to rate doctors and make
+appointments, and find a half-star increase in ratings is associated with 10\%
+increase that an appointment will be filled.
+
+While many studies have investigated the impact of average ratings, less is
+known about other aggregate measures. One exception is the work of
+\citet{sun2012variance} who studies the variance of ratings. While reputation
+systems do not explicitly display rating variances, many of them display
+percentages of reviews by rating from which consumers can infer variance.
+\citet{sun2012variance} presents theoretical and empirical evidence that
+increased variance in ratings has a positive impact on the demand of low-rated
+products. The key intuition behind this result is that low-rated products with
+some high individual ratings (\emph{i.e.}, high variance) may be appealing to
+certain consumers, while products with consistently low ratings (\emph{i.e.},
+low variance) are less likely to be appealing to anyone.
+
+A number of papers have examined the moderators of the relationship between
+ratings and demand. A common theme that has emerged is that the relationship
+between ratings and demand (or prices) depends on consumers' prior quality
+uncertainty. For instance, \citet{luca2016reviews} finds that that Yelp
+ratings do not matter for chains presumably because there exists little a
+priori uncertainty about their quality. Similarly, \citet{lewis2016welfare}
+find that the impact of TripAdvisor ratings is much smaller for
+chain-affiliated hotels than it is for independently operated properties.
+
+Finally, it is worth noting that the effects of consumer reviews on demand and
+pricing discussed thus far are unlikely to represent long-term equilibrium
+outcomes. As reviews accumulate online, and as consumers pay more attention to
+these reviews, their influence on demand and pricing is also likely become
+stronger. A recent paper by \cite{lewis2016welfare} documents this evolution
+by looking at hotel demand as a function of reviews over a decade. The study
+finds that the impact of a 1-star increase in a hotel's average rating went
+for zero to 25\% between 2004 and 2014.
+
+\subsection{Review volume}
+
+Another salient and well-studied feature of reputation system is the review
+volume. Review counts are typically displayed prominently next to ratings, and
+consumers can also use them to infer quality. For instance, all else equal, we
+may expect that consumers will less uncertainty about the quality of products
+with more reviews. 
+
+Two experimental studies find support for this hypothesis.
+\citet{resnick2006value} compare new eBay sellers with sellers that have an
+established reputation and find consumers' willing to pay is 8\% higher for
+the latter. \citet{pallais2014inefficient} studies oDesk, an online
+marketplace where employers can hire workers, and finds that workers who
+(randomly) received detailed feedback had better employment outcomes,
+including higher wages and earnings.
+
+\subsection{Review text}
+
+Write a paragraph about text. Cite \citet{ghose2012designing},
+\citet{packard2017language}.
+
+\citet{ghose2012designing} use text-mining study various aspects of review
+text on TripAdvisor, finding that simpler and shorter reviews that do not
+contain spelling errors have a positive impact on hotel demand.
+
+\section{Meta-analyses of reputation systems}
+
+A large number of studies that vary in their timing, setting, and methods have
+been conducted to measure the effects of reputation on various economic
+outcomes. One way to summarize these effects is via meta-analyses. Write a
+paragraph about meta-analyses like \citet{babic2016effect} and
+\citet{floyd2014online}.
+
+\section{Other Literature Reviews}
+
+Discuss \citet{dellarocas2003digitization} and \citet{luca2015user}.
+
+\section{Discussion etc}
+
+Blah blah
+
+\printbibliography
+
+\end{document}
