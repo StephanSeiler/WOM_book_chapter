@@ -71,10 +71,10 @@ and businesses in response to user queries. For instance, the query ``hotels
 in San Francisco'' on TripAdvisor is likely to return higher-rated hotels as
 the top search results. 
 
-Maybe due to their simplicity, average ratings have been well-studied. By now,
-it is well-established that average ratings have a substantial causal impact
-on demand and pricing, though the magnitude of these effect varies by the
-timing and context of the study.
+Maybe due to wide use and simplicity, average ratings have been well-studied.
+By now, it is well-established that average ratings have a substantial causal
+impact on demand and pricing, though the magnitude of these effect varies by
+the timing and context of the study.
 
 eBay's reputation system, which allows buyers and sellers on the platform to
 rate each other, was among the first to be studied and has been the focus of
@@ -92,15 +92,15 @@ sales ranks of books on Amazon depend on their average ratings. Looking at
 Yelp, \citet{luca2016reviews} and \citet{anderson2012learning} estimate the
 impact of average ratings on restaurant demand and respectively find that a
 one-star increase in ratings causes a 5\% increase in revenue and a 50\%
-increase in the probability of being sold out. Both of these studies rely on a
-clever regression discontinuity (RD) design that exploits the fact that Yelp
-rounds average ratings to the nearest half-star: a business with a 4.24
-average is rounded down to 4 stars, while a business with a nearly identical
-rating of 4.25 stars is up to 4.5 stars. Using the same RD strategy
-\citet{luca2013digitizing} study ZocDoc, a platform that allows consumers to
-rate doctors and make appointments with them, and find that a half-star
-increase in ratings is associated with 10\% increase that an appointment will
-be filled.
+increase in the probability of being sold out. To demonstrate causality, both
+of these studies rely on a clever regression discontinuity (RD) design that
+exploits the fact that Yelp rounds average ratings to the nearest half-star: a
+business with a 4.24 average is rounded down to 4 stars, while a business with
+a nearly identical rating of 4.25 stars is up to 4.5 stars. Using the same RD
+strategy \citet{luca2013digitizing} study ZocDoc, a platform that allows
+consumers to rate doctors and make appointments with them, and find that a
+half-star increase in ratings is associated with 10\% increase that an
+appointment will be filled.
 
 While many studies have investigated the impact of average ratings, less is
 known about other aggregate measures. One exception is the work of
@@ -137,9 +137,9 @@ In conclusion, we point out that the existence of a large number of studies of
 ratings across different contexts has enabled meta-analyses of their
 effects~\citep{floyd2014online,babic2016effect}. By comparing treatments
 effects estimated in different settings, meta-analysis can reveal interesting
-moderators the effect of ratings on demand. For instance,
-\cite{babic2016effect} find that early reviews are more important for new
-products than they are for new services.
+moderators of the effect of ratings. For instance, \cite{babic2016effect} find
+that early reviews are more important for new products than they are for new
+services.
 
 \subsection{Review volume}
 
@@ -197,20 +197,28 @@ Write a paragraph about text. Cite \citet{ghose2012designing},
 text on TripAdvisor, finding that simpler and shorter reviews that do not
 contain spelling errors have a positive impact on hotel demand.
 
-\citet{packard2017language} combine lab experiments and field data to
-investigate how the language consumers use in to endorse products affects how
-persuasive their reviews are. The authors find explicit endorsements (``I
-recommended this book'') are more persuasive than implicit endorsements (``I
-enjoyed this book''). Interestingly, the authors find that in practice novice
-users are more likely to use explicit endorsements that experts, suggesting
-that novice reviews are more persuasive.
+\cite{packard2017language} and \cite{kupor2017spontaneous} offer examples of
+the second approach. \citet{packard2017language} combine lab experiments and
+field data to investigate how the language consumers use in to endorse
+products affects how persuasive their reviews are. The authors find explicit
+endorsements (``I recommended this book'') are more persuasive than implicit
+endorsements (``I enjoyed this book''). Interestingly, the authors find that
+in practice novice users are more likely to use explicit endorsements that
+experts, suggesting that novice reviews are more persuasive.
 
 \citet{kupor2017spontaneous} also use lab experiments to investigate the
-language the endorsements, focusing on the effect of endorsement authenticity.
-The author)s find that endorsements that perceived to be more authentic are
-more convincing that endorsements that are more thoughtful. For example,
-tweets that are less polished or contain typographical errors are perceived as
-more authentic, thus enhancing their persuasiveness.
+effects of endorsement authenticity. The study find that endorsements that are
+perceived to be more authentic are more convincing than endorsements that are
+perceived to be more thoughtful. For example, product endorsements that
+contain typographical errors are perceived as more authentic, thus enhancing
+their persuasiveness.
+
+Both approaches for studying text are valuable. Statistical approaches can
+uncover patterns in text whose importance might not be evident a priori. At
+the same time, statistical approaches offer no direct connection to theory.
+Linking patterns uncovered by statistical methods to theoretical constructs
+can be difficult. Thus, consumer behavior theory can guide our search in the
+high-dimensional space of text patterns.
 
 \section{Other Literature Reviews}
 
