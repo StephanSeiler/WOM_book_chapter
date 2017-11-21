@@ -150,19 +150,19 @@ may expect that consumers will have less uncertainty about the quality of
 products with more reviews. Testing the hypothesis that changes in review
 volume affect demand raises a unique identification challenge: while more
 reviews may cause sales, the reverse is also true, \emph{i.e.}, sales can
-result in more reviews. Thus, to avoid this reserve causality issue, reliable
-estimates of review volume on sales have primarily relied on experimental
-methods.
+result in more reviews. To resolve this reserve causality issue, researchers
+have primarily relied on experimental methods.
 
 Two experimental studies investigate the link between review volume and
 demand. \citet{resnick2006value} compare new eBay sellers with sellers that
-have an established reputation and find consumers' willing to pay is 8\%
-higher for the latter. \citet{pallais2014inefficient} studies oDesk, an online
-marketplace where employers can hire workers, and finds that workers who
-(randomly) received detailed feedback had better employment outcomes,
-including higher wages and earnings. An interesting implication of these
-studies is that having at establishing a reputation by having at least one
-review matters more than receiving an additional review.
+have an established reputation and find consumers' willingness to pay is 8\%
+higher for the established group of sellers. \citet{pallais2014inefficient}
+studies oDesk, an online marketplace where employers can hire workers, and
+finds that workers who (randomly) received detailed feedback had better future
+employment outcomes, including higher wages and earnings. An interesting
+implication of these studies is that having at establishing a reputation by
+having at least one review appears to matter more than receiving an additional
+review.
 
 \subsection{Review text}
 
@@ -173,19 +173,19 @@ pre-processing step that transforms text into a small number of variables that
 capture variation along dimensions of interest. These variables can
 subsequently be analyzed using traditional econometric approaches.
 
-At a high level, two pre-processing approaches have been employed in the
-literature to convert text into a manageable number of variables. First,
-researchers have used statistical approaches that rely on dimensionality
-reduction algorithms to map text onto low dimensional measures. Statistical
-approaches themselves vary in their sophistication from the direct application
-of simple formulas to compute metrics like readability to complex methods like
-topic modeling that can extract latent structure and meaning from unstructured
-data. \citet{moe2017social} provide a comprehensive review of the statistical
-approaches used to analyze text from reputation systems and social media. The
-second approach is grounded in consumer behavior theory and starts by forming
-a hypothesis regarding the effects of specific text constructs. The presence
-of constructs in text is often detected manually (\emph{e.g.}, using human
-coders), or via simple pattern matching rules.
+At a high level, two approaches have been employed in the literature to
+convert text into a small number of variables. First, researchers have used
+statistical approaches that rely on dimensionality reduction algorithms to map
+text onto low dimensional measures. Statistical approaches themselves vary in
+their sophistication from the direct application of simple formulas to compute
+metrics like readability to complex methods like topic
+modeling~\citep{blei2003latent} that can extract latent structure and meaning
+from unstructured data. \citet{moe2017social} provide a comprehensive review
+of the statistical approaches used to analyze text from reputation systems and
+social media. The second approach is grounded in consumer behavior theory and
+starts by forming a hypothesis regarding the effects of specific text
+constructs. The presence of constructs in text is often detected manually
+(\emph{e.g.}, using human coders), or via simple pattern matching rules.
 
 \citet{buschken2016sentence}. 
 Write a paragraph about text. Cite \citet{ghose2012designing},
@@ -215,16 +215,31 @@ their persuasiveness.
 
 Both approaches for studying text are valuable. Statistical approaches can
 uncover patterns in text whose importance might not be evident a priori. At
-the same time, statistical approaches offer no direct connection to theory.
-Linking patterns uncovered by statistical methods to theoretical constructs
-can be difficult. Thus, consumer behavior theory can guide our search in the
-high-dimensional space of text patterns.
+the same time, statistical approaches offer no direct connection to theory,
+and linking patterns uncovered by statistical methods to theoretical
+constructs can be difficult. Thus, consumer behavior theory can guide our
+search in the high-dimensional space of text patterns.
+
+\subsection{Other review characteristics}
+
+While ratings, review counts, and text are the most salient and best-studied
+attributes of reputation systems, researchers have started examining new
+features. An emergent feature of reputation systems that has started receiving
+attention is the ability to read and write reviews via mobile applications.
+For example, \citet{grewal2016mobile} compare reviews submitted via a mobile
+application to review submitted in the traditional manner using the desktop
+version of a website. Using a combination of TripAdvisor data, and lab
+experiments they show that mobile reviews are more persuasive. The mechanism
+behind this finding is that when consumers are aware than a review was
+submitted via mobile, the infer that review put in an extra effort in
+composing the review, and thus the review is more trustworthy than a review
+submitted via desktop.
 
 \section{Other Literature Reviews}
 
 \textbf{GZ: This para may be better suited for the overall chapter conclusion
 than this particular section.} Discuss \citet{dellarocas2003digitization} and
-\citet{luca2015user}.
+\citet{luca2015user} and \citet{berger2014word}.
 
 \printbibliography
 
