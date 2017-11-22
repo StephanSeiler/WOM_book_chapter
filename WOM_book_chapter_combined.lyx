@@ -951,11 +951,122 @@ Example for Causal Inference
 \end_layout
 
 \begin_layout Standard
-xyz
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: Song and Giorgos, can you guys coordinate on the content to put here?
+ Given that there are more studies on reviews I imagine this will be a bit
+ more about identification in that context, but our censorship experiment
+ should also be part of this (note though that I mention it briefly above
+ and it features again later, so we probably want to be short on it here).
+ The following things might be worth keeping in mind:
+\end_layout
+
+\begin_layout Plain Layout
+1) Pay attention to linking to everything in Section 2 up to this point
+ and in particular 2.2.
+ I.e.
+ are these methods natural experiments, do they use some randomized intervention
+ as an instrument?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 Customer Reviews
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: my take on how to organize this paragraph:
+\end_layout
+
+\begin_layout Plain Layout
+1) move some of the content on identification strategy into section 2.3 above.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+** a) When doing so, expand a bit on the various identification strategies.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+** b) To the extent possible provide a broad classification of identification
+ strategies
+\end_layout
+
+\begin_layout Plain Layout
+** c) Discuss whether any of these can be easily applied by managers (such
+ as the star rating RD)
+\end_layout
+
+\begin_layout Plain Layout
+2) Then organize into section on impact / effect magnitude
+\end_layout
+
+\begin_layout Plain Layout
+** a) within this section distinguish valence / volume / text (other review
+ characteristics qualify more as a moderator in my mind, see my comment
+ below)
+\end_layout
+
+\begin_layout Plain Layout
+** b) a discussion of magnitude is missing so far, it would be nice to put
+ effects into context.
+ Are they economically large in the various settings (presumably the papers
+ provide something to benchmark them against).
+ Comparing them across studies might be hard, but to the extent possible
+ that would be nice.
+\end_layout
+
+\begin_layout Plain Layout
+** c) Can we say anything about the extent of bias in the estimates.
+ I.e.
+ when regressing demand on star rating, how would we go wrong.
+ We can both look within papers at such comparisons (if they exists) and
+ across causal versus correlational papers (this might be hard to do exhaustivel
+y and in a consistent manner)
+\end_layout
+
+\begin_layout Plain Layout
+3) Finally, have a separate section on moderators (currently this content
+ is presented together with the discussion of main effects).
+\end_layout
+
+\begin_layout Plain Layout
+** a) It would be useful to organize this along dimensions that matter,
+ i.e.
+ which firms benefit most from reviews, in which markets/ on which platforms
+ are they most effective, did they change over time, etc..
+ Maybe a paragraph on each dimension that is relevant would be the most
+ natural way to organize this section.
+\end_layout
+
+\begin_layout Plain Layout
+4) There is a section on 
+\begin_inset Quotes eld
+\end_inset
+
+How can firms influence WOM
+\begin_inset Quotes erd
+\end_inset
+
+ below.
+ Song wrote something related to online conversations there, it would be
+ good to also add content pertaining to reviews there (in Section 5.1).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1225,6 +1336,27 @@ i.e.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: most of the content below would probably most naturally fits into a
+ moderator / mechanism section.
+ I like the focus on type of firms (prior uncertainty) and changes over
+ time.
+ I think the mobile/ desktop dimension would also fit here.
+ Are there other relevant dimensions? Do we have multiple studies backing
+ up the heterogeneity described below? Doesn't Brett Hollenbeck's paper
+ also speak to both the chain/independent and the over time dimension? Might
+ be nice to cite here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 A number of papers have examined the moderators of the relationship between
  ratings and demand.
  A common theme that has emerged is that the relationship between ratings
@@ -1269,6 +1401,21 @@ key "lewis2016welfare"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: do the meta-analysis below provide any summary of effect sizes.
+ Are they based on causal studies? Do they offer insights on the difference
+ between causal and correlational estimates?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 In conclusion, we point out that the existence of a large number of studies
  of ratings across different contexts has enabled meta-analyses of their
  effects (
@@ -1299,12 +1446,410 @@ key "babic2016effect"
  for new services.
 \end_layout
 
+\begin_layout Subsection
+Review volume
+\end_layout
+
 \begin_layout Standard
+Another salient and well-studied feature of reputation systems is review
+ volume.
+ Review counts are typically displayed prominently next to average ratings,
+ and consumers can also use them to infer quality.
+ All else equal, we may expect that consumers will have less uncertainty
+ about the quality of products with more reviews.
+ Testing the hypothesis that changes in review volume affect demand raises
+ a unique identification challenge: while more reviews may cause sales,
+ the reverse is also true, i.e., sales can result in more reviews.
+ To resolve this reserve causality issue, researchers have primarily relied
+ on experimental methods.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: are the two studies below actual experiments? If so, could you describe
+ the manipulations in a bit more detail?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Two experimental studies investigate the link between review volume and
+ demand.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "resnick2006value"
+
+\end_inset
+
+ compare new eBay sellers with sellers that have an established reputation
+ and find consumers' willingness to pay is 8% higher for the established
+ group of sellers.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "pallais2014inefficient"
+
+\end_inset
+
+ studies oDesk, an online marketplace where employers can hire workers,
+ and finds that workers who (randomly) received detailed feedback had better
+ future employment outcomes, including higher wages and earnings.
+ An interesting implication of these studies is that having at establishing
+ a reputation by having at least one review appears to matter more than
+ receiving an additional review.
+\end_layout
+
+\begin_layout Subsection
+Review text
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: I like this paragraph.
+ One question, how can we get causality from the text-mining approaches?
+ I assume they mine existing (and hence non-random) text.
+ We should be a bit careful in describing these given our focus on causality.
+ The second approach described below fits more naturally.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Review text is inherently high-dimensional and typically not amenable to
+ analysis by the same methods researchers use to study variables like review
+ valence and volume.
+ Therefore, most analyses of review text rely on a pre-processing step that
+ transforms text into a small number of variables that capture variation
+ along dimensions of interest.
+ These variables can subsequently be analyzed using traditional econometric
+ approaches.
+\end_layout
+
+\begin_layout Standard
+At a high level, two approaches have been employed in the literature to
+ convert text into a small number of variables.
+ First, researchers have used statistical approaches that rely on dimensionality
+ reduction algorithms to map text onto low dimensional measures.
+ Statistical approaches themselves vary in their sophistication from the
+ direct application of simple formulas to compute metrics like readability
+ to complex methods like topic modeling 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "blei2003latent"
+
+\end_inset
+
+ that can extract latent structure and meaning from unstructured data.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "moe2017social"
+
+\end_inset
+
+ provide a comprehensive review of the statistical approaches used to analyze
+ text from reputation systems and social media.
+ The second approach is grounded in consumer behavior theory and starts
+ by forming a hypothesis regarding the effects of specific text constructs.
+ The presence of constructs in text is often detected manually (e.g., using
+ human coders), or via simple pattern matching rules.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "buschken2016sentence"
+
+\end_inset
+
+.
+ Write a paragraph about text.
+ Cite 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ghose2012designing"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "packard2017language"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ghose2011estimating"
+
+\end_inset
+
+ should be cited too.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ghose2012designing"
+
+\end_inset
+
+ use text-mining study various aspects of review text on TripAdvisor, finding
+ that simpler and shorter reviews that do not contain spelling errors have
+ a positive impact on hotel demand.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "packard2017language"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "kupor2017spontaneous"
+
+\end_inset
+
+ offer examples of the second approach.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "packard2017language"
+
+\end_inset
+
+ combine lab experiments and field data to investigate how the language
+ consumers use in to endorse products affects how persuasive their reviews
+ are.
+ The authors find explicit endorsements (``I recommended this book'') are
+ more persuasive than implicit endorsements (``I enjoyed this book'').
+ Interestingly, the authors find that in practice novice users are more
+ likely to use explicit endorsements that experts, suggesting that novice
+ reviews are more persuasive.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "kupor2017spontaneous"
+
+\end_inset
+
+ also use lab experiments to investigate the effects of endorsement authenticity.
+ The study find that endorsements that are perceived to be more authentic
+ are more convincing than endorsements that are perceived to be more thoughtful.
+ For example, product endorsements that contain typographical errors are
+ perceived as more authentic, thus enhancing their persuasiveness.
+\end_layout
+
+\begin_layout Standard
+Both approaches for studying text are valuable.
+ Statistical approaches can uncover patterns in text whose importance might
+ not be evident a priori.
+ At the same time, statistical approaches offer no direct connection to
+ theory, and linking patterns uncovered by statistical methods to theoretical
+ constructs can be difficult.
+ Thus, consumer behavior theory can guide our search in the high-dimensional
+ space of text patterns.
+\end_layout
+
+\begin_layout Subsection
+Other review characteristics
+\end_layout
+
+\begin_layout Standard
+While ratings, review counts, and text are the most salient and best-studied
+ attributes of reputation systems, researchers have started examining new
+ features.
+ An emergent feature of reputation systems that has started receiving attention
+ is the ability to read and write reviews via mobile applications.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "grewal2016mobile"
+
+\end_inset
+
+ compare reviews submitted via a mobile application to review submitted
+ in the traditional manner using the desktop version of a website.
+ Using a combination of TripAdvisor data, and lab experiments they show
+ that mobile reviews are more persuasive.
+ The mechanism behind this finding is that when consumers are aware than
+ a review was submitted via mobile, the infer that review put in an extra
+ effort in composing the review, and thus the review is more trustworthy
+ than a review submitted via desktop.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: I would treat that maybe as a moderator, i.e.
+ under which circumstance does WOM work the best.
+ The platform through which it is provided 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Other Literature Reviews
+\end_layout
+
+\begin_layout Standard
+GZ: This para may be better suited for the overall chapter conclusion than
+ this particular section.
+ Discuss 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "dellarocas2003digitization"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "luca2015user"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "berger2014word"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Moderators and mechanism
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: am putting this section here as a placeholder.
+ As per my comment at the beginning of section 3, here we can tackle various
+ dimensions along which the impact of reviews varies.
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Section
 Online Conversations
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: my take on how to organize this paragraph:
+\end_layout
+
+\begin_layout Plain Layout
+1) move some of the content on identification strategy into section 2.3 above.
+ What seems to fit here is our natural experiment and the influential re-tweet
+ condition from Gong et al.
+ The latter might actually be illegal in the US if the side payment is not
+ declared (against truth in advertising standards), so it might be worth
+ highlighting that.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+2) Section on impact / effect magnitude (this is already the case)
+\end_layout
+
+\begin_layout Plain Layout
+** a) within this section distinguish volume and text (it might also be
+ worth drawing a parallel to reviews where we have valence/volume/text,
+ here valence does not exists due to the nature of conversations; this is
+ an important difference)
+\end_layout
+
+\begin_layout Plain Layout
+** b) it might be nice to also discuss why there is less research on this
+ topic relative to reviews (data availability etc.?)
+\end_layout
+
+\begin_layout Plain Layout
+** c) With regards to text we can talk about our findings regarding positive/neg
+ative sentiment
+\end_layout
+
+\begin_layout Plain Layout
+** d) My take is that the Gong et al.
+ and Petrova et al.
+ studies really do not fit very well with the overall theme because they
+ are not about WOM but firms' own tweets.
+ I would drop that content.
+ The one thing to retain might be the influential re-tweet aspect of Gong
+ et al.
+\end_layout
+
+\begin_layout Plain Layout
+** e) Is there really nothing else on conversations that is even close to
+ causal? The one other set of papers that came to my mind are the movie
+ ones like Gilchrist et al.
+ (and there are a few others that are related).
+ They do not have WOM data, but essentially think of the demand dynamics
+ they find as driven by WOM.
+\end_layout
+
+\begin_layout Plain Layout
+3) Section on moderators / mechanisms
+\end_layout
+
+\begin_layout Plain Layout
+** a) Related to my comment above, I would not talk about Gong et al.
+ here.
+\end_layout
+
+\begin_layout Plain Layout
+** b) It would be good to have a discussion regarding possible dimensions
+ of heterogeneity / possible moderators (even if we have no papers on this).
+ That would align this section with the corresponding one on reviews somewhat.
+\end_layout
+
+\begin_layout Plain Layout
+4) Comments on Section 5.1 (how to influence WOM) are in that section.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1461,6 +2006,19 @@ key "lovett_staelin"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: I think we can only mention the influential re-tweet here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 In a parallel study by 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1505,6 +2063,24 @@ ons among customers.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: have to be careful here, it is basically only based on our paper.
+ Also, in the Gong et al.
+ paper they find a very large effect, so this is not consistent with the
+ statement below.
+ I don't remember the magnitude of the re-tweet condition, but I think it
+ was large too.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 In conclusion, based on a few recent papers which use more reliable exogenous
  variations in data to infer the effect of online conversations on demand,
  online conversations do have a moderate positive impact on demand, and
@@ -1514,6 +2090,21 @@ In conclusion, based on a few recent papers which use more reliable exogenous
 
 \begin_layout Subsection
 Mechanism
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: It might be good to present the 3 channels in a less technical way.
+ I would suggest to mention Bagwell later and start with an intuitive descriptio
+n.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1544,6 +2135,19 @@ key "Bagwell_2007"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: drop the paragraph below as it does not pertain to WOM.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 The information and persuation effects of advertising has long been established
  in the literature.
  It is reasonable to expect online conversations may function in a similar
@@ -1564,6 +2168,18 @@ status collapsed
 The study cannot distinguish the informative and persuasive effects.
  To the best of our knowledge, there is no study with field data that is
  able to convincingly separate the two mechanisms.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+SS: we need to be careful here, there are many test of this in the case
+ advertising I think.
+ Typically one looks at new versus experienced users.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1647,6 +2263,22 @@ key "gilchrist_sands_jpe"
  Though in their paper, the conversations can happen both online and offline.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: Gilchrist and Sands feels a bit unrelated here.
+ If we mention it, we should tie it in more closely with the rest of the
+ content.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 How can Firms Influence WOM Generation? 
 \end_layout
@@ -1661,6 +2293,42 @@ xyz
 
 \begin_layout Subsection
 Online Conversations
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: It would be good to have some organizing principle here.
+ It feels like a fairly disconnected list of topics: I.e.
+ what tools do firms in principle have at their disposition to influence
+ WOM.
+ I think there is an entire literature that thinks about such issues, such
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+seeding
+\begin_inset Quotes erd
+\end_inset
+
+ WOM campaigns.
+ If we want to tackle this topic, I think you would have to read up on that
+ literature.
+ Some of the stuff below also seems to relate only indirectly to how firms
+ can influence WOM.
+ For instance which products are talked about more often seems less related
+ to influencing WOM (unless one things of only releasing products that will
+ garner WOM).
+ The same is true for message fit, what exactly does this imply for firms'
+ WOM strategy? In any case, some kind of general structure is needed for
+ this paragraph to make sense.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1785,6 +2453,20 @@ key "watts_dodds"
  argue, whether influential individuals are more crucial in online WOM is
  still debatable – A large cluster of easily influenced individuals may
  be more important than influential users.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SS: the paragraph below seems to be more about inference, we should move
+ this somewhere else as it does not connect well with the rest of the section.
 \end_layout
 
 \end_inset
