@@ -93,11 +93,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -503570337 "v-gizerv"
 \end_header
 
 \begin_body
@@ -148,6 +149,8 @@ In this article we focus on online WOM (rather than advertising run directly
  These two areas are hence sufficiently different to treat them separately.
  Finally, we turn from the analysis of whether WOM is effective to the question
  of why it is effective.
+\change_inserted -503570337 1511801373
+
 \end_layout
 
 \begin_layout Section
@@ -1327,8 +1330,17 @@ key "sun2012variance"
 \emph on
 i.e.
 \emph default
-, high variance) may be appealing to certain consumers, while products with
- consistently low ratings (
+, high variance) may be appealing to
+\change_inserted -503570337 1511812969
+ at least a
+\change_deleted -503570337 1511812967
+ 
+\change_unchanged
+certain 
+\change_inserted -503570337 1511812958
+subset of 
+\change_unchanged
+consumers, while products with consistently low ratings (
 \emph on
 i.e.
 \emph default
@@ -1336,6 +1348,8 @@ i.e.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -503570337 1511809474
 \begin_inset Note Note
 status open
 
@@ -1357,6 +1371,8 @@ SS: most of the content below would probably most naturally fits into a
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -503570337 1511809474
 A number of papers have examined the moderators of the relationship between
  ratings and demand.
  A common theme that has emerged is that the relationship between ratings
@@ -1382,6 +1398,8 @@ d hotels than it is for independently operated properties.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -503570337 1511809474
 The effects we have discussed above are unlikely to represent long-term
  equilibrium outcomes.
  As consumers pay more attention to the increasing number of reviews accumulatin
@@ -1398,52 +1416,8 @@ key "lewis2016welfare"
  at hotel demand as a function of TripAdvisor ratings over a decade.
  The study finds that the impact of a 1-star increase in a hotel's average
  rating went for zero to 25% between 2004 and 2014.
-\end_layout
+\change_unchanged
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: do the meta-analysis below provide any summary of effect sizes.
- Are they based on causal studies? Do they offer insights on the difference
- between causal and correlational estimates?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-In conclusion, we point out that the existence of a large number of studies
- of ratings across different contexts has enabled meta-analyses of their
- effects (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "floyd2014online"
-
-\end_inset
-
-, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "babic2016effect"
-
-\end_inset
-
-).
- By comparing treatments effects estimated in different settings, meta-analysis
- can reveal interesting moderators of the effect of ratings.
- For instance, 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "babic2016effect"
-
-\end_inset
-
- find that early reviews are more important for new products than they are
- for new services.
 \end_layout
 
 \begin_layout Subsection
@@ -1670,54 +1644,40 @@ Both approaches for studying text are valuable.
  At the same time, statistical approaches offer no direct connection to
  theory, and linking patterns uncovered by statistical methods to theoretical
  constructs can be difficult.
- Thus, consumer behavior theory can guide our search in the high-dimensional
- space of text patterns.
-\end_layout
 
-\begin_layout Subsection
-Other review characteristics
-\end_layout
-
-\begin_layout Standard
-While ratings, review counts, and text are the most salient and best-studied
- attributes of reputation systems, researchers have started examining new
- features.
- An emergent feature of reputation systems that has started receiving attention
- is the ability to read and write reviews via mobile applications.
- For example, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "grewal2016mobile"
-
-\end_inset
-
- compare reviews submitted via a mobile application to review submitted
- in the traditional manner using the desktop version of a website.
- Using a combination of TripAdvisor data, and lab experiments they show
- that mobile reviews are more persuasive.
- The mechanism behind this finding is that when consumers are aware than
- a review was submitted via mobile, the infer that review put in an extra
- effort in composing the review, and thus the review is more trustworthy
- than a review submitted via desktop.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: I would treat that maybe as a moderator, i.e.
- under which circumstance does WOM work the best.
- The platform through which it is provided 
-\end_layout
-
-\end_inset
-
+\change_inserted -503570337 1511812393
+ Morever,
+\change_unchanged
+ 
+\change_inserted -503570337 1511812828
+finding credible exogenous variation in statistical patterns came be challenging.
+ 
+\change_deleted -503570337 1511812831
+Thus
+\change_unchanged
+, 
+\change_inserted -503570337 1511812835
+C
+\change_deleted -503570337 1511812835
+c
+\change_unchanged
+onsumer behavior theory can 
+\change_inserted -503570337 1511812846
+help resolve these problems by 
+\change_unchanged
+guid
+\change_inserted -503570337 1511812848
+ing
+\change_deleted -503570337 1511812847
+e
+\change_unchanged
+ our search in the high-dimensional space of text patterns.
+\change_deleted -503570337 1511811878
 
 \end_layout
 
 \begin_layout Subsection
-Other Literature Reviews
+Other Literature Reviews 
 \end_layout
 
 \begin_layout Standard
@@ -1748,21 +1708,190 @@ key "berger2014word"
 \end_layout
 
 \begin_layout Subsection
-Moderators and mechanism
+Moderators 
+\change_deleted -503570337 1511810973
+and mechanism
+\change_inserted -503570337 1511813456
+ of the
+\emph on
+ 
+\emph default
+relationship between reviews and demand 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -503570337 1511809506
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-SS: am putting this section here as a placeholder.
- As per my comment at the beginning of section 3, here we can tackle various
- dimensions along which the impact of reviews varies.
+
+\change_inserted -503570337 1511809506
+SS: most of the content below would probably most naturally fits into a
+ moderator / mechanism section.
+ I like the focus on type of firms (prior uncertainty) and changes over
+ time.
+ I think the mobile/ desktop dimension would also fit here.
+ Are there other relevant dimensions? Do we have multiple studies backing
+ up the heterogeneity described below? Doesn't Brett Hollenbeck's paper
+ also speak to both the chain/independent and the over time dimension? Might
+ be nice to cite here.
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1511811013
+Overall, the findings in the literature point towards substantial causal
+ effects on the impact of ratings, review volume, and review text on demand.
+ In addition to studying these features directly, a number of papers have
+ examined various moderators of the relationship between reviews and demand.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1511811032
+A consistent theme that has emerged in the literature is that the relationship
+ between ratings and demand (or prices) depends on consumers' prior quality
+ uncertainty.
+ For instance, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Luca_2016"
+
+\end_inset
+
+ finds that that Yelp ratings do impact the revenue of chain restaurants
+ because there exists little a priori uncertainty about their quality.
+ Similarly, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lewis2016welfare"
+
+\end_inset
+
+ find that the impact of TripAdvisor ratings is much smaller for chain-affiliate
+d hotels than it is for independently operated properties.
+ Also looking at the hotel industry, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hollenbeck2016online"
+
+\end_inset
+
+ investigates the evolution of the relationship between brand value and
+ demand and finds that between 2000 and 2015 the impact of branding on revenue
+ declined by 50% due increased adoption of consumer reviews.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1511811822
+The provenance of reviews is another dimesion that affects their impact
+ on demand.
+ For example, an emerging feature of reputation systems is the ability to
+ read and write reviews via mobile applications.
+ Review platforms typically indicate whether a review was written using
+ a mobile app or a desktop site.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "grewal2016mobile"
+
+\end_inset
+
+ compare reviews submitted via mobile applications to reviews submitted
+ using a desktop a website.
+ Using a combination of TripAdvisor data, and lab experiments they show
+ that mobile reviews are more persuasive, and thus have a larger impact
+ on demand, than desktop reviews.
+ The mechanism underlying this effect is that when consumers believe that
+ reviewers who use a mobile app have to put in an extra effort in composing
+ reviews (e.g., due to the physical limitations of small phone screens), and
+ thus their reviews are more trustworthy than review submitted via a traditional
+ desktop website.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1511813418
+Another important moderator is review timing especially as it relates to
+ the product life-cycle.
+ Relying on meta-analysis, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "babic2016effect"
+
+\end_inset
+
+ find that early reviews are more important for new products than they are
+ for new services.
+ Service quality can varu greatly over time whereas product qualitu remains
+ fixed making recent reviews far more important for servies than for products.
+ 
+\change_deleted -503570337 1511813231
+In conclusion, we point out that the existence of a large number of studies
+ of ratings across different contexts has enabled meta-analyses of their
+ effects (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "floyd2014online"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "babic2016effect"
+
+\end_inset
+
+).
+ By comparing treatments effects estimated in different settings, meta-analysis
+ can reveal interesting moderators of the effect of ratings.
+ For instance, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "babic2016effect"
+
+\end_inset
+
+ find that early reviews are more important for new products than they are
+ for new services.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1511810695
+Finally, it worth mentioning that the effects we have discussed above are
+ unlikely to represent long-term equilibrium outcomes.
+ As consumers pay more attention to the increasing number of reviews accumulatin
+g online, the influence of these reviews on demand and pricing will also
+ likely become stronger.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lewis2016welfare"
+
+\end_inset
+
+ provide some evidence for the evolution of these treatment effect by looking
+ at hotel demand as a function of TripAdvisor ratings over a decade.
+ The study finds that the impact of a 1-star increase in a hotel's average
+ rating went for zero to 25% between 2004 and 2014.
+\change_unchanged
 
 \end_layout
 
