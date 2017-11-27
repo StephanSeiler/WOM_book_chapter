@@ -1509,8 +1509,21 @@ Review text is inherently high-dimensional and typically not amenable to
  Therefore, most analyses of review text rely on a pre-processing step that
  transforms text into a small number of variables that capture variation
  along dimensions of interest.
- These variables can subsequently be analyzed using traditional econometric
+ 
+\change_inserted -503570337 1511814101
+In principle, t
+\change_deleted -503570337 1511814101
+T
+\change_unchanged
+hese variables can subsequently be analyzed using traditional econometric
  approaches.
+
+\change_inserted -503570337 1511814804
+ However, finding plausibly exogenous variation in text is difficult, and
+ thus causal interpreations of the effect of language on demand typically
+ require strong identication assumptions.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1537,10 +1550,32 @@ key "moe2017social"
 
  provide a comprehensive review of the statistical approaches used to analyze
  text from reputation systems and social media.
- The second approach is grounded in consumer behavior theory and starts
- by forming a hypothesis regarding the effects of specific text constructs.
- The presence of constructs in text is often detected manually (e.g., using
- human coders), or via simple pattern matching rules.
+ 
+\change_inserted -503570337 1511814969
+Causal inference is particurarly difficult when relying on features mined
+ from existing text as one has to argue that there exists random variation
+ in a latent text feature that is the output of an algorithmic procedure.
+ 
+\change_unchanged
+The second approach is grounded in consumer behavior theory and starts by
+ forming a hypothesis regarding the effects of specific text constructs.
+ 
+\change_deleted -503570337 1511814822
+The presence of 
+\change_inserted -503570337 1511814822
+These 
+\change_unchanged
+constructs 
+\change_deleted -503570337 1511814827
+in text is
+\change_inserted -503570337 1511814829
+are
+\change_unchanged
+ often detected manually (e.g., using human coders), or via simple pattern
+ matching rules.
+
+\change_inserted -503570337 1511814996
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1635,6 +1670,18 @@ key "kupor2017spontaneous"
  are more convincing than endorsements that are perceived to be more thoughtful.
  For example, product endorsements that contain typographical errors are
  perceived as more authentic, thus enhancing their persuasiveness.
+
+\change_inserted -503570337 1511814619
+ Interestingly, these result constrast to the findinds of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ghose2012designing"
+
+\end_inset
+
+, who find that reviews with spelling errors have a smaller impact on demand.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1645,12 +1692,9 @@ Both approaches for studying text are valuable.
  theory, and linking patterns uncovered by statistical methods to theoretical
  constructs can be difficult.
 
-\change_inserted -503570337 1511812393
- Morever,
-\change_unchanged
+\change_deleted -503570337 1511814289
  
 \change_inserted -503570337 1511812828
-finding credible exogenous variation in statistical patterns came be challenging.
  
 \change_deleted -503570337 1511812831
 Thus
@@ -1664,14 +1708,23 @@ c
 onsumer behavior theory can 
 \change_inserted -503570337 1511812846
 help resolve these problems by 
-\change_unchanged
+\change_deleted -503570337 1511814350
 guid
-\change_inserted -503570337 1511812848
+\change_inserted -503570337 1511814423
 ing
-\change_deleted -503570337 1511812847
-e
 \change_unchanged
- our search in the high-dimensional space of text patterns.
+ our search in the high-dimensional space of 
+\change_deleted -503570337 1511814338
+text
+\change_inserted -503570337 1511814339
+language
+\change_unchanged
+ patterns
+\change_inserted -503570337 1511814451
+, and informing the design of experiments to estimate the causal treatment
+ effects of these patterns
+\change_unchanged
+.
 \change_deleted -503570337 1511811878
 
 \end_layout
@@ -1824,7 +1877,7 @@ key "grewal2016mobile"
 
 \begin_layout Standard
 
-\change_inserted -503570337 1511813418
+\change_inserted -503570337 1511813820
 Another important moderator is review timing especially as it relates to
  the product life-cycle.
  Relying on meta-analysis, 
@@ -1836,7 +1889,7 @@ key "babic2016effect"
 
  find that early reviews are more important for new products than they are
  for new services.
- Service quality can varu greatly over time whereas product qualitu remains
+ Service quality can varu greatly over time whereas product quality remains
  fixed making recent reviews far more important for servies than for products.
  
 \change_deleted -503570337 1511813231
