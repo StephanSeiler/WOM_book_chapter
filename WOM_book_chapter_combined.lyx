@@ -1700,8 +1700,6 @@ SS: most of the content below would probably most naturally fits into a
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -503570337 1511811013
 Overall, the findings in the literature point towards substantial causal
  effects on the impact of ratings, review volume, and review text on demand.
  In addition to studying these features directly, a number of papers have
@@ -1710,8 +1708,6 @@ Overall, the findings in the literature point towards substantial causal
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -503570337 1511811032
 A consistent theme that has emerged in the literature is that the relationship
  between ratings and demand (or prices) depends on consumers' prior quality
  uncertainty.
@@ -1746,10 +1742,22 @@ key "hollenbeck2016online"
 \end_layout
 
 \begin_layout Standard
+Consumer awareness is another important moderator.
+ In a fascinating study, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "berger2010positive"
 
-\change_inserted -503570337 1511811822
-The provenance of reviews is another dimesion that affects their impact
- on demand.
+\end_inset
+
+ show that negative book reviews can have a positive impact on sales when
+ they cause a sufficient increase in awareness.
+ By contrast, negative reviews for well-known authors decrease sales, as
+ expected.
+\end_layout
+
+\begin_layout Standard
+The provenance of reviews also affects their impact on demand.
  For example, an emerging feature of reputation systems is the ability to
  read and write reviews via mobile applications.
  Review platforms typically indicate whether a review was written using
@@ -1771,15 +1779,11 @@ key "grewal2016mobile"
  reviews (e.g., due to the physical limitations of small phone screens), and
  thus their reviews are more trustworthy than review submitted via a traditional
  desktop website.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -503570337 1511813820
-Another important moderator is review timing especially as it relates to
- the product life-cycle.
+Product sales also depend on the timing of reviews with respect to the product
+ life-cycle.
  Relying on meta-analysis, 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1787,47 +1791,15 @@ key "babic2016effect"
 
 \end_inset
 
- find that early reviews are more important for new products than they are
- for new services.
- Service quality can varu greatly over time whereas product quality remains
- fixed making recent reviews far more important for servies than for products.
+ find that early reviews are more important in driving the sales for new
+ products than they are for new services because service quality can vary
+ greatly over time whereas product quality remains relatively fixed.
+ Thus recent reviews are far more important for services whereas initial
+ reviews are more important for products.
  
-\change_deleted -503570337 1511813231
-In conclusion, we point out that the existence of a large number of studies
- of ratings across different contexts has enabled meta-analyses of their
- effects (
-\begin_inset CommandInset citation
-LatexCommand citet
-key "floyd2014online"
-
-\end_inset
-
-, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "babic2016effect"
-
-\end_inset
-
-).
- By comparing treatments effects estimated in different settings, meta-analysis
- can reveal interesting moderators of the effect of ratings.
- For instance, 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "babic2016effect"
-
-\end_inset
-
- find that early reviews are more important for new products than they are
- for new services.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -503570337 1511810695
 Finally, it worth mentioning that the effects we have discussed above are
  unlikely to represent long-term equilibrium outcomes.
  As consumers pay more attention to the increasing number of reviews accumulatin
@@ -1844,8 +1816,6 @@ key "lewis2016welfare"
  at hotel demand as a function of TripAdvisor ratings over a decade.
  The study finds that the impact of a 1-star increase in a hotel's average
  rating went for zero to 25% between 2004 and 2014.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Section
