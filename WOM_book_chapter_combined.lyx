@@ -93,7 +93,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -1131,7 +1131,8 @@ Review valence
 
 \begin_layout Standard
 The most common way in which reputation systems aggregate the plethora of
- information they collect is to compute an average rating for each business.
+ information they collect is to compute an average rating for each business
+ or product.
 \begin_inset Foot
 status collapsed
 
@@ -1162,10 +1163,11 @@ hotels in San Francisco
 \end_layout
 
 \begin_layout Standard
-Maybe due to wide use and simplicity, average ratings have been well-studied.
+Maybe due to their wide use and simplicity, average ratings have been well-studi
+ed.
  By now, it is well-established that average ratings have a substantial
- causal impact on demand and pricing, though the magnitude of these effect
- varies by the timing and context of the study.
+ causal impact on demand and pricing, though the magnitude of this effects
+ varies by timing and context.
 \end_layout
 
 \begin_layout Standard
@@ -1330,94 +1332,12 @@ key "sun2012variance"
 \emph on
 i.e.
 \emph default
-, high variance) may be appealing to
-\change_inserted -503570337 1511812969
- at least a
-\change_deleted -503570337 1511812967
- 
-\change_unchanged
-certain 
-\change_inserted -503570337 1511812958
-subset of 
-\change_unchanged
-consumers, while products with consistently low ratings (
+, high variance) may be appealing to at least acertain subset of consumers,
+ while products with consistently low ratings (
 \emph on
 i.e.
 \emph default
 , low variance) are less likely to be appealing to anyone.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -503570337 1511809474
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: most of the content below would probably most naturally fits into a
- moderator / mechanism section.
- I like the focus on type of firms (prior uncertainty) and changes over
- time.
- I think the mobile/ desktop dimension would also fit here.
- Are there other relevant dimensions? Do we have multiple studies backing
- up the heterogeneity described below? Doesn't Brett Hollenbeck's paper
- also speak to both the chain/independent and the over time dimension? Might
- be nice to cite here.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -503570337 1511809474
-A number of papers have examined the moderators of the relationship between
- ratings and demand.
- A common theme that has emerged is that the relationship between ratings
- and demand (or prices) depends on consumers' prior quality uncertainty.
- For instance, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Luca_2016"
-
-\end_inset
-
- finds that that Yelp ratings do not matter for chains because there exists
- little a priori uncertainty about their quality.
- Similarly, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "lewis2016welfare"
-
-\end_inset
-
- find that the impact of TripAdvisor ratings is much smaller for chain-affiliate
-d hotels than it is for independently operated properties.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -503570337 1511809474
-The effects we have discussed above are unlikely to represent long-term
- equilibrium outcomes.
- As consumers pay more attention to the increasing number of reviews accumulatin
-g online, the influence of these reviews on demand and pricing will also
- likely become stronger.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "lewis2016welfare"
-
-\end_inset
-
- provide some evidence for the evolution of these treatment effect by looking
- at hotel demand as a function of TripAdvisor ratings over a decade.
- The study finds that the impact of a 1-star increase in a hotel's average
- rating went for zero to 25% between 2004 and 2014.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Subsection
@@ -1504,26 +1424,19 @@ SS: I like this paragraph.
 
 \begin_layout Standard
 Review text is inherently high-dimensional and typically not amenable to
- analysis by the same methods researchers use to study variables like review
- valence and volume.
+ analysis by the same methods researchers use to study
+\change_deleted -503570337 1511884619
+ 
+\change_unchanged
+ review valence and volume.
  Therefore, most analyses of review text rely on a pre-processing step that
  transforms text into a small number of variables that capture variation
  along dimensions of interest.
- 
-\change_inserted -503570337 1511814101
-In principle, t
-\change_deleted -503570337 1511814101
-T
-\change_unchanged
-hese variables can subsequently be analyzed using traditional econometric
- approaches.
-
-\change_inserted -503570337 1511814804
- However, finding plausibly exogenous variation in text is difficult, and
- thus causal interpreations of the effect of language on demand typically
+ In principle, these variables can subsequently be analyzed using traditional
+ econometric approaches.
+ However, finding plausibly exogenous variation in existing text is difficult,
+ and thus causal interpreations of the effect of language on demand often
  require strong identication assumptions.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -1535,13 +1448,22 @@ At a high level, two approaches have been employed in the literature to
  direct application of simple formulas to compute metrics like readability
  to complex methods like topic modeling 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "blei2003latent"
 
 \end_inset
 
  that can extract latent structure and meaning from unstructured data.
- 
+ Another common approach is to use pre-built and validated dictionaries
+ like LIWC 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tausczik2010psychological"
+
+\end_inset
+
+ to measure psychometric attributes like affect, and emotion.
+ is 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "moe2017social"
@@ -1551,82 +1473,92 @@ key "moe2017social"
  provide a comprehensive review of the statistical approaches used to analyze
  text from reputation systems and social media.
  
-\change_inserted -503570337 1511814969
-Causal inference is particurarly difficult when relying on features mined
- from existing text as one has to argue that there exists random variation
- in a latent text feature that is the output of an algorithmic procedure.
- 
-\change_unchanged
-The second approach is grounded in consumer behavior theory and starts by
- forming a hypothesis regarding the effects of specific text constructs.
- 
-\change_deleted -503570337 1511814822
-The presence of 
-\change_inserted -503570337 1511814822
-These 
-\change_unchanged
-constructs 
-\change_deleted -503570337 1511814827
-in text is
-\change_inserted -503570337 1511814829
-are
-\change_unchanged
- often detected manually (e.g., using human coders), or via simple pattern
- matching rules.
-
-\change_inserted -503570337 1511814996
- 
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset citation
-LatexCommand citet
-key "buschken2016sentence"
-
-\end_inset
-
-.
- Write a paragraph about text.
- Cite 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "ghose2012designing"
-
-\end_inset
-
-, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "packard2017language"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
+Several papers have used statistical methods to uncovered interesting patterns
+ in review text.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "ghose2011estimating"
 
 \end_inset
 
- should be cited too.
-\end_layout
+ study the text of Amazon.com reviews and find that reviews that objectivity,
+ readability, and lack of spelling errors increase product sales.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "archak2011deriving"
 
-\begin_layout Standard
+\end_inset
+
+ extract product features from review text to elicit the pricing power of
+ each feature.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "ghose2012designing"
 
 \end_inset
 
- use text-mining study various aspects of review text on TripAdvisor, finding
- that simpler and shorter reviews that do not contain spelling errors have
- a positive impact on hotel demand.
+ also extract product features from review text, and incorporate these features
+ in a utility model that is used to ranking product by expected utility.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ludwig2013more"
+
+\end_inset
+
+ show that positive and negative affective content (e.g., words like 
+\begin_inset Quotes eld
+\end_inset
+
+love
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+hate
+\begin_inset Quotes erd
+\end_inset
+
+, which are detected using LIWC) have a significant impact on conversion
+ rates in the expected direction.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "buschken2016sentence"
+
+\end_inset
+
+ study the sentence structure of reviews by fitting a topic model that allows
+ topics to vary from sentence to sentence as opposed to the common practice
+ of fixing estimating a single topic distribution for each review.
+ The sentence topic model is found to fit the data better than standard
+ topic models and to produce more meaningful topics.
+ 
 \end_layout
 
 \begin_layout Standard
+The second approach is grounded in consumer behavior theory and starts by
+ forming a hypothesis regarding the effects of specific text constructs.
+ These constructs are typically detected manually (
+\emph on
+e.g.
+\emph default
+, using human coders), or with simple pattern matching rules.
+ Sometimes, researchers combine this technique with machine learning: after
+ manually labeling a small set of reviews, a classifier is trained to predict
+ the presence of specific text constucts in larger unlabelled review corpora.
+ An advantage of using theory to form hypotheses is that one can design
+ experiments to test these hypotheses leading to internally valid estimates.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "packard2017language"
@@ -1640,8 +1572,10 @@ key "kupor2017spontaneous"
 
 \end_inset
 
- offer examples of the second approach.
- 
+ offer examples of this approach.
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
 key "packard2017language"
@@ -1653,9 +1587,9 @@ key "packard2017language"
  are.
  The authors find explicit endorsements (``I recommended this book'') are
  more persuasive than implicit endorsements (``I enjoyed this book'').
- Interestingly, the authors find that in practice novice users are more
- likely to use explicit endorsements that experts, suggesting that novice
- reviews are more persuasive.
+ In addition, novice users are found to be more likely to use explicit endorseme
+nts that experts, suggesting that novice reviews are more persuasive than
+ expert reviews.
 \end_layout
 
 \begin_layout Standard
@@ -1670,8 +1604,6 @@ key "kupor2017spontaneous"
  are more convincing than endorsements that are perceived to be more thoughtful.
  For example, product endorsements that contain typographical errors are
  perceived as more authentic, thus enhancing their persuasiveness.
-
-\change_inserted -503570337 1511814619
  Interestingly, these result constrast to the findinds of 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1680,8 +1612,6 @@ key "ghose2012designing"
 \end_inset
 
 , who find that reviews with spelling errors have a smaller impact on demand.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -1691,40 +1621,10 @@ Both approaches for studying text are valuable.
  At the same time, statistical approaches offer no direct connection to
  theory, and linking patterns uncovered by statistical methods to theoretical
  constructs can be difficult.
-
-\change_deleted -503570337 1511814289
- 
-\change_inserted -503570337 1511812828
- 
-\change_deleted -503570337 1511812831
-Thus
-\change_unchanged
-, 
-\change_inserted -503570337 1511812835
-C
-\change_deleted -503570337 1511812835
-c
-\change_unchanged
-onsumer behavior theory can 
-\change_inserted -503570337 1511812846
-help resolve these problems by 
-\change_deleted -503570337 1511814350
-guid
-\change_inserted -503570337 1511814423
-ing
-\change_unchanged
- our search in the high-dimensional space of 
-\change_deleted -503570337 1511814338
-text
-\change_inserted -503570337 1511814339
-language
-\change_unchanged
- patterns
-\change_inserted -503570337 1511814451
-, and informing the design of experiments to estimate the causal treatment
- effects of these patterns
-\change_unchanged
-.
+ Consumer behavior theory can help resolve these problems by guiding our
+ search in the high-dimensional space of language patterns, and informing
+ the design of experiments to estimate the causal treatment effects of these
+ patterns.
 \change_deleted -503570337 1511811878
 
 \end_layout
