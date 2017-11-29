@@ -1782,7 +1782,8 @@ key "hollenbeck2016online"
 \end_layout
 
 \begin_layout Standard
-Consumer awareness is another important moderator.
+Consumer awareness is another important moderator of the impact of ratings
+ on demand.
  In a fascinating study, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1790,16 +1791,16 @@ key "berger2010positive"
 
 \end_inset
 
- show that negative book reviews can have a positive impact on sales when
+ show that even negative reviews can have a positive impact on sales when
  they cause a sufficient increase in awareness.
- By contrast, negative reviews for well-known authors decrease sales, as
+ By contrast, negative reviews for well-known products decrease sales, as
  expected.
 \end_layout
 
 \begin_layout Standard
 The provenance of reviews also affects their impact on demand.
- For example, an emerging feature of reputation systems is the ability to
- read and write reviews via mobile applications.
+ For instance, an emerging feature of reputation systems is the ability
+ to read and write reviews via mobile applications.
  Review platforms typically indicate whether a review was written using
  a mobile app or a desktop site.
  
@@ -1822,8 +1823,7 @@ key "grewal2016mobile"
 \end_layout
 
 \begin_layout Standard
-Product sales also depend on the timing of reviews with respect to the product
- life-cycle.
+Demand depends on the timing of reviews with respect to the product life-cycle.
  Relying on meta-analysis, 
 \begin_inset CommandInset citation
 LatexCommand cite
