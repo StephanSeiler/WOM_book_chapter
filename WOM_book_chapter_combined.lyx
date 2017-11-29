@@ -2379,7 +2379,30 @@ Online Reviews
 \end_layout
 
 \begin_layout Standard
-xyz
+GZ: Adding some ideas here to be written up later.
+\end_layout
+
+\begin_layout Standard
+Fake reviews is one way to influence things eg see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "mayzlin2014promotional,luca2016fake"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Responding to reviews is another way to participate and influence things,
+ e.g., see 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "proserpio2017online"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
