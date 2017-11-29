@@ -980,7 +980,7 @@ SS: Song and Giorgos, can you guys coordinate on the content to put here?
 \end_layout
 
 \begin_layout Section
-Customer Reviews
+Consumer Reviews
 \end_layout
 
 \begin_layout Standard
@@ -1627,9 +1627,9 @@ key "packard2017language"
  are.
  The authors find explicit endorsements (``I recommended this book'') are
  more persuasive than implicit endorsements (``I enjoyed this book'').
- In addition, novice users are found to be more likely to use explicit endorseme
-nts that experts, suggesting that novice reviews are more persuasive than
- expert reviews.
+ Interestingly, novice users are found to be more likely to use explicit
+ endorsements that experts, suggesting that novice reviews are more persuasive
+ than expert reviews.
 \end_layout
 
 \begin_layout Standard
@@ -1663,8 +1663,7 @@ Both approaches for studying text are valuable.
  constructs can be difficult.
  Consumer behavior theory can help resolve these problems by guiding our
  search in the high-dimensional space of language patterns, and informing
- the design of experiments to estimate the causal treatment effects of these
- patterns.
+ the design of experiments to estimate causal treatment effects.
 \change_deleted -503570337 1511811878
 
 \end_layout
