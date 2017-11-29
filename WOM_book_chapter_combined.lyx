@@ -1317,7 +1317,7 @@ key "sun2012variance"
  who studies the variance of ratings.
  Reputation systems do not explicitly display rating variances.
  However, most display histograms of reviews counts broken down by rating.
- By looking at these histograms consumers can infer rating variance.
+ By looking at these histograms of ratings consumers can infer their variance.
  Motivated by a theoretical model, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1351,30 +1351,35 @@ Another salient and well-studied feature of reputation systems is review
  and consumers can also use them to infer quality.
  All else equal, we may expect that consumers will have less uncertainty
  about the quality of products with more reviews.
- Testing the hypothesis that changes in review volume affect demand raises
- a unique identification challenge: while more reviews may cause sales,
- the reverse is also true, i.e., sales can result in more reviews.
- To resolve this reserve causality issue, researchers have primarily relied
- on experimental methods.
+ Therefore, increases in review volume could lead to increased demand.
+ While the hypothesis that changes in review volume affect demand is plausible,
+ testing it raises a complex identification challenge: while more reviews
+ may cause sales, the reverse is also true, 
+\emph on
+i.e.
+\emph default
+, increased sales can result in more reviews.
+ Finding instruments or plausibly exogenous variation in review volume has
+ proven to be difficult.
+ Therefore, to resolve this reserve causality issue, researchers have primarily
+ relied on experimental methods.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: are the two studies below actual experiments? If so, could you describe
- the manipulations in a bit more detail?
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "resnick2006value"
 
 \end_inset
 
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "pallais2014inefficient"
 
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Two experimental studies investigate the link between review volume and
- demand.
+ investigate the link between review volume and demand using experiments.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1382,22 +1387,57 @@ key "resnick2006value"
 
 \end_inset
 
- compare new eBay sellers with sellers that have an established reputation
- and find consumers' willingness to pay is 8% higher for the established
- group of sellers.
+ were – to the best of our knowledge – the first to use a controlled experiment
+ to study the value of online reputation.
+ The experiment was conducted on eBay.
+ An postcard seller with established reputation was asked to create a set
+ of new ideninties.
+ Being new, these identities started out with no reviews, and from the perspecti
+ve of consumers were not associated with the sellers established identity.
+ The seller randomly assigned items to be sold under the various identies
+ while making sure to offer the same quality of service to all customers.
+ The main result of the experiment was that consumers' willingness to pay
+ was 8% higher for purchasing from the established seller even though the
+ items sold across the various identities were similar.
  
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
 key "pallais2014inefficient"
 
 \end_inset
 
- studies oDesk, an online marketplace where employers can hire workers,
- and finds that workers who (randomly) received detailed feedback had better
- future employment outcomes, including higher wages and earnings.
- An interesting implication of these studies is that having at establishing
- a reputation by having at least one review appears to matter more than
- receiving an additional review.
+ studies the value of reputation on oDesk, an online marketplace where employers
+ can hire workers to perform various tasks.
+ The oDesk experiment involved hiring approximately 1,000 workers to perform
+ the same data-entry task.
+ Workers were randomly assigned to the treatment or control group.
+ Treated workers received detailed and objective feedback on their perfromance,
+ whereas workers in the control group received equally objective but less
+ detailed feedback.
+ Treated workers had better future employment outcomes, such as higher wages
+ and earnings, compared to workers in the controlled group who performed
+ as well on the data-entry task but received coarser feedback.
+ 
+\end_layout
+
+\begin_layout Standard
+Both of these experiments point to the substantantial economic benefits
+ of establishing a reputation on an online platform
+\emph on
+, 
+\emph default
+for instamce by having at least one detailed review.
+ At the same time, while a number of observational studies have used review
+ volume as predictor of sales 
+\series bold
+(GZ: I am not going to cite anyone here on purpose; what do you think?)
+\series default
+, the question of experimentally measuring marginal impact of a unit increase
+ in review volume on demand and prices remains an interesting open question.
+ 
 \end_layout
 
 \begin_layout Subsection
