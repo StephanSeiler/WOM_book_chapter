@@ -135,6 +135,29 @@ GZ: I find the following two intro paras confusing.
  Further, I think we can draw a distinction between advertising on social
  media and WOM, mention a difference or two (paid vs free, consumer vs firm
  initiated) and then say we focus on WOM as opposed to paid ads.
+\change_inserted -1412874244 1512246453
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1412874244 1512246457
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1412874244 1512246473
+SS: fair point, starting off with some basic descriptives on WOM 
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -503570337 1512231056
+
 \end_layout
 
 \begin_layout Standard
@@ -165,34 +188,35 @@ scant
 \change_unchanged
 
 \series default
- This is partly due to social media marketing being a relatively recent
- phenomenon, but partly also due to unique measurement challenges in this
- area which we outline in detail below.
+ 
+\change_inserted -1412874244 1512246518
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1412874244 1512246543
+SS: agreed, that wording comes from the scant evidence on conversation related
+ WOM.
+ For reviews there is much more and hence this should be re-worded.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+This is partly due to social media marketing being a relatively recent phenomeno
+n, but partly also due to unique measurement challenges in this area which
+ we outline in detail below.
  
 \end_layout
 
 \begin_layout Standard
-In this 
-\change_deleted -503570337 1512230462
-article
-\change_inserted -503570337 1512230534
-chapter
-\change_unchanged
- we 
-\change_deleted -503570337 1512230561
-focus
-\change_inserted -503570337 1512230556
-outline the current state of the academic literature
-\change_unchanged
- on online WOM (rather than advertising run directly by firms
-\change_inserted -503570337 1512230600
-.
-\change_unchanged
-)
-\change_deleted -503570337 1512230572
- and outline the current state of the academic literature on this topic
-\change_unchanged
-.
+In this chapter we outline the current state of the academic literature
+ on online WOM (rather than advertising run directly by firms.).
  We first outline measurement challenges in the realm of WOM and how they
  can be resolved.
  We then summarize recent findings on the effectiveness of WOM in two domains:
@@ -223,6 +247,33 @@ Measuring the Impact of WOM
  esp.
  given we have already warned the reader will NOT talk about advertising.
  It's fine to say there are parallels, but the focus needs to be WOM.)
+\change_inserted -1412874244 1512246614
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1412874244 1512246617
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1412874244 1512246704
+SS: I wanted to make the similarities and differences clear in terms of
+ inference problems, bias direction, possible fixes.
+ My reason is that practitioners have a better idea of ad effectiveness
+ I think and know less about WOM measurement.
+ But I agree that this should not become too dominant.
+ I am happy for you guys to re-write and tone that aspect down if you have
+ specific ideas.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 
 \end_layout
@@ -342,7 +393,7 @@ product popularity
  As we show in more detail below, it does indeed seem to be the case that
  an upward bias typically occurs in studies of advertising impact.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 One salient exception where the bias can go in opposite direction is so-called
@@ -659,7 +710,7 @@ key "Gordon_Hartmann_2013"
 \change_inserted -1412874244 1512075180
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -1021,7 +1072,29 @@ instrument
 
 \series default
 .
- Another example for such an event is the merger of two review platforms
+ 
+\change_inserted -1412874244 1512246741
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -1412874244 1512246815
+SS: why is that confusing? It seems to me exactly the way to think about
+ it.
+ Natural experiments are exogenous events that move stuff around and hence
+ can serve as instruments.
+ You don't use the time-period of the merger as an instrument?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+Another example for such an event is the merger of two review platforms
  which 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1146,6 +1219,26 @@ key "lewis2016welfare"
  
 \series bold
 (GZ: Dunno I would scrap the rest.)
+\change_inserted -1412874244 1512247307
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1412874244 1512247320
+
+\series bold
+SS: I am sorry, you mean the rest of the paragraph? What's wrong with it?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -503570337 1512234517
+
 \series default
  
 \change_unchanged
@@ -1158,6 +1251,34 @@ Furthermore, exploiting events of this kind requires a less mechanical approach
 \series bold
 (GZ: Hmmmm, really? Aren't all natural experiments simple before-after comparing
 s? I would say compared to RD or IV, NatExp are particularly simple)
+\change_inserted -1412874244 1512247394
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1412874244 1512247600
+
+\series bold
+SS: we might be using a different definition here.
+ I simply mean an exogenous event, regardless of the specific method that
+ is used to exploit it.
+ Could be diff-in-diff or some form of IV.
+ I guess RD is a little different.
+ In the paper with Song we use the censorship as an instrument for instance.
+ I would still call that natural experiment.
+ What I mean is I think the same point you make above, which is that you
+ natural experiments give you context-specific effects, i.e.
+ you have to look for the specific natural experiment and can't just apply
+ a given method mechanically (like A/B test are often done these days).
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 
 \series default
@@ -1218,6 +1339,28 @@ small
  would be an uninformative event.
  However, taken together, with access to many such small experiments we
  can reliably estimate the impact of ratings on Airbnb property prices.
+\change_inserted -1412874244 1512247328
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -1412874244 1512247331
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -1412874244 1512247353
+SS: points above are fine, but is the small / large change point a particularly
+ important one? It feels a bit secondary to me.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_unchanged
 
 \end_layout
