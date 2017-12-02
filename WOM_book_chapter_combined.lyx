@@ -120,6 +120,24 @@ name "sec:intro"
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -503570337 1512231056
+
+\series bold
+GZ: I find the following two intro paras confusing.
+ They motivate the chapter by talking about spending on social media (e.g.,
+ 20% increased spending) but then we bait-and-switch readers and say, well
+ actually, we are not going to tell you anything about advertising on social
+ media (which is presumably what the spending is on) – instead we will talk
+ about WOM on social media.
+ I would think the right way to motivate WOM is to say WOM has increased
+ (num of tweets, num of reviews, etc.) not spending.
+ Further, I think we can draw a distinction between advertising on social
+ media and WOM, mention a difference or two (paid vs free, consumer vs firm
+ initiated) and then say we focus on WOM as opposed to paid ads.
+\end_layout
+
+\begin_layout Standard
 One of the biggest shifts in the marketing landscape in recent years has
  been a shift towards social media platforms to advertise products or have
  consumers advocate on the brand's behalf.
@@ -128,6 +146,25 @@ One of the biggest shifts in the marketing landscape in recent years has
  of the most effective forms of marketing by many marketing executive.
  At the same time, systematic empirical evidence on the effectiveness of
  paid and earned advertising is relatively scant.
+
+\change_inserted -503570337 1512230399
+ 
+\series bold
+(GZ: Is it really 
+\begin_inset Quotes eld
+\end_inset
+
+scant
+\begin_inset Quotes erd
+\end_inset
+
+? If it is scant, then what are all these papers we cite below? I would
+ put it like this: the growth in spending has been parallel by an increasing
+ academic interest in systematically measuring the effects of WOM that we
+ document in this chapter.)
+\change_unchanged
+
+\series default
  This is partly due to social media marketing being a relatively recent
  phenomenon, but partly also due to unique measurement challenges in this
  area which we outline in detail below.
@@ -135,9 +172,27 @@ One of the biggest shifts in the marketing landscape in recent years has
 \end_layout
 
 \begin_layout Standard
-In this article we focus on online WOM (rather than advertising run directly
- by firms) and outline the current state of the academic literature on this
- topic.
+In this 
+\change_deleted -503570337 1512230462
+article
+\change_inserted -503570337 1512230534
+chapter
+\change_unchanged
+ we 
+\change_deleted -503570337 1512230561
+focus
+\change_inserted -503570337 1512230556
+outline the current state of the academic literature
+\change_unchanged
+ on online WOM (rather than advertising run directly by firms
+\change_inserted -503570337 1512230600
+.
+\change_unchanged
+)
+\change_deleted -503570337 1512230572
+ and outline the current state of the academic literature on this topic
+\change_unchanged
+.
  We first outline measurement challenges in the realm of WOM and how they
  can be resolved.
  We then summarize recent findings on the effectiveness of WOM in two domains:
@@ -155,6 +210,21 @@ In this article we focus on online WOM (rather than advertising run directly
 
 \begin_layout Section
 Measuring the Impact of WOM 
+\change_inserted -503570337 1512231195
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1512231438
+
+\series bold
+(GZ: as in the intro, I think too many mentions of advertising are distracting,
+ esp.
+ given we have already warned the reader will NOT talk about advertising.
+ It's fine to say there are parallels, but the focus needs to be WOM.)
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -234,9 +304,19 @@ causal
  We discuss in turn advertising and WOM below.
  In each case we need to assess which underlying factors lead to a given
  level of the relevant activity in the historic data used in the regression.
+\change_inserted -503570337 1512231495
+
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -503570337 1512231551
+
+\series bold
+(GZ: Didn't we say we will not talk about ads? Are we talking about ads?)
+\series default
+ 
+\change_unchanged
 With regards to advertising, we need to ask ourselves whether marketing
  activity is correlated with any factors that also affect demand directly
  (and that are therefore captured in 
@@ -496,8 +576,13 @@ Absolute bias and differential bias across marketing channels
 \begin_layout Standard
 As we argued above, simple cross-sectional measurement of advertising and
  WOM effectiveness is likely to suffer from an upward bias, i.e.
- both types of marketing will tend to be more effective than they actually
- are.
+ both types of marketing will tend to 
+\change_deleted -503570337 1512231370
+be
+\change_inserted -503570337 1512231377
+appear
+\change_unchanged
+ more effective than they actually are.
  There is some evidence in the existing literature that such bias does indeed
  incur.
  With regards to advertising the first piece of evidence comes from comparing
@@ -919,7 +1004,23 @@ where
 
 \begin_layout Standard
 In general, any event on the platform of interest that affected WOM, but
- that was not directly related to demand would qualify as an instrument.
+ that was not directly related to demand would qualify as an instrument
+\change_inserted -503570337 1512233419
+ 
+\series bold
+(GZ: 
+\begin_inset Quotes eld
+\end_inset
+
+instrument
+\begin_inset Quotes erd
+\end_inset
+
+ is a bit confusing here since we are talking about natural experiments)
+\change_unchanged
+
+\series default
+.
  Another example for such an event is the merger of two review platforms
  which 
 \begin_inset CommandInset citation
@@ -986,11 +1087,80 @@ SS: The Oh et al.
 \end_layout
 
 \begin_layout Standard
-Unfortunately, these type of events are likely to be relatively rare which
- limits the scope for this approach.
- Furthermore, exploiting events of this kind requires a less mechanical
- approach because one cannot simply apply a standardized method to any given
- set of data.
+
+\change_inserted -503570337 1512233560
+Natural experiments can cause big or small changes.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Oh_et_al2016"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lewis2016welfare"
+
+\end_inset
+
+ rely on big changes to the status quo to estimate causal effects.
+ 
+\change_unchanged
+Unfortunately, 
+\change_inserted -503570337 1512233684
+changes of this magnitude are
+\change_deleted -503570337 1512233733
+these type of events are likely to be relatively
+\change_unchanged
+ rare
+\change_inserted -503570337 1512233769
+.
+
+\change_unchanged
+ 
+\change_deleted -503570337 1512233772
+which limits the scope for this approach.
+
+\change_unchanged
+ 
+\change_inserted -503570337 1512234517
+Moreover, these singular events typically lead to the estimation of context-spei
+cifc estimate.
+ For instance, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lewis2016welfare"
+
+\end_inset
+
+ estimate the causal impact of ratings in July 2013, which is when the platform
+ merger happend – the natural experiment provides no insight as the magnitude
+ of the treatment effect at other points in time.
+ A final concern with large natural experiments is that firms may anticipate
+ them and strategically change their behavior prior to the experiment.
+ Thus, before-after comparisons around the natural experiment may be biased.
+ Thus, natutal experiments are more convincing when evidence can be furnished
+ that they were upredictable.
+ Such evidence might be hard to find.
+ 
+\series bold
+(GZ: Dunno I would scrap the rest.)
+\series default
+ 
+\change_unchanged
+Furthermore, exploiting events of this kind requires a less mechanical approach
+ because one cannot simply apply a standardized method to any given set
+ of data.
+
+\change_inserted -503570337 1512234557
+ 
+\series bold
+(GZ: Hmmmm, really? Aren't all natural experiments simple before-after comparing
+s? I would say compared to RD or IV, NatExp are particularly simple)
+\change_unchanged
+
+\series default
  Instead, exploiting such events requires the analyst to find suitable events
  that provide the desired variation.
  Such natural experiments therefore can only provide specific case studies.
@@ -1001,6 +1171,55 @@ zed and continuous analytical toolkit.
  merger are often broad in scope and hence can be leveraged to analyze many
  different product markets that were affected by these events due their
  presence on the platform.
+\change_inserted -503570337 1512234133
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1512235384
+Alternatively, researchers can exploit multiple 
+\begin_inset Quotes eld
+\end_inset
+
+small
+\begin_inset Quotes erd
+\end_inset
+
+ natural experiments.
+ Small experiments carry little statistical power individually.
+ However, when many small experiments are available they can be jointly
+ analyzed to yield reliably estimates.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "proserpio2016you"
+
+\end_inset
+
+ rely on this approach to estimate the impact of Airbnb ratings on the rental
+ prices of Airbnb properties.
+ The average rating of each Airbnb property is only disclosed to consumers
+ once the property has accumulated three reviews.
+ These disclosures can be thought of as a series of small natutal experiments
+ – one for each Airbnb property reaching three reviews.
+ The assumption underlying the validity of these natural experiments is
+ that the arrival of the third review is unpredictable, and thus uncorrelated
+ with unobserved demand variation.
+ Moreover, these experiments are 
+\begin_inset Quotes eld
+\end_inset
+
+small
+\begin_inset Quotes erd
+\end_inset
+
+ in the sence that the disclosure of any single property's average rating
+ would be an uninformative event.
+ However, taken together, with access to many such small experiments we
+ can reliably estimate the impact of ratings on Airbnb property prices.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1120,6 +1339,22 @@ To facilitate an easier exposition, consider a classical example of online
  The artificial and much larger difference of 0.5 in ratings due to the rounding,
  however, may lead to variations in demand, which can be attributed to online
  WOM.
+\change_inserted -503570337 1512232090
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1512232200
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Luca_2016,anderson_magruder_2012"
+
+\end_inset
+
+ pioneered the use of RD to measure the causal effect of Yelp ratings on
+ restaurant demand by exploiting the rounding feature.
+ We discuss these two papers in detail in section XX.
 \end_layout
 
 \begin_layout Subsection
@@ -1160,6 +1395,18 @@ SY: I am a bit torn about the need of this subsection.
  Let me know what you think.
  I am not edithing this part (and the causal inference related discussions
  below) until you pitch in.
+\change_inserted -503570337 1512231820
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -503570337 1512231866
+GZ: I agree with Song – the specific examples should be incorporated in
+ each 2.2 subsection.
+ For example, in the natural experiment case you cite my paper with Greg.
+ In RD I have added Mike Luca's paper.
+ etc.
 \change_unchanged
 
 \end_layout
@@ -1982,12 +2229,20 @@ key "ghose2012designing"
 \end_layout
 
 \begin_layout Standard
-Both approaches for studying text are valuable.
+Both approaches for studying 
+\change_inserted -503570337 1512234607
+the effcts of review 
+\change_unchanged
+text are valuable.
  Statistical approaches can uncover patterns in text whose importance might
  not be evident a priori.
  At the same time, statistical approaches offer no direct connection to
- theory, and linking patterns uncovered by statistical methods to theoretical
- constructs can be difficult.
+ theory, and 
+\change_inserted -503570337 1512234641
+ex-post 
+\change_unchanged
+linking patterns uncovered by statistical methods to theoretical constructs
+ can be difficult.
  Consumer behavior theory can help resolve these problems by guiding our
  search in the high-dimensional space of language patterns, and informing
  the design of experiments to estimate causal treatment effects.
