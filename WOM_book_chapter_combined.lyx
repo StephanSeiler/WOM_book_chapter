@@ -924,7 +924,12 @@ where
 \end_layout
 
 \begin_layout Standard
-It is easy to see that this research paradigm can not be easily exported
+It is easy to see that this research paradigm can not be easily 
+\change_deleted -503570337 1512401170
+exported
+\change_inserted -503570337 1512401171
+translated
+\change_unchanged
  to study WOM or more generally, the impact of any type of activity that
  is not under the firm's control.
  Running an A/B-test requires direct control of the variable of interests,
@@ -997,8 +1002,13 @@ We argued in the previous section, that WOM effectiveness is difficult to
  impact are either not available (in the case of A/B tests) or unlikely
  to work (in the case of fixed effects regressions).
  Having clearly outlined the obstacles to correct measurement, we now turn
- to a more positive outlook on methods that can be used to estimate causal
- WOM effects.
+ to 
+\change_inserted -503570337 1512407557
+discussing 
+\change_deleted -503570337 1512407560
+a more positive outlook on
+\change_unchanged
+ methods that can be used to estimate causal WOM effects.
  
 \end_layout
 
@@ -1007,6 +1017,21 @@ Natural Experiments
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted -503570337 1512405646
+Natural experiments are a useful tool for causal inference that is sometimes
+ available to researchers interested in measuring the causal impact of WOM
+ on demand.
+ Natural experiments, also known as quasi-experimental variation, rely on
+ historical data that happens to contain events that affect WOM but are
+ otherwise unrelated to demand.
+ These events are used to isolate exogenous variation in the historical
+ patterns of WOM.
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted -503570337 1512405575
 The tool for causal inference that we think is available to researchers
  in the context of WOM are natural experiments or so-called quasi-experimental
  variation.
@@ -1015,47 +1040,211 @@ The tool for causal inference that we think is available to researchers
  in WOM that are driven by exogenous events.
  Importantly, these exogenous events are arguably unrelated to demand.
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-To fix ideas, we first discuss a concrete example taken from 
+To fix ideas, we 
+\change_deleted -503570337 1512405722
+first
+\change_inserted -503570337 1512406268
+ begin by
+\change_unchanged
+ discuss
+\change_inserted -503570337 1512406271
+ings
+\change_unchanged
+ a concrete example 
+\change_deleted -503570337 1512405667
+taken
+\change_unchanged
+ from 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Seiler_et_al_2017"
 
 \end_inset
 
+
+\change_deleted -503570337 1512403464
 .
- This paper studies the impact of user-generated microblogging activity
- on demand for 
-\change_inserted -1412874244 1512079913
-(i.e.
- viewership of) 
+ This paper studies
+\change_inserted -503570337 1512403468
+ who study
 \change_unchanged
-TV shows in China.
- The authors have data on the daily number of tweets pertaining to each
- show as well as viewership numbers for different episodes of the same show.
- Importantly, during the time period covered by their data, the primary
- Chinese microblogging platform, Sina Weibo, was temporarily shut-down due
- to political events.
- The paper harnesses this shock and isolates the variation in microblogging
- activity that is driven by the shut-down in order to isolate the impact
- of the WOM on demand.
- In more formal terms, the authors implement an instrumental variable (IV)
- approach in a panel fixed effect regression framework (similar to the framework
- outlined above).
+ the impact of user-generated microblogging 
+\change_deleted -503570337 1512403476
+activity
+\change_unchanged
+ on 
+\change_inserted -503570337 1512405760
+Chinese TV show viewership
+\change_deleted -503570337 1512405767
+demand for (i.e.
+ viewership of) TV shows in China
+\change_unchanged
+.
+ The authors have 
+\change_inserted -503570337 1512405685
+access to historical 
+\change_unchanged
+data on the daily number of tweets 
+\change_deleted -503570337 1512404816
+pertaining
+\change_inserted -503570337 1512404817
+related
+\change_unchanged
+ to each show as well as 
+\change_inserted -503570337 1512404822
+the 
+\change_unchanged
+viewership numbers for different episodes of the same show.
+ 
+\change_deleted -503570337 1512405802
+Importantly, d
+\change_inserted -503570337 1512405802
+D
+\change_unchanged
+uring the time period covered by the
+\change_deleted -503570337 1512405806
+ir
+\change_unchanged
+ data
+\change_inserted -503570337 1512406300
+, 
+\change_deleted -503570337 1512403970
+, 
+\change_inserted -503570337 1512403875
+Sina Weibo – 
+\change_unchanged
+the 
+\change_deleted -503570337 1512403723
+primary
+\change_inserted -503570337 1512403730
+most popular
+\change_unchanged
+ Chinese microblogging platform
+\change_inserted -503570337 1512405916
+ – 
+\change_deleted -503570337 1512403984
+, Sina Weibo,
+\change_unchanged
+ was 
+\change_deleted -503570337 1512403783
+temporarily
+\change_inserted -503570337 1512403572
+ unexpectedly
+\change_unchanged
+ shut-down 
+\change_inserted -503570337 1512405970
+for a brief period of time
+\change_deleted -503570337 1512406340
+due to political events
+\change_inserted -503570337 1512406790
+, creating in a natural experiment.
+\change_deleted -503570337 1512405842
+.
+
+\change_inserted -503570337 1512406367
+ The shutdown qualifies as a natural experiment because it was driven by
+ political events that are highly unlikely to have been related to TV viewership
+ rates.
+
+\change_unchanged
+ 
+\change_inserted -503570337 1512406389
+Therefore, 
+\change_deleted -503570337 1512404976
+The paper harnesses this
+\change_inserted -503570337 1512403827
+the
+\change_unchanged
+ 
+\change_deleted -503570337 1512403812
+shock
+\change_inserted -503570337 1512403815
+sudden change
+\change_unchanged
+ 
+\change_deleted -503570337 1512403804
+and isolates the variation 
+\change_unchanged
+in microblogging activity
+\change_deleted -503570337 1512403835
+ that is driven 
+\change_inserted -503570337 1512403938
+ 
+\change_deleted -503570337 1512403947
+by
+\change_inserted -503570337 1512403949
+ due to
+\change_unchanged
+ the shut-down 
+\change_inserted -503570337 1512404985
+can be used 
+\change_deleted -503570337 1512403840
+in order 
+\change_unchanged
+to 
+\change_deleted -503570337 1512403656
+isolate
+\change_inserted -503570337 1512403658
+estimate
+\change_unchanged
+ the 
+\change_inserted -503570337 1512403660
+causal 
+\change_unchanged
+impact of the WOM on demand.
+ 
+\change_deleted -503570337 1512404148
+In more formal terms
+\change_inserted -503570337 1512406073
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1512406898
+Natural experiments can be analyzed using various econometric approaches.
+ Continuing with the same example, 
+\change_deleted -503570337 1512406902
+, 
+\change_inserted -503570337 1512406833
+ 
+\change_unchanged
+the authors 
+\change_deleted -503570337 1512404148
+implement
+\change_inserted -503570337 1512403675
+use
+\change_unchanged
+ an instrumental variable (IV) approach in a panel fixed
+\change_inserted -503570337 1512403681
+-
+\change_deleted -503570337 1512404148
+ 
+\change_unchanged
+effect regression framework (similar to the framework outlined above)
+\change_inserted -503570337 1512403687
+:
+\change_deleted -503570337 1512404148
+.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-Demand_{jt}=\xi_{j}+\gamma\times WOM{}_{jt}+\nu_{jt}
+Viewership_{jt}=\xi_{j}+\gamma\times WOM{}_{jt}+\nu_{jt}
 \]
 
 \end_inset
 
 where 
-\begin_inset Formula $Demand_{jt}$
+\begin_inset Formula $Viewership_{jt}$
 \end_inset
 
  denotes demand for the episode of show 
@@ -1070,46 +1259,163 @@ where
 \begin_inset Formula $WOM_{jt}$
 \end_inset
 
- denotes the number of tweets pertaining to the show on day 
+ denotes the number of tweets 
+\change_deleted -503570337 1512404074
+pertaining
+\change_inserted -503570337 1512404074
+about
+\change_unchanged
+ 
+\change_deleted -503570337 1512404079
+to 
+\change_unchanged
+the show on day 
 \begin_inset Formula $t$
 \end_inset
 
 .
- Crucially, the WOM measure in the regression is instrumented with a dummy
- variable that is equal to one if the specific episode aired during the
- shut-down.
- In technical terms, the instruments allows us to estimate the causal impact
- of WOM (in the regression above) even if WOM is correlated with the regression
- error term.
+ 
+\change_deleted -503570337 1512406467
+Crucially
+\change_inserted -503570337 1512406473
+To isolate exogenous variation in WOM
+\change_unchanged
+, the WOM measure 
+\change_deleted -503570337 1512406478
+in the regression 
+\change_unchanged
+is instrumented with a dummy variable that is equal to one if 
+\change_deleted -503570337 1512406497
+the
+\change_inserted -503570337 1512406497
+for
+\change_unchanged
+ 
+\change_deleted -503570337 1512406500
+specific 
+\change_unchanged
+episode
+\change_inserted -503570337 1512406502
+s
+\change_unchanged
+ aired during the shut-down
+\change_inserted -503570337 1512406509
+, and zero otherwise
+\change_unchanged
+.
+
+\change_deleted -503570337 1512404507
+ In technical terms, t
+\change_inserted -503570337 1512406615
+ As long as we are confident that the instrument and the error term are
+ uncorrelated, t
+\change_unchanged
+he instrument
+\change_deleted -503570337 1512404509
+s
+\change_unchanged
+ 
+\change_deleted -503570337 1512406697
+allows us
+\change_inserted -503570337 1512406700
+can be used
+\change_unchanged
+ to estimate the causal impact of WOM 
+\change_inserted -503570337 1512406623
+on demand 
+\change_deleted -503570337 1512404515
+(in the regression above) 
+\change_unchanged
+even if WOM 
+\change_inserted -503570337 1512406630
+itself 
+\change_unchanged
+is correlated with the 
+\change_deleted -503570337 1512404628
+regression
+\change_unchanged
+ error term
+\change_inserted -503570337 1512406707
+.
+\change_deleted -503570337 1512406637
+.
  The sufficient conditions for this method to work is that the instrument
- is not correlated with the regression and hence only affect demand via
- its impact on WOM.
+ is not correlated with the regression and hence only
+\change_inserted -503570337 1512406662
+.
+
+\change_deleted -503570337 1512406713
+ affect demand via its impact on WOM.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-In general, any event on the platform of interest that affected WOM, but
- that was not directly related to demand would qualify as an instrument
-\change_inserted -503570337 1512233419
+In general, any event
+\change_inserted -503570337 1512407086
  
-\series bold
-(GZ: 
-\begin_inset Quotes eld
-\end_inset
-
-instrument
-\begin_inset Quotes erd
-\end_inset
-
- is a bit confusing here since we are talking about natural experiments)
+\change_deleted -503570337 1512406727
+ on the platform of interest 
 \change_unchanged
-
-\series default
+that affect
+\change_inserted -503570337 1512406729
+s
+\change_deleted -503570337 1512404776
+ed
+\change_unchanged
+ WOM
+\change_deleted -503570337 1512407003
+,
+\change_unchanged
+ 
+\change_deleted -503570337 1512407105
+bu
+\change_inserted -503570337 1512407107
+without
+\change_deleted -503570337 1512408463
+t
+\change_unchanged
+ 
+\change_deleted -503570337 1512407095
+that
+\change_unchanged
+ 
+\change_deleted -503570337 1512407109
+was not
+\change_unchanged
+ directly 
+\change_deleted -503570337 1512407056
+related
+\change_inserted -503570337 1512407113
+affecting
+\change_deleted -503570337 1512407059
+ to
+\change_unchanged
+ demand
+\change_deleted -503570337 1512406739
+ would
+\change_unchanged
+ qualif
+\change_inserted -503570337 1512406741
+ies
+\change_deleted -503570337 1512406740
+y
+\change_unchanged
+ as an 
+\change_deleted -503570337 1512403001
+instrument
+\change_inserted -503570337 1512403004
+natural experiment.
+ 
+\change_deleted -503570337 1512403040
 .
+
+\change_unchanged
  
 \change_inserted -1412874244 1512246741
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -1119,6 +1425,39 @@ SS: why is that confusing? It seems to me exactly the way to think about
  Natural experiments are exogenous events that move stuff around and hence
  can serve as instruments.
  You don't use the time-period of the merger as an instrument?
+\change_inserted -503570337 1512402940
+ No, we don't....
+ we just do before-after.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -503570337 1512403009
+GZ: I see your point – I guess I thought it was confusing because not every
+ natural experiment is analyzed using IV.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -503570337 1512403034
+GZ: how about if we say 
+\begin_inset Quotes eld
+\end_inset
+
+...would qualify as a natutal experiment
+\begin_inset Quotes erd
+\end_inset
+
+ instead of 
+\begin_inset Quotes eld
+\end_inset
+
+as an instrument
+\begin_inset Quotes erd
+\end_inset
+
+?
 \change_unchanged
 
 \end_layout
@@ -1126,20 +1465,72 @@ SS: why is that confusing? It seems to me exactly the way to think about
 \end_inset
 
 
+\change_inserted -503570337 1512407143
+Another
+\change_deleted -503570337 1512407141
+One
 \change_unchanged
-Another example for such an event is the merger of two review platforms
- which 
+ example of such an event is the merger of two review platforms studied
+ by 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "lewis2016welfare"
 
 \end_inset
 
- led to a sudden increase in the number of reviews (because the platforms
- combined the reviews that were formerly on each platform separately).
- Similar to the shut-down described above, the merger constituted an exogenous
- shift in WOM.
- Another example involves the natural experiment explored in 
+.
+ Prior to the merger the two platforms were collecting reviews 
+\change_inserted -503570337 1512407179
+separately, each platform computing average ratings using its own database
+ of reviews.
+\change_deleted -503570337 1512407176
+and computing average ratings separately.
+
+\change_unchanged
+ The merger of the review databases led to a sudden change in average ratings.
+\change_deleted -503570337 1512403262
+.
+ 
+\change_inserted -503570337 1512408477
+ 
+\change_unchanged
+Similar to the shut-down
+\change_inserted -503570337 1512407207
+ of Sina Weibo,
+\change_unchanged
+ 
+\change_inserted -503570337 1512407233
+the the merger of the two review databases in unlikely to have been related
+ to demand
+\change_deleted -503570337 1512407241
+described above
+\change_inserted -503570337 1512407243
+.
+ Thus
+\change_deleted -503570337 1512407241
+,
+\change_unchanged
+ the merger 
+\change_inserted -503570337 1512407258
+can be thought of as a natural experiment.
+\change_deleted -503570337 1512407260
+constituted an exogenous shift in WOM.
+
+\change_unchanged
+ 
+\change_inserted -503570337 1512407448
+A final example comes from 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Oh_et_al2016"
+
+\end_inset
+
+, who use implementation of a pay-wall by the New York Times as a natutal
+ experiment to study the impact of content pricing on WOM.
+ 
+\change_deleted -503570337 1512407372
+Another example involves the natural experiment explored in 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Oh_et_al2016"
@@ -1148,6 +1539,31 @@ key "Oh_et_al2016"
 
 , where the implementation of pay-wall at the New York Times led to variations
  in online WOM of articles.
+
+\change_inserted -503570337 1512408499
+ 
+\series bold
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -503570337 1512408499
+(GZ: One thing that bugs me about the Oh example is that WOM is an outcome
+ is this paper – this is not natural experiment causing exogenous variation
+ in WOM.
+ Well I guess it does, but that's not how the paper looks at it.
+ Should we keep it?)
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1194,97 +1610,79 @@ SS: The Oh et al.
 
 \begin_layout Standard
 
-\change_inserted -503570337 1512233560
-Natural experiments can cause big or small changes.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Oh_et_al2016"
-
-\end_inset
-
- and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "lewis2016welfare"
-
-\end_inset
-
- rely on big changes to the status quo to estimate causal effects.
- 
-\change_unchanged
-Unfortunately, 
-\change_inserted -503570337 1512233684
-changes of this magnitude are
-\change_deleted -503570337 1512233733
-these type of events are likely to be relatively
-\change_unchanged
- rare
-\change_inserted -503570337 1512233769
-.
-
-\change_unchanged
- 
-\change_deleted -503570337 1512233772
-which limits the scope for this approach.
-
-\change_unchanged
- 
-\change_inserted -503570337 1512234517
-Moreover, these singular events typically lead to the estimation of context-spei
-cifc estimate.
- For instance, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "lewis2016welfare"
-
-\end_inset
-
- estimate the causal impact of ratings in July 2013, which is when the platform
- merger happend – the natural experiment provides no insight as the magnitude
- of the treatment effect at other points in time.
- A final concern with large natural experiments is that firms may anticipate
- them and strategically change their behavior prior to the experiment.
- Thus, before-after comparisons around the natural experiment may be biased.
- Thus, natutal experiments are more convincing when evidence can be furnished
- that they were upredictable.
- Such evidence might be hard to find.
- 
-\series bold
-(GZ: Dunno I would scrap the rest.)
-\change_inserted -1412874244 1512247307
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512247320
-
-\series bold
-SS: I am sorry, you mean the rest of the paragraph? What's wrong with it?
-\change_unchanged
-
+\change_inserted -503570337 1512409509
+The main difficulty in using natural experiments as a tool for casaul inference
+ is identifying the natural experiments in the first place.
+ Events that cause large exogenous changes in the status quo are rare, and
+ pinpointing them often requires expert domain knowledge.
+ Moreover, arguing for the suitability of different events as a natural
+ experiments has to be done on a case-by-case basis.
+ This is in contrast to methods like A/B testing and fixed-effects regressions,
+ which can be readily implemented by firms to provide a standardized and
+ continuous analytical toolkit.
+ Despite this limitation, because natural experiments are usually broad
+ in scope, once identified, they can be leveraged to analyze different product
+ markets and outcomes of interest.
 \end_layout
 
+\begin_layout Standard
+
+\change_inserted -503570337 1512409685
+A second limitation of natural experiments is that they can yield estimates
+ that are highly context-specific.
+ Similar to traditional 
+\series bold
+(??? help – better keyword than traditional guys???)
+\series default
+ experiments run by firms, natural experiments trade-off internal for external
+ validity.
+
+\change_unchanged
+ 
+\change_inserted -503570337 1512409685
+For instance, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lewis2016welfare"
+
 \end_inset
 
-
-\change_inserted -503570337 1512234517
-
-\series default
+ can estimate the causal impact of ratings in July 2013, the date of the
+ review platform merger.
+ This natural experiment cannot provide insight as to the magnitude of the
+ treatment effect at other points in time, thus limiting its external validity.
  
-\change_unchanged
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -503570337 1512410339
+A final concern with natural experiments, especially those causing large
+ changes to the status quo, is that firms or individuals may anticipate
+ them and strategically adjust their behavior.
+ In this case, comparisons of outcomes shortly before and shortly after
+ the natural experiment can result in biased estimates.
+ Thus, natural experiments are more convincing when evidence can be furnished
+ that they were upredictable.
+ An indicative (but not conclusive) piece of evidence is the absence of
+ pre-treatment trends.
+ To the extent that natural experiments are unpredictable, patterns of the
+ outcome variable just before the natural experiement should look similar
+ to historical patterns.
+ Unexplained systematic variation prior to the natural experiment may suggest
+ the natural experiment is invalid.
+ 
+\change_deleted -503570337 1512410102
+ 
+\change_inserted -503570337 1512409794
+ 
+\change_deleted -503570337 1512409452
 Furthermore, exploiting events of this kind requires a less mechanical approach
  because one cannot simply apply a standardized method to any given set
  of data.
-
-\change_inserted -503570337 1512234557
- 
-\series bold
-(GZ: Hmmmm, really? Aren't all natural experiments simple before-after comparing
-s? I would say compared to RD or IV, NatExp are particularly simple)
 \change_inserted -1412874244 1512247394
+
+\series bold
 
 \begin_inset Note Note
 status open
@@ -1305,6 +1703,9 @@ SS: we might be using a different definition here.
  natural experiments give you context-specific effects, i.e.
  you have to look for the specific natural experiment and can't just apply
  a given method mechanically (like A/B test are often done these days).
+
+\change_inserted -503570337 1512402840
+ GZ: OK got it.
 \change_unchanged
 
 \end_layout
@@ -1315,7 +1716,9 @@ SS: we might be using a different definition here.
 \change_unchanged
 
 \series default
- Instead, exploiting such events requires the analyst to find suitable events
+ 
+\change_deleted -503570337 1512409343
+Instead, exploiting such events requires the analyst to find suitable events
  that provide the desired variation.
  Such natural experiments therefore can only provide specific case studies.
  This is in contrast to A/B tests or simpler methods such as fixed effect
@@ -1325,14 +1728,21 @@ zed and continuous analytical toolkit.
  merger are often broad in scope and hence can be leveraged to analyze many
  different product markets that were affected by these events due their
  presence on the platform.
-\change_inserted -503570337 1512234133
+\change_inserted -503570337 1512403344
 
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -503570337 1512235384
-Alternatively, researchers can exploit multiple 
+\change_inserted -503570337 1512410417
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -503570337 1512410445
+GZ: OK I AGREE BIG-SMALL IS USELESS DISTINCTION SO SKIPPING THIS PARA: Alternati
+vely, researchers can exploit multiple 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1372,6 +1782,13 @@ small
  would be an uninformative event.
  However, taken together, with access to many such small experiments we
  can reliably estimate the impact of ratings on Airbnb property prices.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
 \change_inserted -1412874244 1512247328
 
 \end_layout
@@ -2102,8 +2519,19 @@ status open
 
 
 \change_unchanged
-, the question of experimentally measuring marginal impact of a unit increase
- in review volume on demand and prices remains an interesting open question.
+, the question of experimentally measuring 
+\change_inserted -503570337 1512401278
+the 
+\change_unchanged
+marginal impact of a unit increase in review volume on demand and prices
+ remains an interesting open question
+\change_inserted -503570337 1512401372
+, in part because there is no straightforward way to experimentally manipulate
+ review volume in the field
+\change_deleted -503570337 1512401297
+.
+
+\change_unchanged
  
 \change_inserted -1412874244 1512080987
 
@@ -2145,6 +2573,14 @@ status open
 \change_inserted -1412874244 1512094744
 SS: content might work better, I also used that terminology in the conversation
  part later.
+\change_inserted -503570337 1512401424
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -503570337 1512402302
+GZ: Yup, I agree.
 \change_unchanged
 
 \end_layout
@@ -2210,9 +2646,12 @@ Review text is inherently high-dimensional and typically not amenable to
  along dimensions of interest.
  In principle, these variables can subsequently be analyzed using traditional
  econometric approaches.
- However, finding plausibly exogenous variation in existing text is difficult,
- and thus causal interpreations of the effect of language on demand often
- require strong identication assumptions.
+ However, finding plausibly exogenous variation in 
+\change_inserted -503570337 1512401760
+variables created from 
+\change_unchanged
+existing text is difficult, and thus causal interpreations of the effect
+ of language on demand often require strong identication assumptions.
 \end_layout
 
 \begin_layout Standard
@@ -2230,16 +2669,17 @@ key "blei2003latent"
 \end_inset
 
  that can extract latent structure and meaning from unstructured data.
- Another common approach is to use pre-built and validated dictionaries
- like LIWC 
+ Another common approach to reduce the dimensitionality of text is the use
+ of pre-built and validated dictionaries like LIWC 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "tausczik2010psychological"
 
 \end_inset
 
- to measure psychometric attributes like affect, and emotion.
- is 
+ that measure the incidence of psychometric attributes such as affect and
+ emotion in text.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "moe2017social"
@@ -2248,12 +2688,14 @@ key "moe2017social"
 
  provide a comprehensive review of the statistical approaches used to analyze
  text from reputation systems and social media.
- 
 \end_layout
 
 \begin_layout Standard
-Several papers have used statistical methods to uncovered interesting patterns
- in review text.
+Several papers have used statistical methods to uncover
+\change_deleted -503570337 1512402784
+ed
+\change_unchanged
+ interesting patterns in review text.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2280,7 +2722,17 @@ key "ghose2012designing"
 \end_inset
 
  also extract product features from review text, and incorporate these features
- in a utility model that is used to ranking product by expected utility.
+ in a utility model that is used to 
+\change_deleted -503570337 1512401657
+ranking
+\change_inserted -503570337 1512401657
+rank
+\change_unchanged
+ product by expected utility
+\change_inserted -503570337 1512401666
+ in response to consumer queries
+\change_unchanged
+.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2304,7 +2756,11 @@ hate
 \begin_inset Quotes erd
 \end_inset
 
-, which are detected using LIWC) have a significant impact
+, which are detected using LIWC) 
+\change_deleted -503570337 1512401540
+have a significant impact
+\change_inserted -503570337 1512401548
+are positivelu associated with
 \change_inserted -1412874244 1512081331
 
 \begin_inset Note Note
@@ -2323,6 +2779,9 @@ are correlated with
 \end_inset
 
 , right now it sounds like we are implying causality.
+
+\change_inserted -503570337 1512401559
+ GZ: Done.
 \change_unchanged
 
 \end_layout
@@ -2331,7 +2790,15 @@ are correlated with
 
 
 \change_unchanged
- on conversion rates in the expected direction.
+ 
+\change_deleted -503570337 1512401551
+on 
+\change_unchanged
+conversion rates
+\change_deleted -503570337 1512401555
+ in the expected direction
+\change_unchanged
+.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2340,10 +2807,26 @@ key "buschken2016sentence"
 \end_inset
 
  study the sentence structure of reviews by fitting a topic model that allows
- topics to vary from sentence to sentence as opposed to the common practice
- of fixing estimating a single topic distribution for each review.
- The sentence topic model is found to fit the data better than standard
- topic models and to produce more meaningful topics.
+ topics to vary from sentence to sentence 
+\change_deleted -503570337 1512401575
+as opposed
+\change_inserted -503570337 1512401577
+compared
+\change_unchanged
+ to the common practice of 
+\change_deleted -503570337 1512401587
+fixing
+\change_unchanged
+ estimating a single topic distribution for each review.
+ The sentence topic model is found to
+\change_deleted -503570337 1512401611
+ fit the data better than standard topic models and to 
+\change_unchanged
+produce more meaningful topics
+\change_inserted -503570337 1512401630
+ and to fit the data better than topic models than ingore sentence stucture
+\change_unchanged
+.
  
 \end_layout
 
@@ -2418,8 +2901,8 @@ key "ghose2012designing"
 
 \begin_layout Standard
 Both approaches for studying 
-\change_inserted -503570337 1512234607
-the effcts of review 
+\change_inserted -503570337 1512401411
+the effects of review 
 \change_unchanged
 text are valuable.
  Statistical approaches can uncover patterns in text whose importance might
@@ -2592,7 +3075,11 @@ key "grewal2016mobile"
 \end_layout
 
 \begin_layout Standard
-Demand depends on the timing of reviews with respect to the product life-cycle.
+Demand 
+\change_inserted -503570337 1512402718
+also 
+\change_unchanged
+depends on the timing of reviews with respect to the product life-cycle.
  Relying on meta-analysis, 
 \begin_inset CommandInset citation
 LatexCommand cite
