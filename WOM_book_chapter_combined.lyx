@@ -93,7 +93,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -2482,16 +2482,14 @@ key "resnick2006value"
 
  were – to the best of our knowledge – the first to use a controlled experiment
  to study the value of online reputation.
- The experiment was conducted on eBay.
- An postcard seller with established reputation was asked to create a set
- of new ideninties.
- Being new, these identities started out with no reviews, and from the perspecti
-ve of consumers were not associated with the sellers established identity.
+ For the experiment, an eBay postcard seller with an established reputation
+ was asked to create a set of new ideninties.
+ The new identities had no reviews associated with them, and from the perspectiv
+e of consumers they were distinct from the seller's established identity.
  The seller randomly assigned items to be sold under the various identies
  while making sure to offer the same quality of service to all customers.
- The main result of the experiment was that consumers' willingness to pay
- was 8% higher for purchasing from the established seller even though the
- items sold across the various identities were similar.
+ Consumers' willingness to pay was 8% higher for purchasing from the established
+ seller even though the items sold across the various identities were similar.
  
 \end_layout
 
