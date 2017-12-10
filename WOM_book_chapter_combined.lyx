@@ -143,8 +143,73 @@ Song, please provide number on conversation volume
 \change_inserted -1412874244 1512525088
 SS: I will re-write this to focus on WOM volume instead of social media
  spending.
+\change_inserted 2105412453 1512847637
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512847724
+SY: These are the numbers.
+ I am not sure how SS wants to re-write the intro; so I chose not putting
+ them into the text directly.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512847766
+http://www.internetlivestats.com/twitter-statistics/
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512852510
+
+\series bold
+Twitter:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 2105412453 1512852516
+Number of tweets: Every second, on average, around 6,000 tweets are tweeted
+ on Twitter, implying 500 million tweets per day and around 200 billion
+ tweets per year.
+ The volume of tweets is growing at around 30% per year.
+ (source: http://www.internetlivestats.com/twitter-statistics/)
 \change_unchanged
 
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 2105412453 1512853965
+Monthly active user as of Q3 2017: 330M global, 69M US, 4% YoY growth (source:
+ Twitter's financial report, https://investor.twitterinc.com/common/download/downl
+oad.cfm?companyid=AMDA-2F526X&fileid=961125&filekey=EB20419D-CCD5-4A07-9F2A-23660
+5AE1C3C&filename=2017_Q3_Earnings_Slides.pdf)
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512854512
+Facebook:
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 2105412453 1512854674
+I cannot find any stats about the number of FB posts.
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 2105412453 1512854656
+Monthly active user as of Q3 2017: 2.07B, 16% YoY growth (source: FB's financial
+ report, http://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/06205619-7ced-42ed-b8
+c8-4621b5a121e9.pdf)
 \end_layout
 
 \end_inset
@@ -210,17 +275,7 @@ n, but partly also due to unique measurement challenges in this area which
 
 \begin_layout Standard
 In this chapter we outline the current state of the academic literature
- on 
-\change_inserted -1412874244 1512682725
-the impact of 
-\change_unchanged
-online WOM
-\change_inserted -1412874244 1512682729
- on demand
-\change_deleted -1412874244 1512682730
- (rather than advertising run directly by firms.)
-\change_unchanged
-.
+ on the impact of online WOM on demand.
  We first outline measurement challenges in the realm of WOM and how they
  can be resolved.
  We then summarize recent findings on the effectiveness of WOM in two domains:
@@ -235,13 +290,20 @@ online WOM
 \change_deleted -1412874244 1512682743
 hence 
 \change_unchanged
-sufficiently different to treat them separately.
- 
-\change_deleted -1412874244 1512525376
-Finally, we turn from the analysis of whether WOM is effective to the question
- of why it is effective.
+sufficiently different to 
+\change_inserted 2105412453 1512854820
+be 
 \change_unchanged
-
+treat
+\change_inserted 2105412453 1512854822
+ed
+\change_unchanged
+ 
+\change_deleted 2105412453 1512854837
+them 
+\change_unchanged
+separately.
+ 
 \end_layout
 
 \begin_layout Section
@@ -265,6 +327,15 @@ SS: Regarding how to tone down advertising.
  I did add some more detail though on why we talk about advertising.
  It is all in tracked changes below.
  Let me know what you think ...
+\change_inserted 2105412453 1512869506
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512869589
+SY: I haven't accept Stephan's changes.
+ Giorgos, if you are OK with the changes, feel free to accept.
 \change_unchanged
 
 \end_layout
@@ -295,6 +366,17 @@ SS: Two broad questions for you guys:
  refer to either reviews or conversations? I had originally written this
  more with conversations in mind.
  I added one sentence just before 2.1 that tries to clarify this.
+\change_inserted 2105412453 1512919981
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512920005
+SY: I think the section reads fine in terms of addressing both reviews and
+ conversations.
+\change_inserted -1412874244 1512683370
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -303,6 +385,16 @@ SS: Two broad questions for you guys:
 (2) I am thinking we should drop the section on differential bias.
  It does not connect well with the rest of the paper and removing it would
  streamline things.
+\change_inserted 2105412453 1512920007
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512920055
+SY: See my comments below.
+ We can drop the subsection but may need to briefly mention the bais somewhere
+ early in the section.
 \change_unchanged
 
 \end_layout
@@ -353,19 +445,17 @@ y
 .
  The firm has historic data on marketing
 \change_inserted -1412874244 1512682981
- activity
+ activit
+\change_inserted 2105412453 1512869490
+ies
+\change_deleted 2105412453 1512869489
+y
 \change_unchanged
 , i.e.
  WOM and advertising, and demand (e.g.
  quantity sold, click-through rates, conversions) at the product-level and
  wishes to understand the impact of advertising and WOM on demand.
-
-\change_inserted -1412874244 1512683274
- 
-\change_deleted -1412874244 1512683158
- 
-\change_unchanged
-The general logic of our arguments below easily extends to situations where
+ The general logic of our arguments below easily extends to situations where
  data are available at the consumer rather than the product level.
 
 \change_inserted -1412874244 1512683408
@@ -378,7 +468,11 @@ WOM intensity
 \end_inset
 
  and do not distinguish between specific types of WOM such as the number
- of tweets, number of consumer reviews etc.
+ of tweets, number of consumer reviews
+\change_inserted 2105412453 1512873068
+,
+\change_inserted -1412874244 1512683408
+ etc.
 \change_unchanged
 
 \end_layout
@@ -426,10 +520,23 @@ where the index
 \end_inset
 
  refers to a product.
- One would then run a separate regression using either advertising or word-of-mo
-uth as the explanatory marketing variable.
+ One would then run a separate regression using either advertising or 
+\change_deleted 2105412453 1512873095
+word-of-mouth
+\change_inserted 2105412453 1512873095
+WOM
+\change_unchanged
+ as the explanatory marketing variable.
  This regression effectively compares products with high and low advertising
- / WOM and ask whether demand increases or decreases as a function of marketing.
+ / WOM and ask whether demand increases or decreases as a function of 
+\change_inserted 2105412453 1512873125
+the 
+\change_unchanged
+marketing
+\change_inserted 2105412453 1512873129
+ activity of interest
+\change_unchanged
+.
  In order for the effect of marketing on demand, captured by the coefficient
  
 \begin_inset Formula $\beta$
@@ -473,7 +580,11 @@ start with a discussion of (the more familiar case of) measuring advertising
 \change_unchanged
 .
  In each case we need to assess which underlying factors lead to a given
- level of the relevant activity in the historic data used in the regression.
+ level of the relevant activity in the historic
+\change_inserted 2105412453 1512873227
+al
+\change_unchanged
+ data used in the regression.
 \end_layout
 
 \begin_layout Standard
@@ -506,7 +617,7 @@ cross-sectional
 \change_unchanged
 studies of advertising impact.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 One 
@@ -695,7 +806,7 @@ key "shapiro_drug_ads"
  finds that estimates change little when moving from fixed effects to more
  rigorous controls.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 The paper employs a regression discontinuity design at media market boundaries
@@ -784,6 +895,20 @@ status open
 \change_inserted -1412874244 1512683515
 SS: as mentioned at the beginning of this section, shall we drop this sub-sectio
 n?
+\change_inserted 2105412453 1512879625
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512880369
+SY: I sorta see what you mean.
+ The discussion above is about the source of bias, and then we later talk
+ about methods.
+ This sub-section seems to be slightly out of place.
+ We can probably drop this subsection.
+ We may still want to briefly mention it somewhere in the last sub-section
+ about the magnitude of the bias, but not in such a detailed manner.
 \change_unchanged
 
 \end_layout
@@ -898,8 +1023,6 @@ doubled when some fixed effects are dropped.
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512075239
 SS: Song, the wording in the last sentence is a bit vague.
  Is it not just fixed effects versus no fixed effects? Why does it say 
 \begin_inset Quotes eld
@@ -910,7 +1033,6 @@ some fixed effects
 \end_inset
 
 ? Also, are there multiple elasticities (the text says elasticity esitmates)?
-\change_inserted 2105412453 1512338083
  SY: In Gordon and Hartmann (2013), column 7 Table 5 is the preferred specificat
 ion.
  Column 2, which does not control DMA-party FEs, the coefficients more than
@@ -947,6 +1069,8 @@ some fixed effects
 \change_inserted -1412874244 1512609517
 SS: I see, I changed the text a bit to make it simpler.
  Does that new statement seem correct?
+\change_inserted 2105412453 1512880380
+ Yes.
 \change_unchanged
 
 \end_layout
@@ -1184,8 +1308,11 @@ We note that there could be situations where an experimental manipulation
  experimental manipulation of WOM due to randomly elimination of tweets
  across products.
  Our sense is that platforms will be unlikely to cooperate in such experiments
- as there might be backlash from users whose tweets do not appear due to
- the A/B test.
+ as there might be backlash
+\change_inserted 2105412453 1512880503
+es
+\change_unchanged
+ from users whose tweets do not appear due to the A/B test.
  A further option would be randomly generate rather than eliminate WOM by
  generating tweets from fake accounts or incentivizing users to tweets on
  the firm's behalf.
@@ -1251,10 +1378,22 @@ name "subsec: correctly measuring"
 \end_layout
 
 \begin_layout Standard
-We argued in the previous section, that WOM effectiveness is difficult to
- measure reliably and methods that can be applied to studies of advertising
- impact are either not available (in the case of A/B tests) or unlikely
- to work (in the case of fixed effects regressions).
+
+\change_inserted 2105412453 1512880979
+In the previous section, 
+\change_deleted 2105412453 1512880972
+W
+\change_inserted 2105412453 1512880972
+w
+\change_unchanged
+e argued
+\change_deleted 2105412453 1512880976
+ in the previous section,
+\change_unchanged
+ that WOM effectiveness is difficult to measure reliably and methods that
+ can be applied to studies of advertising impact are either not available
+ (in the case of A/B tests) or unlikely to work (in the case of fixed effects
+ regressions).
  Having 
 \change_deleted -1412874244 1512684296
 clearly 
@@ -1367,6 +1506,32 @@ aired during the shut-down, and zero otherwise.
  This regression recovers the causal impact of WOM on demand if the instrument
  and the error term are uncorrelated, even if WOM itself is correlated with
  the error term.
+\change_inserted 2105412453 1512881306
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512881327
+SY: Do we need to explain 
+\begin_inset Quotes eld
+\end_inset
+
+why
+\begin_inset Quotes erd
+\end_inset
+
+?
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1646,8 +1811,6 @@ example above, it is likely that the targeted advertising campaign not only
 
 \begin_layout Subsubsection*
 Regression Discontinuity
-\change_deleted -1412874244 1512684960
- Approach
 \change_inserted -1412874244 1512686047
 
 \end_layout
@@ -1680,9 +1843,40 @@ SS: I re-wrote this section.
 A final approach that can be useful to measure the impact of a specific
  type of WOM is a regression discontinuity (RD) approach.
  While this approach is more narrow in its application to the context of
- WOM, is does provide a broadly applicable approach to measuring the impact
- of review valence, i.e.
- the impact of a higher average review rating.
+ WOM, i
+\change_inserted 2105412453 1512882662
+t
+\change_deleted 2105412453 1512882662
+s
+\change_inserted -1412874244 1512685746
+ does provide a broadly applicable approach to measuring the impact of review
+ valence, i.e.
+ the impact of a higher average review rating
+\change_inserted 2105412453 1512882826
+ (e.g., 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Luca_2016"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "anderson_magruder_2012"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "luca2013digitizing"
+
+\end_inset
+
+)
+\change_inserted -1412874244 1512685746
+.
 \end_layout
 
 \begin_layout Standard
@@ -1694,8 +1888,11 @@ The approach is most easily explained by focusing on the particular application
  to users is through a star rating that is rounded to the nearest half star.
  Yelp (as well as many other platforms) present average ratings in this
  particular way.
- The rounding generates a discontinuous jump in the perceived rating and
- two products with very similar underlying scores might take on different
+ The rounding generates a discontinuous jump in the perceived rating
+\change_inserted 2105412453 1512882754
+,
+\change_inserted -1412874244 1512686215
+ and two products with very similar underlying scores might take on different
  values on the half-star scale.
  For instance two products with average ratings of 4.24 and 4.26 will be presented
  as rating 4 and 4.5 star products, respectively.
@@ -1710,25 +1907,97 @@ Note that this is different from comparing ALL products with say 4 versus
  4.5 stars.
  It is reasonable to believe that products with higher star ratings are
  systematically different along other dimensions that correlate with demand.
- Instead, products near the threshold are likely to be similar except for
- their star ratings and hence the causal impact of the latter can be obtained
- by comparing demand for products marginally above and marginally below
- the threshold.
+ Instead, 
+\change_inserted 2105412453 1512882881
+those 
+\change_inserted -1412874244 1512685572
+products near the 
+\change_inserted 2105412453 1512882890
+rounding 
+\change_inserted -1412874244 1512685572
+threshold are likely to be similar except for their 
+\change_inserted 2105412453 1512882903
+perceived 
+\change_inserted -1412874244 1512685572
+star ratings
+\change_inserted 2105412453 1512882923
+.
+
+\change_inserted -1412874244 1512685572
+ 
+\change_deleted 2105412453 1512882927
+and h
+\change_inserted 2105412453 1512882927
+H
+\change_inserted -1412874244 1512685572
+ence the causal impact of the 
+\change_deleted 2105412453 1512882988
+latter
+\change_inserted 2105412453 1512882992
+star ratings
+\change_inserted -1412874244 1512685572
+ can be obtained by comparing demand for products marginally above and marginall
+y below the 
+\change_inserted 2105412453 1512882999
+rounding 
+\change_inserted -1412874244 1512685572
+threshold.
 \end_layout
 
 \begin_layout Standard
 
 \change_inserted -1412874244 1512686319
 This approach leverages the specific institutional feature of rounded star
- ratings that many platform use.
+ ratings
+\change_deleted 2105412453 1512883083
+ that many platform use.
  Hence it cannot be applied to setting where the average rating is presented
  without rounding.
- However, the widespread usage of the rounded star ratings format does make
- the RD design a widely applicable approach.
+ However, t
+\change_inserted 2105412453 1512883088
+.
+ Because of t
+\change_inserted -1412874244 1512686319
+he 
+\change_deleted 2105412453 1512883123
+widespread
+\change_inserted 2105412453 1512883153
+ubiquitous
+\change_inserted -1412874244 1512686319
+ usage of 
+\change_deleted 2105412453 1512883096
+the rounded
+\change_inserted 2105412453 1512883098
+rounding in
+\change_inserted -1412874244 1512686319
+ star ratings 
+\change_deleted 2105412453 1512883163
+format
+\change_inserted 2105412453 1512883166
+across platforms, it
+\change_inserted -1412874244 1512686319
+ does make the RD design a widely applicable approach
+\change_inserted 2105412453 1512883183
+ when studying the valence of reviews
+\change_inserted -1412874244 1512686319
+.
  Importantly, any firm that sells multiple products through a platform that
  uses rounded rating scores can find the subset of products in their assortment
- that have ratings close to to the rounding cut-offs and implement the approach
- just outlined.
+ that have ratings close
+\change_deleted 2105412453 1512883204
+ to
+\change_inserted -1412874244 1512686319
+ to the rounding cut-offs and implement 
+\change_deleted 2105412453 1512883213
+the
+\change_inserted 2105412453 1512883214
+this
+\change_inserted -1412874244 1512686319
+ approach
+\change_deleted 2105412453 1512883216
+ just outlined
+\change_inserted -1412874244 1512686319
+.
  
 \end_layout
 
@@ -1738,8 +2007,12 @@ This approach leverages the specific institutional feature of rounded star
 Contrary to natural experiments, RD thus provides a scale-able and broadly
  applicable approach to measuring WOM effectiveness.
  The approach is however limited in scope to the analysis of review valence
- and cannot be applied to study the impact of other aspects of WOM such
- as the number of reviews.
+ and cannot be 
+\change_inserted 2105412453 1512883243
+easily 
+\change_inserted -1412874244 1512686346
+applied to study the impact of other aspects of WOM such as the number of
+ reviews.
 \end_layout
 
 \begin_layout Standard
@@ -1823,6 +2096,29 @@ SS: Song, up to you to put a transition paragraph here!
 \end_inset
 
 
+\change_inserted 2105412453 1512918667
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 2105412453 1512919379
+Although online WOM has become an essential component of the marketing mix,
+ measuring its effectiveness on demand remains a challenging task.
+ In most field data, demand and WOM may be inherently correlated because
+ the same factors that influence demand can affect WOM as well.
+ Consequently, studies using field data without acccounting for the correlation
+ often overestimate the effectiveness of WOM, resulting in biased conclusions.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 2105412453 1512919731
+Three solutions that can be used to address the bias, namely natural experiments
+, A/B tests, and regression discontinuity (RD).
+ In the following, we detail some studies that exemplify these methods.
+ We organize the discussion below according to the two dominant types of
+ online WOM, consumer reviews and online conversations.
 \change_unchanged
 
 \end_layout
@@ -1892,11 +2188,15 @@ y and in a consistent manner)
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted 2105412453 1511995143
 SY: We need a better connection between this section and the identification
  section above.
  If needed, I can work on this after Stephan gives his comments.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512919798
+SY: I think the last conclusion subsection 2.3 can be used as the connection.
 \change_unchanged
 
 \end_layout
@@ -1969,6 +2269,25 @@ SS: my take would be to drop the fraud part, it doesn't connect much with
  other things in this section.
  But I don't feel super-strongly, so happy to keep it if you guys see it
  differently.
+\change_inserted 2105412453 1512921040
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512921241
+SY: I think it may still worthwhile mentioning briefly.
+ The second sentence can be shortened, e.g., 
+\begin_inset Quotes eld
+\end_inset
+
+Various strategies are in place to mitigate this concern including highlighting
+ reviews by consumers whose purchases can be verified, and relying on fraud-dete
+ction algorithms to discard fake reviews.
+\begin_inset Quotes erd
+\end_inset
+
+
 \change_unchanged
 
 \end_layout
@@ -2033,8 +2352,44 @@ reference "subsec: measurement challenges"
 \end_inset
 
 .
- Therefore, the papers we cite below are all characterized by the type of
- methods for causal inference discussed above.
+ Therefore, 
+\change_deleted 2105412453 1512919907
+the
+\change_inserted 2105412453 1512919908
+many
+\change_inserted -1412874244 1512687132
+ papers we cite below are 
+\change_deleted 2105412453 1512919944
+all 
+\change_inserted -1412874244 1512687132
+characterized by the type of methods for causal inference discussed above
+\change_inserted 2105412453 1512919917
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512920998
+I feel some of the papers do not fall into the 3 methods.
+ So instead of using 
+\begin_inset Quotes eld
+\end_inset
+
+all
+\begin_inset Quotes erd
+\end_inset
+
+, I modified it a bit.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -1412874244 1512687132
+.
  In a few specific cases, researchers were able to study WOM impact directly
  through A/B tests.
  We also note that the literature on reviews is large and we are not able
@@ -2184,7 +2539,7 @@ key "jin2006price"
 \change_inserted -1412874244 1512687187
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -2503,8 +2858,6 @@ SS: I like this paragraph.
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted 2105412453 1511997829
 SY: I think we may need some qualification here.
  The first approach may be more prone to bias (e.g., more popolar leads to
  more positive comments).
@@ -3206,11 +3559,8 @@ valence,
 \end_inset
 
  which was discussed in the context of reviews, is not a characteristic
- that can describe online conversations due to the absence of an 
-\change_deleted -1412874244 1512752141
-intuitive 
-\change_unchanged
-aggregation mechanism such as the average ratings score.
+ that can describe online conversations due to the absence of an aggregation
+ mechanism such as the average ratings score.
  We then turn to a discussion of the moderators of WOM effects in the realm
  of online conversations.
 \end_layout
@@ -3233,65 +3583,33 @@ Apart from the absence of a summary measure such as the average rating,
  behavior.
  Consumers might even be influenced to purchase a product in anticipation
  of being able to participate in conversations about the product after the
- 
-\change_deleted -1412874244 1512752228
-consumption
-\change_inserted -1412874244 1512752229
-purchase
-\change_unchanged
-.
-\change_deleted -1412874244 1512752231
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-In principle, the prospect of being able to post a review might have a similar
- effect.
-\end_layout
-
-\end_inset
-
-
-\change_inserted -1412874244 1512095741
-
+ purchase.
 \end_layout
 
 \begin_layout Standard
-We also note that the academic literature on online conversations is 
-\change_deleted -1412874244 1512752359
-much 
-\change_unchanged
-small
-\change_deleted -1412874244 1512752361
-er
-\change_unchanged
-, at least in terms of studies that use
-\change_deleted -1412874244 1512752369
- A/B tests or other 
-\change_inserted -1412874244 1512752372
- 
-\change_unchanged
-research designs aimed at uncovering causal effects.
- 
-\change_deleted -1412874244 1512752264
-This is because online conversations are not directly under the control
- of firms, which makes A/B tests or similar style of methodologies more
- difficult to implement.
+We also note that the academic literature on online conversations is small,
+ at least in terms of studies that use research designs aimed at uncovering
+ causal effects.
  
 \change_inserted -1412874244 1512752268
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512752341
 SS: I removed this sentence b/c it is about conversation being studies less
  than reviews.
  But the point about lack of control does apply to both areas of WOM.
  So I think this sentence is not appropriate at this point in the text.
  
+\change_inserted 2105412453 1512921449
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512921452
+SY: OK.
 \change_unchanged
 
 \end_layout
@@ -3352,50 +3670,33 @@ key "you_et_al_2010"
  documents a much larger average elasticity of online WOM of 0.2.
  However, many of the previous studies using observational data of online
  WOM and demand are often subject to the measurement challenges described
- in Section XX, and 
-\change_deleted -1412874244 1512752446
-in our opinion 
-\change_unchanged
-are 
-\change_inserted -1412874244 1512752454
-therefore 
-\change_unchanged
-likely to overstate the true effect size.
- 
-\change_deleted -1412874244 1512752471
-The paper by 
-\change_unchanged
+ in Section 
+\change_deleted 2105412453 1512928078
+XX
+\change_inserted 2105412453 1512928078
 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec: measurement challenges"
+
+\end_inset
+
+
+\change_unchanged
+, and are therefore likely to overstate the true effect size.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "lovett_staelin"
 
 \end_inset
 
-
-\change_deleted -1412874244 1512752493
-, although not rely on experimental data, 
-\change_inserted -1412874244 1512752495
- 
-\change_unchanged
-also find
-\change_deleted -1412874244 1512752489
-s
-\change_unchanged
- online social media and WOM have a positive impact on TV viewership with
- a moderate effect size of 0.04
-\change_deleted -1412874244 1512752504
-, less effective than advertising
-\change_unchanged
-.
+ also find online social media and WOM have a positive impact on TV viewership
+ with a moderate effect size of 0.04.
 \end_layout
 
 \begin_layout Standard
-In a related paper
-\change_inserted 2105412453 1512352382
-,
-\change_unchanged
- 
+In a related paper, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "gong_et_al_2015"
@@ -3422,37 +3723,8 @@ We note that in the US, hiring influential users to promote a firm's products
 
 \end_inset
 
- They 
-\change_deleted -1412874244 1512752543
-demonstrate
-\change_inserted -1412874244 1512752543
-find
-\change_unchanged
- that 
-\change_deleted -1412874244 1512752550
-the amount of
-\change_inserted -1412874244 1512752552
-an influential
-\change_unchanged
- 
-\change_inserted -1412874244 1512752802
-user's 
-\change_unchanged
-retweet
-\change_deleted -1412874244 1512752570
-s can
-\change_unchanged
- boost
-\change_inserted -1412874244 1512752573
-s
-\change_unchanged
- viewership (demand)
-\change_inserted -1412874244 1512752583
+ They find that an influential user's retweet boosts viewership (demand)
  by 33%.
-\change_deleted -1412874244 1512752594
-, though the paper does not explicitly calibrate the elasticity.
-
-\change_unchanged
  This effect is large in magnitude and (although not directly comparable)
  is contrary to the modest effect size found in 
 \begin_inset CommandInset citation
@@ -3480,8 +3752,6 @@ SS: have to be careful here, it is basically only based on our paper.
  statement below.
  I don't remember the magnitude of the re-tweet condition, but I think it
  was large too.
-
-\change_inserted 2105412453 1511999056
  SY: Do you think the qualification that 
 \begin_inset Quotes eld
 \end_inset
@@ -3492,24 +3762,16 @@ they do not compute the elasticity
 
  is sufficient? We really don't have any papers other than ours on this
  subject.
-\change_inserted -1412874244 1512096770
-
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512096771
 SS: what is the effect size, I remember it being large.
  We should report it here, seems dishonest not to.
  We can say impact magnitude is ambiguous.
  It is a bit of a special type of WOM though as it is an influential re-tweet.
-\change_inserted 2105412453 1512354321
-
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted 2105412453 1512354593
 SY: See, http://jjzhang.scripts.mit.edu/docs/Gong_Zhang_Zhao_Jiang_2017.pdf,
  the effect size is not calculated in the elasticity sense.
  It is a binary treatment.
@@ -3517,25 +3779,10 @@ SY: See, http://jjzhang.scripts.mit.edu/docs/Gong_Zhang_Zhao_Jiang_2017.pdf,
  It is large, but as you also pointed out, I don't think we can compare
  it against the elasticity.
  
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_inserted -1412874244 1512096536
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -1412874244 1512752642
-Although the studies on this topic are sparse, recent research offers insights
- that online conversations do have a moderate positive impact on demand,
- and the effectiveness is slightly less or comparable to advertising.
- 
-\change_unchanged
 
 \end_layout
 
@@ -3593,6 +3840,16 @@ SS: two more points on this section:
 SS: generally, I did not edit this yet as I felt there is a bit more work
  to be done in terms of integrating more papers and re-writing a bit.
  I am happy to take a stab after that has happened.
+\change_inserted 2105412453 1512928611
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1512928652
+SY: OK.
+ I use bold to indicate new edits.
+ Please change back to regular fonts when you accept changes.
 \change_unchanged
 
 \end_layout
@@ -3617,16 +3874,21 @@ sional.
  Therefore, to study online conversations, it requires the same pre-processing
  steps as reviews, which convert text into a small set of variables of interest
  for analysis.
- One of the most commonly studied dimension is the sentiment expressed in
- the conversations.
+ 
 \change_unchanged
 
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 2105412453 1512361908
-For sentiment embedded in the content of conversations, 
+\change_inserted 2105412453 1512931617
+
+\series bold
+One of the most commonly studied dimension is the sentiment expressed in
+ the conversations.
+
+\series default
+ For sentiment embedded in the content of conversations, 
 \change_deleted 2105412453 1512361910
 W
 \change_inserted 2105412453 1512361910
@@ -3634,7 +3896,7 @@ w
 \change_unchanged
 e may expect positive sentiment can boost demand and negative sentiment
  dimishes demand
-\change_inserted 2105412453 1512361919
+\change_inserted 2105412453 1512928721
 .
  For example, 
 \begin_inset CommandInset citation
@@ -3645,18 +3907,22 @@ key "sonnier_et_al2011"
 
  find that WOM with positive sentiment enhance sales, and negative WOM reduce
  sales.
- For neutral conversations, they also have a positive effect, potentially
+ For neutral conversations, the authors also note a positive effect, potentially
  because they increase the overall volume of conversations.
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 2105412453 1512362745
+\change_inserted 2105412453 1512932952
 However, analyzing sentiment in conversations faces the same identification
  challenge where plausibly exogenous variations in field data are rare.
  Accordingly, causal interpreations of the effect of sentiment on demand
  are often difficult.
- In
+ 
+\series bold
+As an preliminary attempt, 
+\series default
+in
 \change_unchanged
  
 \begin_inset CommandInset citation
@@ -3666,19 +3932,28 @@ key "Seiler_et_al_2017"
 \end_inset
 
 
-\change_inserted 2105412453 1512365152
-, the authors are able to explore the exogenous variation in sentiment of
- conversations to study its impact on demand.
+\change_inserted 2105412453 1512933818
+, the authors try to explore the variation in sentiment of conversations
+ to study its impact on demand.
  In their context, the shut-down of the microblogging platform reduced the
  volume of all conversations, including both negative and positive ones.
- Acorss all products (TV shows) contained their data, however, there is
- considerable heterogeneity in the sentiment of each product before or after
- the shut-down.
+ 
+\series bold
+As a result, the data limit the authors' ability to explore the more preferable
+ variation in sentiment over time within the same product (TV show) to show
+ the impact on demand.
+ Nevertheless
+\series default
+, there is considerable heterogeneity in the sentiment across products.
  Some products in general had more positive conversations, while others
  on average had more negative ones.
- The authors find that, for both shows with more negative conversations
- and those with more positive conversations, when the volume of conversations
- dropped due to the shut-down, they experienced lower demand.
+ 
+\series bold
+Relying on such variation of sentiment across products the 
+\series default
+authors find that, for both shows with more negative conversations and those
+ with more positive conversations, when the volume of conversations dropped
+ due to the shut-down, they experienced lower demand.
  In other words, conversations with either negative or positive sentiment
  have the same directional effect on demand – less conversations reduce
  demand, more conversations increase demand.
@@ -3688,7 +3963,7 @@ key "Seiler_et_al_2017"
  mechanisms through which conversations may affect demand, which we will
  further elaborate below.
  
-\change_inserted 2105412453 1512364862
+\change_inserted 2105412453 1512933388
 In particular, in the case of online conversations, consumption and conversation
 s may be complement to each other.
  Namely when a consumer may participate in conversations about the product,
@@ -3699,6 +3974,43 @@ s may be complement to each other.
  Instead, when complementarity is the key channel, both types of sentiment
  may enhance demand, because they may simply be the indicator of a heated
  or even controversial debate among enthusiastic consumers.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 2105412453 1512934177
+
+\series bold
+A second dimension of text is the informative content embedded in the conversati
+ons.
+ One potential channel for conversations affecting demand is by providing
+ information about the product and hence affecting consumers' consumption
+ decision.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "gong_et_al_2015"
+
+\end_inset
+
+ analyze the content of influential users' retweets.
+ They find that when the retweets contain information about the TV shows
+ such as the show time and channel, the impact on increasing viewership
+ is larger than non-informative retweets.
+ We note, however, the informative function of conversations may well depend
+ on the credibility of content creator.
+ For average consumers instead of influential ones, the information in their
+ conversations may have less effect.
+ In particular, in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Seiler_et_al_2017"
+
+\end_inset
+
+, when the authors focus on the informative conversations before a show
+ starts, they do not find any significant effect on the show's viewership.
+ We will discuss such moderators of the effect next.
 \change_unchanged
 
 \end_layout
@@ -3744,59 +4056,27 @@ type of product
 \begin_layout Standard
 Next, we discuss the potential moderators of the impact of online conversations
  on demand.
- We explore whether the 
-\change_deleted 2105412453 1512366334
-type
-\change_inserted 2105412453 1512366917
-quality uncertainty pertaining to
-\change_deleted 2105412453 1512366339
- of
-\change_inserted 2105412453 1512366341
- the
-\change_unchanged
- product being talked about, 
-\change_deleted 2105412453 1512366369
-the platform the conversation takes places on, 
-\change_inserted 2105412453 1512366374
-
+ We explore whether the quality uncertainty pertaining to the product being
+ talked about, 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted 2105412453 1512366412
 I am not aware of any worthy research on platform comparisons about conversation
 s.
- There are some in the review domain.
-\change_inserted -1412874244 1512753108
-SS: ok, let's drop this.
-\change_unchanged
-
+ There are some in the review domain.SS: ok, let's drop this.
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 characteristics of the consumers engaged in the conversation
 \change_inserted 2105412453 1512366424
 ,
 \change_unchanged
  and the timing of the conversation leads to a differential impact of conversati
 ons on demand.
- We analyzed similar moderators, namely the 
-\change_deleted 2105412453 1512366645
-role of
-\change_inserted 2105412453 1512366645
-uncertainty pertaining to the
-\change_unchanged
- product
-\change_deleted 2105412453 1512366667
- characteristics and the platform of delivery in the context of review
-\change_inserted -1412874244 1512753196
- in the context of reviews
-\change_unchanged
-.
+ We analyzed similar moderators, namely the uncertainty pertaining to the
+ product in the context of reviews.
  The characteristics of the consumer engaged in the conversation is likely
  to be more important as consumers are likely to process the average rating
  and total number of reviews without analyzing the identities of the users
@@ -3848,51 +4128,15 @@ SY: OK.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512753310
 To organize the discussion of moderators in the context on online conversations,
  we first present a simple conceptual framework for the possible channels
  through which conversations can influence demand.
- 
-\change_deleted -1412874244 1512753321
-Before discussing the moderators, it may be constructive for the discussion
- to first consider  three channels through which online conversations may
- affect consumers' decisions and consequently the overall demand.
- 
-\change_inserted -1412874244 1512753346
-We consider, 
-\change_deleted -1412874244 1512753349
-The 
-\change_unchanged
-three 
-\change_inserted -1412874244 1512753355
-broad channels
-\change_deleted -1412874244 1512753365
-channels are
-\change_inserted -1412874244 1512753367
-, namely
-\change_deleted -1412874244 1512753368
-,
-\change_unchanged
- informati
-\change_inserted -1412874244 1512753371
-ve effects
-\change_deleted -1412874244 1512753369
-on
-\change_unchanged
-, persuasion, and complementarity
-\change_inserted -1412874244 1512753387
- between product consumption and online conversations
-\change_unchanged
-.
-\change_inserted -1412874244 1512753489
-
+ We consider, three broad channels, namely informative effects, persuasion,
+ and complementarity between product consumption and online conversations.
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512753506
 This taxonomy is based on 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -3901,51 +4145,23 @@ key "Bagwell_2007"
 \end_inset
 
 .
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  Informative effects can arise when online conversations among customers
  generate or disseminate product/brand information that resolves uncertainty
  about the product, enhances the awareness, or purely remind customers about
  the product.
- Persuasive effects may enhance customers' preference towards the product
-\change_deleted -1412874244 1512753417
-, even 
-\change_unchanged
-without delivering information.
- 
-\change_deleted -1412874244 1512753434
-We should note that these two channels are often intertwined and difficult
- to distinguish in practice.
- 
-\change_unchanged
-Lastly, complementarity between online conversations and product consumption
+ Persuasive effects may enhance customers' preference towards the productwithout
+ delivering information.
+ Lastly, complementarity between online conversations and product consumption
  may happen when customers derive a higher utility from the product consumption
  if they can participate in the online conversations with others who share
  the same interest in the product.
  For example, people may enjoy watching a sports event more when they participar
 t in online discussions about the event with others.
  
-\change_deleted -1412874244 1512753515
-These conceptual framework of the three channels was initially proposed
- by 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Bagwell_2007"
-
-\end_inset
-
- for analyzing advertising's impact.
- Although online conversations differ from advertising, the framework may
- be generalized to any kind of information provision, also including online
- conversations.
-\change_inserted 2105412453 1512365492
-
 \end_layout
 
 \begin_layout Standard
@@ -3965,14 +4181,15 @@ key "moretti_2011"
  evaluates how customers obtain information about the quality of movies
  from peers before making their decisions.
  Such quality information derived from conversations directly affects consequent
- sales of the 
-\change_deleted -1412874244 1512753741
-produt
-\change_inserted -1412874244 1512753741
-product
+ sales of the product.
+ 
+\change_inserted 2105412453 1512934776
+In particular, the quality information has a strong effect for those movies
+ for which people have little prior knowledge, and less effect on movies
+ for which consumers have more information beforehand.
+ 
 \change_unchanged
-.
- In this paper, however, we should note that the data do not have direct
+In this paper, however, we should note that the data do not have direct
  measurement of online conversations, and the conversations can happen both
  online and offline.
  
@@ -3985,6 +4202,8 @@ status open
 
 \change_inserted -1412874244 1512753761
 SS: what is the specific test for informative effect here?
+\change_inserted 2105412453 1512934793
+ SY: Is this explanation clear enough?
 \change_unchanged
 
 \end_layout
@@ -4042,39 +4261,23 @@ key "gong_et_al_2015"
 
 \begin_layout Standard
 A third moderator is the timing of the conversations.
+ Both the exposure to conversations prior to a purchase as well as the ability
+ to engage in conversations after the purchase can in principle affect demand.
+
+\change_deleted 2105412453 1512934943
  
-\change_deleted -1412874244 1512753962
-In the case of reviews, the exposure to reviews before the consumption may
- affect a consumer's decision.
- For conversations, it may happen both before and after the consumption
-\change_inserted -1412874244 1512753966
-Both the exposure to conversations prior to a purchase as well as the ability
- to engage in conversations after the purchase can in principle affect demand
 \change_unchanged
-.
- 
-\change_deleted -1412874244 1512753982
-We note that recent studies
-\change_inserted -1412874244 1512753855
- 
+
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512753870
 SS: is the plural correct here ;)? It's really just our paper, right?
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  
-\change_inserted -1412874244 1512754214
-
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Seiler_et_al_2017"
@@ -4082,230 +4285,136 @@ key "Seiler_et_al_2017"
 \end_inset
 
  study the impact of conversations before or after consumption in the context
- of TV shows and 
-\change_unchanged
-find that 
-\change_deleted -1412874244 1512754217
-even 
-\change_unchanged
-the 
-\change_deleted -1412874244 1512754031
-conversations after the consumption (more precisely, the 
-\change_unchanged
-anticipation of the post-consumption conversations
-\change_deleted -1412874244 1512754033
-)
-\change_unchanged
-, 
-\change_deleted -1412874244 1512754036
-may
-\change_inserted -1412874244 1512754238
-has a positive impact on demand.
+ of TV shows and find that the anticipation of the post-consumption conversation
+s, has a positive impact on demand.
  Instead, conversations prior to the show airing do not impact viewership
  of the show.
-
-\change_deleted -1412874244 1512754061
- affect a consumer's consumption decision.
-
-\change_unchanged
+ The authors interpret this findings as evidence forcomplementarity between
+ conversations and product consumption (the third channel of influence described
+ above), because informative or persuasive effects would both entail an
+ impact of pre-show conversations on demand.
  
-\change_deleted -1412874244 1512754248
-This finding is directly
-\change_inserted -1412874244 1512754259
-The authors interpret this findings as evidence for 
-\change_deleted -1412874244 1512754266
- linked to the third channel through which conversations affect demand,
- the 
-\change_unchanged
-complementarity between conversations and product consumption
-\change_inserted -1412874244 1512754844
- (the third channel of influence described above), because informative or
- persuasive effects would both entail an impact of pre-show conversations
- on demand
-\change_unchanged
-.
- 
-\change_inserted -1412874244 1512754520
-
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512754536
 SS: I am actually not quite sure what the main point of the next few sentence
  is ...
+
+\change_inserted 2105412453 1512935237
+ OK now? I don't have a strong feeling about the next a few sentences.
+ So feel free to delete as you see fit.
 \change_unchanged
 
 \end_layout
 
 \end_inset
 
-
+In particular, 
+\change_inserted 2105412453 1512935148
+the post-consumption conversations may be more crucial 
 \change_unchanged
-In particular, for some products, the uncertainty regarding quality or value
- cannot be resolved even after the consumption.
- Such products are termed as credence products.
+for some products
+\change_deleted 2105412453 1512935106
+,
+\change_inserted 2105412453 1512935106
+ whose
+\change_unchanged
+ 
+\change_deleted 2105412453 1512935121
+the uncertainty regarding 
+\change_unchanged
+quality or value 
+\change_inserted 2105412453 1512935130
+remains uncertain 
+\change_deleted 2105412453 1512935133
+cannot be resolved 
+\change_unchanged
+even after the consumption
+\change_deleted 2105412453 1512935050
+.
+ 
+\change_inserted 2105412453 1512935051
+ (
+\change_deleted 2105412453 1512935052
+S
+\change_inserted 2105412453 1512935052
+s
+\change_unchanged
+uch products are termed as credence products
+\change_inserted 2105412453 1512935056
+)
+\change_unchanged
+.
  Automobile repairs, medical procedures, and dietary supplements are good
  examples of such products.
  There are also some products, whose values/quality are fairly subjective,
  for example, a TV show, a movie, or a concert.
- In this case, because the values/quality are difficult to assess, both
- before and after the consumption, the post-consumption conversations may
- become an important complement to the consumption.
+ In this case, because the values/quality are difficult to assess
+\change_deleted 2105412453 1512935193
+, both before and
+\change_inserted 2105412453 1512935194
+ even
+\change_unchanged
+ after the consumption, the post-consumption conversations may become an
+ important complement to the consumption
+\change_inserted 2105412453 1512935205
+ itself
+\change_unchanged
+.
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted -1412874244 1512754592
-In the context of advertising, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "becker_murphy1993"
-
-\end_inset
-
- first propose the complementarity between consumption and ads.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-In a recent study by 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "tuchman_et_al_2015"
-
-\end_inset
-
-, the authors empirically show such a relationship between product consumption
- and ads watching.
- 
-\end_layout
-
-\end_inset
-
- In the context of online conversations, this complementarity mechanism,
- hence the timing of the conversations, is potentially more important because
- the participation in conversations about the product is arguably a more
- proactive and conscious decision than watching an ad.
- Recently, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "gilchrist_sands_jpe"
-
-\end_inset
-
- shows the complementarity effect of conversations on increasing movie box
- office sales, namely the potiential to communicate with peers about a movie,
- either before or after watching the movie, will encourage consumers to
- go to the theatre.
- Though in their paper, the conversations can happen both online and offline.
- 
-\change_inserted -1412874244 1512754596
-
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512754626
 SS: Gilchrist is not online conversations, so not sure we should put it
  here.
  I also felt explaining the Becker model in more detail was not warranted
  here.
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted -1412874244 1512754857
-In the online conversation setting, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Seiler_et_al_2017"
-
-\end_inset
-
- demonstrate that post-consumption conversations are crucial in affecting
- demand, precisely because of the existence of such complementarity effects.
- Using TV viewership (demand) and online microblogging data, the authors
- delve into the timing of the online conversations to the airing of TV shows.
- They show that more conversations 
-\emph on
-after
-\emph default
- a show's airing significantly increase the viewership.
- Intuitively, this finding implies that online conversations have functioned
- through the complementarity channel because, for informative and persuasive
- channels to work, the conversations have to happen 
-\emph on
-before
-\emph default
- the broadcasting of the shows.
- Complementarity channel, on the contrary, may affect one's decision both
- before and 
-\emph on
-after
-\emph default
- the consumption.
- This is because both the pre-show and post-show conversations can be complement
-s to the consumption itself.
- In particular, before the show's airing, the anticipation of post-show
- conversations with others may well affect one's consumption decision.
-\change_inserted -1412874244 1512754858
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -1412874244 1512754861
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512754881
 SS: this seemed a little lengthy, I tried to weave our paper into the initial
  paragraph on timing.
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
 \begin_layout Subsection
 
-\change_deleted 2105412453 1512365431
+\change_deleted 2105412453 1512935284
 Moderators of the
 \emph on
  
 \emph default
 relationship between online conversations and demand 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 2105412453 1512935284
 Research on the relationship between online conversations and demand is
  still relatively sparse, in comparison to the research on online reviews.
  Most of the studies so far focus on the magnitude of the effect size and
  potential mechanisms.
  Below, we want to propose a few potential moderators of the relationship.
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -4331,7 +4440,7 @@ The first potential moderator is consumers' uncertainty about the product's
  the conversations, where the value/quality of the product becomes less
  critical.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -4382,342 +4491,6 @@ key "IVV_2011"
  We conjecture that such patterns may be applied to the current context
  as well, where the online posts by influentials can be crucial in affecting
  others' consumption.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512099659
-SS: can link this influential re-tweet condition in Gong et al.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Section
-
-\change_deleted 2105412453 1512322470
-How can Firms Influence WOM Generation? 
-\end_layout
-
-\begin_layout Subsection
-
-\change_deleted 2105412453 1512322470
-Online Reviews
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512322470
-GZ: Adding some ideas here to be written up later.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512322470
-Fake reviews is one way to influence things eg see 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "mayzlin2014promotional,luca2016fake"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512322470
-Responding to reviews is another way to participate and influence things,
- e.g., see 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "proserpio2017online"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
-
-\change_deleted 2105412453 1512322470
-Online Conversations
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512322470
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: It would be good to have some organizing principle here.
- It feels like a fairly disconnected list of topics: I.e.
- what tools do firms in principle have at their disposition to influence
- WOM.
- I think there is an entire literature that thinks about such issues, such
- as 
-\begin_inset Quotes eld
-\end_inset
-
-seeding
-\begin_inset Quotes erd
-\end_inset
-
- WOM campaigns.
- If we want to tackle this topic, I think you would have to read up on that
- literature.
- Some of the stuff below also seems to relate only indirectly to how firms
- can influence WOM.
- For instance which products are talked about more often seems less related
- to influencing WOM (unless one things of only releasing products that will
- garner WOM).
- The same is true for message fit, what exactly does this imply for firms'
- WOM strategy? In any case, some kind of general structure is needed for
- this paragraph to make sense.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512322470
-Having established that online conversations, especially the volume, may
- affect demand, it is tricky in understanding what actually drives the volume.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-The sentiment of conversations may be much more difficult to control, and
- manipulating the sentiment potentially has some legal and ethical implications.
- Furthermore, when the complementarity channel is at work, even conversations
- with negative sentiment can increase demand (see Section XXX).
- We will mainly focus on the discussion on 
-\begin_inset Quotes eld
-\end_inset
-
-volume.
-\begin_inset Quotes erd
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
- For example, what types of content are more likely be shared among users
- in their conversations, and what types of individuals on social media platforms
- are more likely to share or forward content?
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512322470
-A number of studies have investigated how content of online conversations
- may affect the spread and hence enhance the overall volume of online conversati
-ons.
- For example, through a series of studies, Berger and coauthors evaluate
- what content and products are more likely to be discussed on social network.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "berger2011"
-
-\end_inset
-
- and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "berger_milkman"
-
-\end_inset
-
- suggest content or products that result in certain emotions (e.g., anxiety
- or amusement) are more likely to lead to more social sharing and online
- conversations.
- Such emotions are often associated with high level of awareness, alert,
- or attention of customers.
- In contrast, some other emotions, such as sadness, are less likely to lead
- to more social sharing and online conversations.
- In another study, using both field experiments and lab experiments, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "berger_schwartz"
-
-\end_inset
-
- show that, on one hand, interesting products may generate more immediate
- conversations, but the attention may diminish soon.
- In the long run, these products receive less ongoing discussion over time.
- On the other hand, products that are more publicly visible enjoy a more
- sustainable WOM trend among customers.
- Using twitter data, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "zhang_2017"
-
-\end_inset
-
- further highlight the importance of fit between message content and the
- interest of the user.
- When the content of a message fits a user's interest, which is identified
- using the user's past tweets, the message is more often rebroadcasted by
- the user.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512322470
-Another stream of research consider the question of how to identify the
- types of users who are more crucial in driving the volume of online conversatio
-ns.
- For example, since the seminal work by 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Katz_Lazarsfeld_1955"
-
-\end_inset
-
-, there are abundant studies that emphasize the importance of influential
- users' impact on others in the network (e.g., 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "harikesh_2010"
-
-\end_inset
-
-, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "IVV_2011"
-
-\end_inset
-
-).
- It is intuitive to generalize the argument that on social media platforms
- influential users may affect the broadcasting decisions of others in their
- network.
- As a result, some studies that focus on identifying the influential users
- and users' susceptibility to influence from others (e.g., 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "trusov_influential_users"
-
-\end_inset
-
-, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "zhang_2017"
-
-\end_inset
-
-).
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-We should note that, as 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "watts_dodds"
-
-\end_inset
-
- argue, whether influential individuals are more crucial in online WOM is
- still debatable – A large cluster of easily influenced individuals may
- be more important than influential users.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: the paragraph below seems to be more about inference, we should move
- this somewhere else as it does not connect well with the rest of the section.
-
-\change_inserted 2105412453 1512013792
- SY: After some thoughts, I've decided to drop the discuss below.
- I agree that it reads disconnected.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512013749
-One problematic approach is to directly gauge which types or groups of customers
- have more activities on social media.
- As discussed in Section XX, such an approach can be biased and often overestima
-te the roles of certain groups of customers in enhancing online conversations.
- For example, suppose a firm released a new product and subsequently observed
- there was a large uptick in online conversations originated from some certain
- geographic areas.
- It happened to be the case that, due to limited inventory, the product
- was only initially rolled out in those areas.
- It would be erroneous to draw the inference that customers in those areas
- were more crucial in driving online conversations about the product.
- To avoid such incorrect conclusions, many studies rely on exogenous variations
- in data to derive inference.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "aral_walker"
-
-\end_inset
-
-, for example, use a large scale of field experiment on Facebook to investigate
- which types of customers are more likely to influence or be influenced
- on a social network.
- They randomly choose recipients out of a representative sample of 1.3 million
- Facebook users to receive messages from their friends about a product.
- They then monitor the adoption behavior of these users as well as collect
- demographic information of these users and of those from whom they receive
- the messages.
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-While the exact key performance indicator (KPI) or outcome variable in this
- study is the adoption of a product instead of the increase in conversation
- volume, the product can be easily conceptualized as online conversation
- such as a tweet.
- Correspondingly, the adoption of the product is the rebroadcasting of the
- tweet.
- 
-\end_layout
-
-\end_inset
-
- They find that older users are less susceptible than their younger counterparts
-, women are less influential than men, but can influence men more than they
- do on other women, and married individuals are the least likely to be influence
-d.
- Interestingly, influential users are less susceptible than non-influential
- users and they are more likely to cluster together in the network.
- This finding suggests that the spread of products or message in a network
- may crucially depend on influential people with influential friends.
 \change_unchanged
 
 \end_layout
@@ -4765,37 +4538,6 @@ SY: I agree it is weak at the mechanism.
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted 2105412453 1512007615
-As another example that follow a similar strategy to avoid biased inference,
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "lambrecht_trend_twitter"
-
-\end_inset
-
- use field experiments on Twitter to study whether early trend propagators
- are more likely to spread words about firms and products.
- To be specific, they collaborate with two companies who post content (ads)
- on Twitter.
- Using user past activities on Twitter, they identify users who share early
- trendy topics on Twitter more often, i.e., early trend propagators.
- They randomly target the content at those early trend propagators and those
- who only embrace trends later.
- Next, they monitor the users to see who are more likely to tweet or retweet
- the content.
- While the conventional wisdom suggests that the early trend propagators
- should be more likely to disseminate the content, they do not find such
- evidence in the data.
- In fact, they find exactly the opposite where consumers who are not early
- trend propagators are more likely to tweet or retweet the content.
- 
-\change_unchanged
 
 \end_layout
 
