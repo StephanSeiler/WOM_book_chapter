@@ -93,7 +93,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -2207,7 +2207,7 @@ The most common way in which reputation systems aggregate the plethora of
  information they collect is to compute an average rating for each business
  or product.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 An average rating is simply the 
@@ -2766,6 +2766,17 @@ GZ: are we interested in a review provenance section? For now, I left a
  half baked section in there...
  my guess is we do not need more content but if you want me to add it, I
  can.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 2105412453 1513121070
+SY: I don't find the section necessary.
+ Even if we want it, a better place is probably in the moderator section.
+\change_inserted 5864038 1513100131
+
 \end_layout
 
 \end_inset
