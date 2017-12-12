@@ -100,6 +100,7 @@
 \html_be_strict false
 \author -1412874244 "sseiler"
 \author -503570337 "v-gizerv"
+\author 5864038 "zg"
 \author 2105412453 "Song Yao"
 \end_header
 
@@ -210,6 +211,71 @@ I cannot find any stats about the number of FB posts.
 Monthly active user as of Q3 2017: 2.07B, 16% YoY growth (source: FB's financial
  report, http://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/06205619-7ced-42ed-b8
 c8-4621b5a121e9.pdf)
+\change_inserted 5864038 1513098265
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098266
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098294
+TripAdvisor:
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098324
+570m reviews, 455m monthly uniques, 7m hotels/restos/attractions reviewed
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098325
+https://tripadvisor.mediaroom.com/
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098339
+Yelp:
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098340
+https://www.yelp.com/factsheet
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098359
+Average monthly desktop unique visitors; 84m
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098369
+Average monthly mobile web unique visitors: 74m
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098377
+Average monthly mobile app unique users: 30m
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513098390
+142m reviews
 \end_layout
 
 \end_inset
@@ -879,14 +945,14 @@ to
 \end_layout
 
 \begin_layout Subsubsection*
-Absolute bias and differential bias across marketing channels
-\change_inserted -1412874244 1512683499
 
+\change_deleted 5864038 1513097587
+Absolute bias and differential bias across marketing channels
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted -1412874244 1512683502
+\change_deleted 5864038 1513097587
 \begin_inset Note Note
 status open
 
@@ -913,14 +979,19 @@ SY: I sorta see what you mean.
 
 \end_layout
 
+\begin_layout Plain Layout
+GZ: Yes, let's drop.
+ I deleted it (which track changes on in case we want to undo)
+\end_layout
+
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 5864038 1513097587
 As we argued above, simple cross-sectional measurement of advertising and
  WOM effectiveness is likely to suffer from an upward bias, i.e.
  both types of marketing will tend to appear more effective than they actually
@@ -997,18 +1068,14 @@ key "Gordon_Hartmann_2013"
  
 \change_deleted -1412874244 1512609525
 have
-\change_inserted -1412874244 1512609526
-report
-\change_unchanged
- a similar finding.
+\change_deleted 5864038 1513097587
+report a similar finding.
  The 
 \change_deleted -1412874244 1512609462
 elasticity
-\change_inserted -1412874244 1512609490
+\change_deleted 5864038 1513097587
 impact of advertising decreases by about 50 percent when fixed effects are
  included.
-
-\change_unchanged
  
 \change_deleted -1412874244 1512609498
 estimates of advertising with a better control of fixed effects are around
@@ -1017,7 +1084,7 @@ estimates of advertising with a better control of fixed effects are around
 tripled
 \change_deleted -1412874244 1512609498
 doubled when some fixed effects are dropped.
-\change_inserted -1412874244 1512075180
+\change_deleted 5864038 1513097587
 
 \begin_inset Note Note
 status open
@@ -1078,11 +1145,11 @@ SS: I see, I changed the text a bit to make it simpler.
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 5864038 1513097587
 The set of papers on WOM is much smaller, especially with regards to causal
  research designs, however tentative evidence pointing to an upward bias
  also exists.
@@ -1130,6 +1197,8 @@ key "Liu_2006"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 5864038 1513097587
 An important point with regards to the decision of how to allocate dollars
  across different marketing channels is the fact that while both advertising
  and WOM elasticity are biased upwards, the magnitude of the bias is not
@@ -1145,6 +1214,8 @@ An important point with regards to the decision of how to allocate dollars
  It is however important to point out that there are few causal studies
  and hence our statement with regards to relative effectiveness should be
  taken with caution at this point.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1811,25 +1882,17 @@ example above, it is likely that the targeted advertising campaign not only
 
 \begin_layout Subsubsection*
 Regression Discontinuity
-\change_inserted -1412874244 1512686047
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512686050
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512686103
 SS: I re-wrote this section.
  I took parts of Song's earlier version, but found it easier to propose
  a new set of paragraphs rather than altering the existing ones.
  please have a look and feel free to further edit.
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -1838,22 +1901,12 @@ SS: I re-wrote this section.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512685746
 A final approach that can be useful to measure the impact of a specific
  type of WOM is a regression discontinuity (RD) approach.
  While this approach is more narrow in its application to the context of
- WOM, i
-\change_inserted 2105412453 1512882662
-t
-\change_deleted 2105412453 1512882662
-s
-\change_inserted -1412874244 1512685746
- does provide a broadly applicable approach to measuring the impact of review
- valence, i.e.
- the impact of a higher average review rating
-\change_inserted 2105412453 1512882826
- (e.g., 
+ WOM, it does provide a broadly applicable approach to measuring the impact
+ of review valence, i.e.
+ the impact of a higher average review rating (e.g., 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Luca_2016"
@@ -1874,25 +1927,18 @@ key "luca2013digitizing"
 
 \end_inset
 
-)
-\change_inserted -1412874244 1512685746
-.
+).
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512686215
 The approach is most easily explained by focusing on the particular application
  to review valence.
  A common way of presenting the average rating score of a particular product
  to users is through a star rating that is rounded to the nearest half star.
  Yelp (as well as many other platforms) present average ratings in this
  particular way.
- The rounding generates a discontinuous jump in the perceived rating
-\change_inserted 2105412453 1512882754
-,
-\change_inserted -1412874244 1512686215
- and two products with very similar underlying scores might take on different
+ The rounding generates a discontinuous jump in the perceived rating, and
+ two products with very similar underlying scores might take on different
  values on the half-star scale.
  For instance two products with average ratings of 4.24 and 4.26 will be presented
  as rating 4 and 4.5 star products, respectively.
@@ -1901,208 +1947,55 @@ The approach is most easily explained by focusing on the particular application
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512685572
 Note that this is different from comparing ALL products with say 4 versus
  4.5 stars.
  It is reasonable to believe that products with higher star ratings are
  systematically different along other dimensions that correlate with demand.
- Instead, 
-\change_inserted 2105412453 1512882881
-those 
-\change_inserted -1412874244 1512685572
-products near the 
-\change_inserted 2105412453 1512882890
-rounding 
-\change_inserted -1412874244 1512685572
-threshold are likely to be similar except for their 
-\change_inserted 2105412453 1512882903
-perceived 
-\change_inserted -1412874244 1512685572
-star ratings
-\change_inserted 2105412453 1512882923
-.
-
-\change_inserted -1412874244 1512685572
- 
-\change_deleted 2105412453 1512882927
-and h
-\change_inserted 2105412453 1512882927
-H
-\change_inserted -1412874244 1512685572
-ence the causal impact of the 
-\change_deleted 2105412453 1512882988
-latter
-\change_inserted 2105412453 1512882992
-star ratings
-\change_inserted -1412874244 1512685572
- can be obtained by comparing demand for products marginally above and marginall
-y below the 
-\change_inserted 2105412453 1512882999
-rounding 
-\change_inserted -1412874244 1512685572
-threshold.
+ Instead, those products near the rounding threshold are likely to be similar
+ except for their perceived star ratings.
+ Hence the causal impact of the star ratings can be obtained by comparing
+ demand for products marginally above and marginally below the rounding
+ threshold.
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512686319
 This approach leverages the specific institutional feature of rounded star
- ratings
-\change_deleted 2105412453 1512883083
- that many platform use.
- Hence it cannot be applied to setting where the average rating is presented
- without rounding.
- However, t
-\change_inserted 2105412453 1512883088
-.
- Because of t
-\change_inserted -1412874244 1512686319
-he 
-\change_deleted 2105412453 1512883123
-widespread
-\change_inserted 2105412453 1512883153
-ubiquitous
-\change_inserted -1412874244 1512686319
- usage of 
-\change_deleted 2105412453 1512883096
-the rounded
-\change_inserted 2105412453 1512883098
-rounding in
-\change_inserted -1412874244 1512686319
- star ratings 
-\change_deleted 2105412453 1512883163
-format
-\change_inserted 2105412453 1512883166
-across platforms, it
-\change_inserted -1412874244 1512686319
- does make the RD design a widely applicable approach
-\change_inserted 2105412453 1512883183
- when studying the valence of reviews
-\change_inserted -1412874244 1512686319
-.
+ ratings.
+ Because of the ubiquitous usage of rounding in star ratings across platforms,
+ it does make the RD design a widely applicable approach when studying the
+ valence of reviews.
  Importantly, any firm that sells multiple products through a platform that
  uses rounded rating scores can find the subset of products in their assortment
- that have ratings close
-\change_deleted 2105412453 1512883204
- to
-\change_inserted -1412874244 1512686319
- to the rounding cut-offs and implement 
-\change_deleted 2105412453 1512883213
-the
-\change_inserted 2105412453 1512883214
-this
-\change_inserted -1412874244 1512686319
- approach
-\change_deleted 2105412453 1512883216
- just outlined
-\change_inserted -1412874244 1512686319
-.
+ that have ratings close to the rounding cut-offs and implement this approach.
  
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512686346
 Contrary to natural experiments, RD thus provides a scale-able and broadly
  applicable approach to measuring WOM effectiveness.
  The approach is however limited in scope to the analysis of review valence
- and cannot be 
-\change_inserted 2105412453 1512883243
-easily 
-\change_inserted -1412874244 1512686346
-applied to study the impact of other aspects of WOM such as the number of
- reviews.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -1412874244 1512686043
-Regression discontinuity (RD) is another more readily available approach
- for firms to study the effect of online WOM on demand, in particular online
- reviews.
- This approach explores the discontinuity of some measures of WOM, or the
- discontinuity of some marketing measures that affect WOM.
- The cause of such discontinuity, however, are arguably uncorrelated with
- the variation of demand, hence providing convincing identification for
- the causal inference.
- 
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -1412874244 1512686043
-To facilitate an easier exposition, consider a classical example of online
- WOM, Yelp reviews of restaurants.
- As discussed above, directly regressing demand on the average ratings may
- not result in reliable causal inference.
- In this case, we may take advantage of an artificial fact of how Yelp presents
- the ratings to its users.
- The most common way of presenting these reviews to consumers is the average
- rating of a restaurant, which is a unweighted simple average across all
- ratings provided by consumers pertaining to the restaurant.
- When computing the average rating, Yelp (and many other platforms) rounds
- the result to the nearest half star (e.g., 4.0 or 4.5).
- Such a rounding method creates the discontinuity that is uncorrelated with
- demand.
- For example, a restaurant with an average rating of 4.24 and another one
- of 4.25 will be presented as rating 4.0 and 4.5, respectively.
- These two restaurants are arguably having similar quality due to the closeness
- of their actual average ratings (4.24 vs.
- 4.25).
- The artificial and much larger difference of 0.5 in ratings due to the rounding,
- however, may lead to variations in demand, which can be attributed to online
- WOM.
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -1412874244 1512686043
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Luca_2016,anderson_magruder_2012"
-
-\end_inset
-
- pioneered the use of RD to measure the causal effect of Yelp ratings on
- restaurant demand by exploiting the rounding feature.
- We discuss these two papers in detail in section XX.
-\change_unchanged
-
+ and cannot be easily applied to study the impact of other aspects of WOM
+ such as the number of reviews.
 \end_layout
 
 \begin_layout Subsection
-
-\change_deleted -1412874244 1512686120
-Example for Causal Inference
-\change_inserted -1412874244 1512686133
 Measurement Challenges and Solutions: Summary
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512686136
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512686146
 SS: Song, up to you to put a transition paragraph here!
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
 
-\change_inserted 2105412453 1512918667
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 2105412453 1512919379
 Although online WOM has become an essential component of the marketing mix,
  measuring its effectiveness on demand remains a challenging task.
  In most field data, demand and WOM may be inherently correlated because
@@ -2112,15 +2005,11 @@ Although online WOM has become an essential component of the marketing mix,
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted 2105412453 1512919731
 Three solutions that can be used to address the bias, namely natural experiments
 , A/B tests, and regression discontinuity (RD).
  In the following, we detail some studies that exemplify these methods.
  We organize the discussion below according to the two dominant types of
  online WOM, consumer reviews and online conversations.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Section
@@ -2137,7 +2026,7 @@ SS: my take on how to organize this paragraph:
  (NOTE (SS): I removed thing that are already addressed from this note!
  as of 12/7/2017)
 \change_unchanged
-
+ (GZ: me to as 12/12)
 \end_layout
 
 \begin_layout Plain Layout
@@ -2151,6 +2040,7 @@ SS: my take on how to organize this paragraph:
  provide something to benchmark them against).
  Comparing them across studies might be hard, but to the extent possible
  that would be nice.
+ GZ: Finding this hard to do
 \end_layout
 
 \begin_layout Plain Layout
@@ -2159,21 +2049,8 @@ SS: my take on how to organize this paragraph:
  when regressing demand on star rating, how would we go wrong.
  We can both look within papers at such comparisons (if they exists) and
  across causal versus correlational papers (this might be hard to do exhaustivel
-y and in a consistent manner)
-\end_layout
-
-\begin_layout Plain Layout
-3) Finally, have a separate section on moderators (currently this content
- is presented together with the discussion of main effects).
-\end_layout
-
-\begin_layout Plain Layout
-** a) It would be useful to organize this along dimensions that matter,
- i.e.
- which firms benefit most from reviews, in which markets/ on which platforms
- are they most effective, did they change over time, etc..
- Maybe a paragraph on each dimension that is relevant would be the most
- natural way to organize this section.
+y and in a consistent manner) GZ: Also finding this hard to do due to lack
+ of papers that compare estimates
 \end_layout
 
 \end_inset
@@ -2185,7 +2062,7 @@ y and in a consistent manner)
 
 \change_inserted 2105412453 1511995081
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 SY: We need a better connection between this section and the identification
@@ -2292,43 +2169,10 @@ ction algorithms to discard fake reviews.
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -1412874244 1512686541
-\begin_inset Note Note
-status open
-
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512503105
-SS: two things here:
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512503123
-* set up structure of this section, i.e.
- valence, volume, etc.
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512686986
-* say something about how papers were selected (representative of lit.).
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512687012
-I took a stab at both things below, obviously feel free to edit or discard
- ;)
-\change_unchanged
-
+GZ: I don't have a strong opinion.
+ It's an interesting but tangential fact.
+ Leaving it out for now.
 \end_layout
 
 \end_inset
@@ -2337,14 +2181,13 @@ I took a stab at both things below, obviously feel free to edit or discard
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512687132
 In the remainder of this section we discuss findings from the existing academic
  literature around three important aspects of consumer reviews: (1) review
- valence, (2) volume of reviews, and (3) content of reviews.
- Establishing a causal relationship between a particular aspect of reviews
- and demand is challenging in all three cases for the reasons outlined in
- Section 
+ valence, (2) review volume, (3) and review content.
+ We note that the literature on reviews is large and we do not cover it
+ exhaustively.
+ Where possible, we discuss papers that rely on causal inference methods
+ we outlined in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec: measurement challenges"
@@ -2352,54 +2195,7 @@ reference "subsec: measurement challenges"
 \end_inset
 
 .
- Therefore, 
-\change_deleted 2105412453 1512919907
-the
-\change_inserted 2105412453 1512919908
-many
-\change_inserted -1412874244 1512687132
- papers we cite below are 
-\change_deleted 2105412453 1512919944
-all 
-\change_inserted -1412874244 1512687132
-characterized by the type of methods for causal inference discussed above
-\change_inserted 2105412453 1512919917
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 2105412453 1512920998
-I feel some of the papers do not fall into the 3 methods.
- So instead of using 
-\begin_inset Quotes eld
-\end_inset
-
-all
-\begin_inset Quotes erd
-\end_inset
-
-, I modified it a bit.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_inserted -1412874244 1512687132
-.
- In a few specific cases, researchers were able to study WOM impact directly
- through A/B tests.
- We also note that the literature on reviews is large and we are not able
- to exhaustively cover all relevant papers.
- Our discussion therefore focuses on papers that emphasize an empirical
- strategy that convincingly recovers a causal effect.
- Furthermore, we showcase specific papers that are broadly representative
- for the broader literature regarding each specific aspect of consumer reviews.
-\change_unchanged
-
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -2525,38 +2321,6 @@ key "jin2006price"
  different eBay product categories are broadly consistent: highly-rated
  sellers attract more bidders in their auctions, fetch higher prices, and
  sell their items with higher probability.
- 
-\change_deleted -1412874244 1512687183
-Interestingly, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "jin2006price"
-
-\end_inset
-
- show that the while high-rated sellers can charge a premium, this is not
- because they sell higher quality products.
-\change_inserted -1412874244 1512687187
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512687236
-SS: maybe I am nit-picking here.
- But if high rated sellers did offer better products, then this wouldn't
- really be a causal effect of the rating, right? So I feel this statement
- is implied in saying the rating effect is causal.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -2587,27 +2351,14 @@ key "anderson_magruder_2012"
  estimate the impact of average ratings on restaurant demand and respectively
  find that a one-star increase in ratings causes a 5% increase in revenue
  and a 50% increase in the probability of being sold out.
- To demonstrate causality, both of these studies rely on 
-\change_deleted -1412874244 1512687254
-a clever regression discontinuity (RD)
-\change_inserted -1412874244 1512687255
-the RD
-\change_unchanged
- design 
-\change_deleted -1412874244 1512687265
-that exploits the fact that Yelp rounds average ratings to the nearest half-star
-: a business with a 4.24 average is rounded down to 4 stars, while a business
- with a nearly identical rating of 4.25 stars is up to 4.5 stars
-\change_inserted -1412874244 1512687316
-described at the end of Section 
+ To demonstrate causality, both of these studies rely on the RD design described
+ at the end of Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec: correctly measuring"
 
 \end_inset
 
-
-\change_unchanged
 .
  Using the same RD strategy 
 \begin_inset CommandInset citation
@@ -2619,6 +2370,32 @@ key "luca2013digitizing"
  study ZocDoc, a platform that allows consumers to rate doctors and make
  appointments with them, and find that a half-star increase in ratings is
  associated with 10% increase that an appointment will be filled.
+\end_layout
+
+\begin_layout Standard
+More recently, reviews and ratings have become important components of peer-to-p
+eer markets like Airbnb and Uber.
+ These markets connect consumers with individual suppliers, most of whom
+ have no outside reputation.
+ To inform consumers about the quality of suppliers, peer-to-peer markers
+ rely on reviews.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "proserpio2016you"
+
+\end_inset
+
+ estimate the impact of Airbnb ratings on Airbnb properties using a natural
+ experiment: the average rating of each Airbnb property is only disclosed
+ to consumers once the property has accumulated three reviews.
+ These disclosures can be thought of as a collection of natural experiments
+ – one for each Airbnb property reaching three reviews.
+ These disclosures can be used to estimate a causal effect under the assumption
+ that the arrival of the third review is unpredictable, and thus uncorrelated
+ with unobserved variation in demand.
+ The study finds that the disclosure of a perfect 5-star rating raises prices
+ by approximately 2%.
 \end_layout
 
 \begin_layout Standard
@@ -2636,10 +2413,6 @@ key "sun2012variance"
  However, most display histograms of reviews counts broken down by rating.
  By looking at these histograms of ratings consumers can infer their variance.
  
-\change_deleted -1412874244 1512687351
-Motivated by a theoretical model, 
-\change_unchanged
-
 \begin_inset CommandInset citation
 LatexCommand citet
 key "sun2012variance"
@@ -2673,9 +2446,7 @@ Another salient and well-studied feature of reputation systems is review
  All else equal, we may expect that consumers will have less uncertainty
  about the quality of products with more reviews.
  Therefore, increases in review volume could lead to increased demand.
- 
-\change_deleted -1412874244 1512687390
-While the hypothesis that changes in review volume affect demand is plausible,
+ While the hypothesis that changes in review volume affect demand is plausible,
  testing it raises a complex identification challenge: while more reviews
  may cause sales, the reverse is also true, 
 \emph on
@@ -2702,35 +2473,13 @@ SS: I tried to talk about causality in the paragraph just before 3.1.
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -1412874244 1512687447
-\begin_inset Note Note
-status open
-
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512687490
-SS: for completeness.
- Does your paper with Greg (the one using the merger) not look at review
- volume.
- Presumably the merge as a large impact on that.
- Also, I think at least one of the Mayzlin papers does look at both valence
- and volume.
- Should that be cited here as well?
-\change_unchanged
-
+GZ: Sure, but this reverse causality concern is specific to volume...
+ I'd rather leave that in here...
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
@@ -2791,49 +2540,20 @@ key "pallais2014inefficient"
 \end_layout
 
 \begin_layout Standard
-Both of these experiments point to the substantial economic benefits of
- establishing a reputation on an online platform
+An important aspect of both of these studies is that neither experiment
+ manipulated review volume at the margin.
+ Instead, sellers with no reviews were compared to reviewed sellers.
+ Both experiments found substantial economic benefits for establishing a
+ reputation
 \emph on
 , 
 \emph default
-for instance by having at least one detailed review.
+e.g., by having at least one detailed review.
  At the same time, while a number of observational studies have used review
- volume as predictor of sales, the question of experimentally measuring
+ volume as a predictor of sales, the question of experimentally measuring
  the marginal impact of a unit increase in review volume on demand and prices
- remains an interesting open question, in part because there is no straightforwa
-rd way to experimentally manipulate review volume in the field.
-\change_inserted -1412874244 1512687573
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -1412874244 1512687573
- 
-\change_inserted -1412874244 1512687573
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512081072
-SS: I don't quite understand that last sentence.
- You mean that the studies only looked at no reviews versus some positive
- amount rather than varying the amount of reviews at the margin.
- It might be worth expanding on this point a bit more as it is not fully
- clear.
- Also, is this something that is hard to implement as an experiment or why
- haven't people looked at the marginal impact?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
+ remains open, in part because there is no straightforward way to experimentally
+ manipulate review volume in the field.
 \end_layout
 
 \begin_layout Subsection
@@ -2841,75 +2561,15 @@ Review content
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: I like this paragraph.
- One question, how can we get causality from the text-mining approaches?
- I assume they mine existing (and hence non-random) text.
- We should be a bit careful in describing these given our focus on causality.
- The second approach described below fits more naturally.
- 
-\change_inserted 2105412453 1511997727
-
-\end_layout
-
-\begin_layout Plain Layout
-SY: I think we may need some qualification here.
- The first approach may be more prone to bias (e.g., more popolar leads to
- more positive comments).
- 
-\change_inserted -1412874244 1512081223
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512081255
-SS: Just to re-iterate.
- In line with the theme of this article, we need to talk about causality
- especially with regards to the first approach below.
- 
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Review text is inherently high-dimensional and typically not amenable to
- analysis by the same methods researchers use to study
-\change_deleted -503570337 1511884619
- 
-\change_unchanged
- review valence and volume.
+ analysis by the same methods researchers use to study review valence and
+ volume.
  Therefore, most analyses of review text rely on a pre-processing step that
  transforms text into a small number of variables that capture variation
  along dimensions of interest.
+ These variables can subsequently be analyzed using standard econometric
+ approaches.
  
-\change_deleted -1412874244 1512751228
-In principle, t
-\change_inserted -1412874244 1512751228
-T
-\change_unchanged
-hese variables can subsequently be analyzed using 
-\change_deleted -1412874244 1512751200
-traditional
-\change_inserted -1412874244 1512751201
-standard
-\change_unchanged
- econometric approaches.
- 
-\change_deleted -1412874244 1512751212
-However, finding plausibly exogenous variation in variables created from
- existing text is difficult, and thus causal interpreations of the effect
- of language on demand often require strong identication assumptions.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -2918,11 +2578,7 @@ At a high level, two approaches have been employed in the literature to
  First, researchers have used statistical approaches that rely on dimensionality
  reduction algorithms to map text onto low dimensional measures.
  Statistical approaches themselves vary in their sophistication from the
- 
-\change_deleted -1412874244 1512751239
-direct 
-\change_unchanged
-application of simple formulas to compute metrics like readability to complex
+ application of simple formulas to compute metrics like readability to complex
  methods like topic modeling 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2950,13 +2606,9 @@ key "moe2017social"
 
  provide a comprehensive review of the statistical approaches used to analyze
  text from reputation systems and social media.
-\change_inserted -1412874244 1512751251
-
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512751455
 These approaches allow the researcher to characterize existing text along
  different dimensions and these content characteristics can then be correlated
  with sales.
@@ -2964,8 +2616,6 @@ These approaches allow the researcher to characterize existing text along
  to this setting and any analysis of existing text does not allow the researcher
  to conclude which characteristics of review content have a positive impact
  on demand.
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -2978,17 +2628,8 @@ key "ghose2011estimating"
 
 \end_inset
 
- study the text of Amazon.com reviews and find
-\change_deleted -1412874244 1512751625
- that reviews
-\change_unchanged
- that objectivity, readability, and lack of spelling errors 
-\change_deleted -1412874244 1512751628
-increase
-\change_inserted -1412874244 1512751632
-is correlated with higher
-\change_unchanged
- product sales.
+ study the text of Amazon.com reviews and find that objectivity, readability,
+ and lack of spelling errors is correlated with higher product sales.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2996,34 +2637,8 @@ key "archak2011deriving"
 
 \end_inset
 
- extract product features from review text to elicit the pricing power of
- each feature.
-\change_inserted -1412874244 1512751646
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512751670
-SS: this seems a little unclear to me.
- what does it mean to 
-\begin_inset Quotes eld
-\end_inset
-
-elicit the pricing power
-\begin_inset Quotes erd
-\end_inset
-
-?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
+ extract product features from review text to estimate the pricing power
+ of each feature.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -3031,17 +2646,8 @@ key "ghose2012designing"
 
 \end_inset
 
- also extract product features from review text
-\change_inserted -1412874244 1512751597
-.
-\change_deleted -1412874244 1512751601
-, and incorporate these features in a utility model that is used to rank
- product by expected utility in response to consumer queries.
+ also extract product features from review text.
  
-\change_inserted -1412874244 1512751602
- 
-\change_unchanged
-
 \begin_inset CommandInset citation
 LatexCommand citet
 key "ludwig2013more"
@@ -3064,47 +2670,9 @@ hate
 \begin_inset Quotes erd
 \end_inset
 
-, which are detected using LIWC) are 
-\change_deleted -1412874244 1512751546
-positivelu
-\change_inserted -1412874244 1512751546
-positively
-\change_unchanged
- associated with conversion rates.
+, which are detected using LIWC) are positively associated with conversion
+ rates.
  
-\change_deleted -1412874244 1512751560
-
-\begin_inset CommandInset citation
-LatexCommand citet
-key "buschken2016sentence"
-
-\end_inset
-
- study the sentence structure of reviews by fitting a topic model that allows
- topics to vary from sentence to sentence compared to the common practice
- of  estimating a single topic distribution for each review.
- The sentence topic model is found toproduce more meaningful topics and
- to fit the data better than topic models than ingore sentence stucture.
- 
-\change_inserted -1412874244 1512751564
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512751585
-SS: the last paper did not seem to fit well, it is more a technical point
- than a substantive one.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -3150,13 +2718,6 @@ key "packard2017language"
  The authors find explicit endorsements (``I recommended this book'') are
  more persuasive than implicit endorsements (``I enjoyed this book'').
  
-\change_deleted -1412874244 1512751876
-Interestingly, novice users are found to be more likely to use explicit
- endorsements that experts, suggesting that novice reviews are more persuasive
- than expert reviews.
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
 key "kupor2017spontaneous"
@@ -3168,11 +2729,7 @@ key "kupor2017spontaneous"
  are more convincing than endorsements that are perceived to be more thoughtful.
  For example, product endorsements that contain typographical errors are
  perceived as more authentic, thus enhancing their persuasiveness.
- Interestingly, these result contrast to the 
-\change_inserted -1412874244 1512751902
-(correlational) 
-\change_unchanged
-findings of 
+ Interestingly, these result contrast to the findings of 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "ghose2012designing"
@@ -3191,148 +2748,79 @@ Both approaches for studying the effects of review text are valuable.
  theoretical constructs can be difficult.
  Consumer behavior theory can help resolve these problems by guiding our
  search in the high-dimensional space of language patterns, and informing
- the design of experiments to estimate causal treatment effects.
-\change_deleted -503570337 1511811878
+ the design of experiments to estimate causal treatment effects
+\change_inserted 5864038 1513100123
 
 \end_layout
 
 \begin_layout Standard
 
-\change_deleted -1412874244 1512751934
-Other Literature Reviews 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -1412874244 1512751930
-GZ: This para may be better suited for the overall chapter conclusion than
- this particular section.
- Discuss 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "dellarocas2003digitization"
-
-\end_inset
-
- and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "luca2015user"
-
-\end_inset
-
- and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "berger2014word"
-
-\end_inset
-
-.
-\change_inserted -1412874244 1512751930
-
-\end_layout
-
-\begin_layout Subsection
-Moderators 
-\change_deleted -503570337 1511810973
-and mechanism
-\change_inserted -503570337 1511813456
- of the
-\emph on
- 
-\emph default
-relationship between reviews and demand 
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -503570337 1511809506
+\change_inserted 5864038 1513100124
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 
-\change_inserted -503570337 1511809506
-SS: 
-\change_inserted -1412874244 1512592302
-Giorgos, can you please add an organizing framework here.
- Maybe something around uncertainty and informative effects would be useful.
-\change_inserted -503570337 1511809506
-
+\change_inserted 5864038 1513100131
+GZ: are we interested in a review provenance section? For now, I left a
+ half baked section in there...
+ my guess is we do not need more content but if you want me to add it, I
+ can.
 \end_layout
 
 \end_inset
 
 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
-Overall, the findings in the literature point towards substantial causal
- effects on the impact of ratings, review volume, and review text on demand.
- In addition to studying these features directly, a number of papers have
- examined various moderators of the relationship between reviews and demand.
+
+\change_deleted 5864038 1513100112
+
+\series bold
+3.4 (potential section) Review provenance
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 5864038 1513099998
+Review provenance – the identity and motivation of reviewers – also affects
+ the impact of reviews on demand.
  
 \end_layout
 
 \begin_layout Standard
-A consistent theme that has emerged in the literature is that the relationship
- between ratings and demand (or prices) depends on consumers' prior quality
- uncertainty.
- For instance, 
+
+\change_deleted 5864038 1513099998
 \begin_inset CommandInset citation
 LatexCommand citet
-key "Luca_2016"
+key "godes2009firm"
 
 \end_inset
 
- finds that that Yelp ratings do impact the revenue of chain restaurants
- because there exists little a priori uncertainty about their quality.
- Similarly, 
+ study the impact of reviewer characteristics on demand.
+ Using a field experiment, 
 \begin_inset CommandInset citation
 LatexCommand citet
-key "lewis2016welfare"
+key "godes2009firm"
 
 \end_inset
 
- find that the impact of TripAdvisor ratings is much smaller for chain-affiliate
-d hotels than it is for independently operated properties.
- Also looking at the hotel industry, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "hollenbeck2016online"
-
-\end_inset
-
- investigates the evolution of the relationship between brand value and
- demand and finds that between 2000 and 2015 the impact of branding on revenue
- declined by 50% due increased adoption of consumer reviews.
+ show that a firm can drive more awareness for its products by incentizing
+ its less loyal customers to produce word of mouth.
+ Less loyal customers are likely to be connected to consumers with low awareness
+ whereas the networks of loyal customers are more likely to be already informed.
+ Thus seeding WOM campaigns by targeting less loyal consumers can have a
+ greater impact on awareness.
 \end_layout
 
 \begin_layout Standard
-Consumer awareness is another important moderator of the impact of ratings
- on demand.
- In a fascinating study, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "berger2010positive"
 
-\end_inset
-
- show that even negative reviews can have a positive impact on sales when
- they cause a sufficient increase in awareness.
- By contrast, negative reviews for well-known products decrease sales, as
- expected.
-\end_layout
-
-\begin_layout Standard
-The provenance of reviews also affects their impact on demand.
- For instance, an emerging feature of reputation systems is the ability
- to read and write reviews via mobile applications.
+\change_deleted 5864038 1513099998
+An emerging feature of reputation systems is the ability to read and write
+ reviews via mobile applications.
  Review platforms typically indicate whether a review was written using
  a mobile app or a desktop site.
  
@@ -3352,46 +2840,139 @@ key "grewal2016mobile"
  reviews (e.g., due to the physical limitations of small phone screens), and
  thus their reviews are more trustworthy than review submitted via a traditional
  desktop website.
+\change_inserted 5864038 1513100010
+
+\end_layout
+
+\begin_layout Subsection
+Moderators of the
+\emph on
+ 
+\emph default
+relationship between reviews and demand 
 \end_layout
 
 \begin_layout Standard
-Demand 
-\change_inserted -503570337 1512402718
-also 
-\change_unchanged
-depends on the timing of reviews with respect to the product life-cycle.
- Relying on meta-analysis, 
+Overall, the findings in the literature point towards substantial causal
+ effects on the impact of ratings, review volume, and review text on demand.
+ In addition to studying these features directly, a number of papers have
+ examined moderators of the relationship between reviews and demand.
+ A consistent theme that has emerged is that the relationship between reviews
+ and demand (or prices) depends on consumers' prior information.
+ Reviews are not the only information source available to consumers and
+ thus they affect demand only to the extent that they provide new information.
+ Below, we discuss how others sources of information available to consumers
+ can moderate the impact of reviews on demand.
+\end_layout
+
+\begin_layout Standard
+A brand is a traditional marketing mechanism that can be used to convey
+ useful information about quality to consumers.
+ The evidence in the literature suggests that even in the presence of reviews
+ consumers continue to rely on brands to learn about product quality.
+ For instance, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Luca_2016"
+
+\end_inset
+
+ finds that Yelp ratings do not impact the revenue of chain restaurants
+ because there exists less uncertainty about their quality than independent
+ restaurants.
+ Similarly, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lewis2016welfare"
+
+\end_inset
+
+ show that the impact of TripAdvisor ratings is much smaller for chain-affiliate
+d hotels than it is for independently operated properties.
+ At the same time, recent evidence suggests that the impact of brands is
+ diminishing.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hollenbeck2016online"
+
+\end_inset
+
+ shows that between 2000 and 2015 the impact of branding on revenue declined
+ by 50% due increased adoption of consumer reviews.
+ Overall, the literature suggets that while consumers continue to rely on
+ brands to learn about quality, review platforms can act as a substitute
+ source of information.
+\end_layout
+
+\begin_layout Standard
+The amount of information available about a product typically increases
+ over its life-cycle.
+ Consumers may have significant uncertainty about a product the day it is
+ released, but uncertainty can decline as more consumers adopt the product.
+ Therefore, the timing of reviews with respect to the product life-cycle
+ can moderate the impact of reviews on demand.
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "babic2016effect"
 
 \end_inset
 
- find that early reviews are more important in driving the sales for new
- products than they are for new services because service quality can vary
- greatly over time whereas product quality remains relatively fixed.
- Thus recent reviews are far more important for services whereas initial
- reviews are more important for products.
+ conduct a meta analysis of existing studies to show that early reviews
+ are more important than recent reviews in driving the sales of new products.
+ Because product quality remains relatively fixed, early reviews can resolve
+ quality uncertainty, and subsequent reviews provide little additional informati
+on to consumers.
+ This is not the case for services.
+ Service quality can vary significantly over time.
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "babic2016effect"
+
+\end_inset
+
+ show recent reviews are the main driver of demand for services because
+ they are provide more up to date information about service quality.
 \end_layout
 
 \begin_layout Standard
-Finally, it worth mentioning that the effects we have discussed above are
- unlikely to represent long-term equilibrium outcomes.
- As consumers pay more attention to the increasing number of reviews accumulatin
-g online, the influence of these reviews on demand and pricing will also
- likely become stronger.
- 
+In addition to providing information about quality, review platforms can
+ help consumers discover new products and services that they were not aware
+ of.
+ This suggests, that prior consumer awareness can moderate the impact of
+ reviews on demand.
+ In a fascinating study, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "berger2010positive"
+
+\end_inset
+
+ show that negative reviews can have a positive impact on demand when they
+ cause a sufficient increase in consumer awareness.
+ For instance, compared to not being reviewed at all, a negative book review
+ may increase the sales of a lesser-known author by driving awareness.
+ By contrast, a negative review for a well-known author has a negative impact
+ on sales, as expected.
+\end_layout
+
+\begin_layout Standard
+Finally, the impact of reviews on demand is moderated by consumers' adoption
+ of review platforms.
+ As more consumers turn to review platforms to learn about products and
+ services, and as review platforms accumulate more reviews, the influence
+ of reviews on demand will also likely become stronger.
+ Looking at impact of TripAdvisor on hotel demand over time, 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "lewis2016welfare"
 
 \end_inset
 
- provide some evidence for the evolution of these treatment effect by looking
- at hotel demand as a function of TripAdvisor ratings over a decade.
- The study finds that the impact of a 1-star increase in a hotel's average
- rating went for zero to 25% between 2004 and 2014.
+ find that the impact of a 1-star increase in a hotel's average rating went
+ for zero to 25% between 2004 and 2014.
 \change_inserted -1412874244 1512751944
 
 \end_layout
