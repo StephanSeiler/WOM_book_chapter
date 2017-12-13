@@ -99,6 +99,7 @@
 \html_css_as_file 0
 \html_be_strict false
 \author -1412874244 "sseiler"
+\author -503570337 "v-gizerv"
 \author 5864038 "zg"
 \author 2105412453 "Song Yao"
 \end_header
@@ -275,6 +276,8 @@ Average monthly mobile app unique users: 30m
 
 \change_inserted 5864038 1513098390
 142m reviews
+\change_inserted -503570337 1513188967
+ up from 50M in 2014 – so 3x growth in review volume in 3 years
 \change_inserted -1412874244 1513128698
 
 \end_layout
@@ -382,6 +385,36 @@ In order to understand the measurement challenges and possible solutions
  WOM impact.
  We outline several methods below and discuss the situations in which they
  can be applied.
+\change_inserted -503570337 1513188794
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -503570337 1513188853
+GZ: I am not sure what to make of this paragraph.
+ It starts by saying that it is instructive to draw parallels with advertising.
+ Then, it says that 
+\begin_inset Quotes eld
+\end_inset
+
+methods for measuring advertising effectiveness, which are fairly well developed
+, cannot be directly applied to measuring the impact of WOM
+\begin_inset Quotes erd
+\end_inset
+
+.
+ What is the point we are trying to make here? It is unclear to me.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1024,8 +1057,8 @@ key "lewis2016welfare"
  Prior to the merger the two platforms were collecting reviews separately,
  each platform computing average ratings using its own database of reviews.
  The merger of the review databases led to a sudden change in average ratings.
- Similar to the shut-down of Sina Weibo, the the merger of the two review
- databases in unlikely to have been related to demand.
+ Similar to the shut-down of Sina Weibo, the merger of the two review databases
+ in unlikely to have been related to demand.
  
 \end_layout
 
@@ -1048,8 +1081,21 @@ The main difficulty in using natural experiments as a tool for causal inference
 \end_layout
 
 \begin_layout Standard
-A second limitation of natural experiments is that they can yield estimates
- that tend to be context-specific.
+A second limitation of natural experiments is that they 
+\change_inserted -503570337 1513189296
+often 
+\change_deleted -503570337 1513189298
+can 
+\change_unchanged
+yield
+\change_inserted -503570337 1513189302
+ context-specific
+\change_unchanged
+ estimates
+\change_deleted -503570337 1513189307
+ that tend to be context-specific
+\change_unchanged
+.
  For instance, 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -1060,7 +1106,14 @@ key "lewis2016welfare"
  can estimate the causal impact of ratings in July 2013, the date of the
  review platform merger.
  This natural experiment cannot provide insight as to the magnitude of the
- treatment effect at other points in time without further assumption.
+ treatment effect at other points in time
+\change_inserted -503570337 1513189346
+.
+
+\change_deleted -503570337 1513189343
+ without further assumption.
+
+\change_unchanged
  
 \end_layout
 
@@ -1080,59 +1133,6 @@ A final concern with natural experiments, especially those causing large
  Unexplained systematic variation prior to the natural experiment may suggest
  the natural experiment is invalid.
  
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-GZ: OK I AGREE BIG-SMALL IS USELESS DISTINCTION SO SKIPPING THIS PARA: Alternati
-vely, researchers can exploit multiple 
-\begin_inset Quotes eld
-\end_inset
-
-small
-\begin_inset Quotes erd
-\end_inset
-
- natural experiments.
- Small experiments carry little statistical power individually.
- However, when many small experiments are available they can be jointly
- analyzed to yield reliably estimates.
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "proserpio2016you"
-
-\end_inset
-
- rely on this approach to estimate the impact of Airbnb ratings on the rental
- prices of Airbnb properties.
- The average rating of each Airbnb property is only disclosed to consumers
- once the property has accumulated three reviews.
- These disclosures can be thought of as a series of small natutal experiments
- – one for each Airbnb property reaching three reviews.
- The assumption underlying the validity of these natural experiments is
- that the arrival of the third review is unpredictable, and thus uncorrelated
- with unobserved demand variation.
- Moreover, these experiments are 
-\begin_inset Quotes eld
-\end_inset
-
-small
-\begin_inset Quotes erd
-\end_inset
-
- in the sence that the disclosure of any single property's average rating
- would be an uninformative event.
- However, taken together, with access to many such small experiments we
- can reliably estimate the impact of ratings on Airbnb property prices.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1806,25 +1806,14 @@ Another salient and well-studied feature of reputation systems is review
  about the quality of products with more reviews.
  Therefore, increases in review volume could lead to increased demand.
  While the hypothesis that changes in review volume affect demand is plausible,
- testing it raises a
-\change_inserted -1412874244 1513129536
-n
-\change_unchanged
- 
-\change_deleted -1412874244 1513129534
-complex
-\change_unchanged
- identification challenge
-\change_inserted -1412874244 1513129572
- of the type we discussed in Section 
+ testing it raises an identification challenge of the type we discussed
+ in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec: measurement challenges"
 
 \end_inset
 
-
-\change_unchanged
 : while more reviews may cause sales, the reverse is also true, 
 \emph on
 i.e.
@@ -1834,27 +1823,19 @@ i.e.
  proven to be difficult.
  Therefore, to resolve this reserve causality issue, researchers have primarily
  relied on experimental methods.
-\change_inserted -1412874244 1512687443
-
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1512687437
 SS: I tried to talk about causality in the paragraph just before 3.1.
  Importantly, the causality concerns are not unique to volume but apply
  similarly to valence and content.
  Therefore it seems more natural to discuss them up-front
-\change_unchanged
-
 \end_layout
 
 \begin_layout Plain Layout
 GZ: Sure, but this reverse causality concern is specific to volume...
  I'd rather leave that in here...
-
-\change_inserted -1412874244 1513129651
  SS: ok, I added a link to the earlier section.
  otherwise it sounds as if this is the first time that issue comes up (we
  do talk about precisely that mechanism earlier).
@@ -1862,12 +1843,8 @@ GZ: Sure, but this reverse causality concern is specific to volume...
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted -1412874244 1513129676
 SS: also, the fact that experiments are used here runs somewhat against
  our earlier discussion (see my comment in that section for you, Giorgos).
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -2285,13 +2262,56 @@ key "lewis2016welfare"
 
 \begin_layout Subsection
 Consumer Reviews: Summary
+\change_inserted -503570337 1513189387
+
 \end_layout
 
 \begin_layout Standard
-Discuss 
+
+\change_inserted -503570337 1513190603
+The literature on consumer reviews is large and continues to grow.
+ In this chapter, we have reviewed studies whose focus is on measuring the
+ causal impact of reviews on demand and pricing.
+ Overall, the evidence presented in these studies points towards reviews
+ having substantial econonical effects, though the magnitudes of these effects
+ varies depending on context.
+ Beyond measuring the impact of reviews on demand, a lot of work has also
+ been devoted to answering a variety of other interesting research question
+ related to consumer reviews such as investigating the motivations of consumers
+ to write reviews
+\begin_inset CommandInset citation
+LatexCommand citep
+key "reportingandreciprocity"
+
+\end_inset
+
+, understanding firms' incentives to commit review fraud
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mayzlin2014promotional,luca2016fake"
+
+\end_inset
+
+, and using reviews to characterize market stucture
+\begin_inset CommandInset citation
+LatexCommand citep
+key "berry2010product"
+
+\end_inset
+
+.
+ For a comprehensive review of the literature on consumer reviews we point
+ the reader to 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "dellarocas2003digitization"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "berger2014word"
 
 \end_inset
 
@@ -2302,30 +2322,9 @@ key "luca2015user"
 
 \end_inset
 
- and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "berger2014word"
 
-\end_inset
-
- here (and say some other general stuff)
-\change_inserted -1412874244 1513129782
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513129787
-SS: add general summary of the section here!
 \change_unchanged
-
-\end_layout
-
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Section
