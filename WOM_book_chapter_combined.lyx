@@ -762,6 +762,17 @@ Turning to WOM, we think that the panel approach is less likely to work
 
 \begin_layout Subsubsection*
 A/B-tests
+\change_inserted 5864038 1513263239
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:ab-tests"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1553,6 +1564,17 @@ reference "subsec: correctly measuring"
 
 \begin_layout Subsection
 Review valence
+\change_inserted 5864038 1513261358
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:review-valence"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1685,7 +1707,32 @@ key "jin2006price"
 \begin_layout Standard
 Similar effects for review valence have been demonstrated on other review
  and e-commerce platforms.
- For example, 
+ 
+\change_inserted 5864038 1513261074
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "chevalier_mayzlin2006"
+
+\end_inset
+
+ examine the impact of review valence book sales by using sales rank as
+ proxy as proxy for actual sales, which are not observed.
+ To arrive at a causal estimate, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "chevalier_mayzlin2006"
+
+\end_inset
+
+ combine data from Amazon and Barnes & Noble to implement a different-in-differe
+nces identification strategy that estimates book sales as function of reviews
+ on one retailer against changes in sales on the other retailer.
+ By observing sales on both retailers the researchers are able to control
+ for common unobserved demand shocks.
+ 
+\change_deleted 5864038 1513260411
+For example, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "chevalier_mayzlin2006"
@@ -1693,7 +1740,40 @@ key "chevalier_mayzlin2006"
 \end_inset
 
  find that the sales ranks of books on Amazon depend on their average ratings.
- Looking at Yelp 
+
+\change_unchanged
+ 
+\change_inserted 5864038 1513261046
+The study finds economically significant effects for sales that the authors
+ illustrate using as an example a book that ranks 500th is sales and has
+ four 5-star review on both retailers.
+ Changing one of the Amazon 5-star reviews to a 1-star review, 
+\begin_inset Quotes eld
+\end_inset
+
+the rank at Amazon.com would be expected to rise to 601
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513260836
+An increase in sales rank implies a decline in sales.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+, an estimated decrease in sales of approximately 20 books per week.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Looking at Yelp 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Luca_2016"
@@ -1795,6 +1875,17 @@ i.e.
 
 \begin_layout Subsection
 Review volume
+\change_inserted 5864038 1513261372
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:review-volume"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -1819,40 +1910,61 @@ reference "subsec: measurement challenges"
 i.e.
 \emph default
 , increased sales can result in more reviews.
- Finding instruments or plausibly exogenous variation in review volume has
- proven to be difficult.
- Therefore, to resolve this reserve causality issue, researchers have primarily
- relied on experimental methods.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-SS: I tried to talk about causality in the paragraph just before 3.1.
- Importantly, the causality concerns are not unique to volume but apply
- similarly to valence and content.
- Therefore it seems more natural to discuss them up-front
-\end_layout
-
-\begin_layout Plain Layout
-GZ: Sure, but this reverse causality concern is specific to volume...
- I'd rather leave that in here...
- SS: ok, I added a link to the earlier section.
- otherwise it sounds as if this is the first time that issue comes up (we
- do talk about precisely that mechanism earlier).
  
-\end_layout
-
-\begin_layout Plain Layout
-SS: also, the fact that experiments are used here runs somewhat against
- our earlier discussion (see my comment in that section for you, Giorgos).
-\end_layout
-
-\end_inset
-
+\change_inserted 5864038 1513261084
 
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 5864038 1513264071
+\begin_inset CommandInset citation
+LatexCommand citet
+key "chevalier_mayzlin2006"
+
+\end_inset
+
+, first discussed in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:review-valence"
+
+\end_inset
+
+, resolve this identification challenge by comparing the effects of changes
+ in review volume on one retailer against a baseline of changes on the another
+ retailer.
+ The study finds that changes in review volume have a significant impact
+ on demand: a 10% increase in Amazon review volume (relative to a Barnes
+ & Noble baseline) decreases a book's Amazon sales rank by 2%, corresponding
+ to improves sales.
+\change_deleted 5864038 1513262536
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5864038 1513264491
+As we discussed in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:ab-tests"
+
+\end_inset
+
+, WOM experiments are not common.
+ One exception, is experiments that randomize the assignment of reviews,
+ and subsequently compare the outcomes of sellers treated with a review
+ to sellers that were randomly assigned to the no-review condition.
+ Even though these experiments do not manipulate review volume at the margin,
+ they yield interesting insights to the economic benefits for establishing
+ a reputation
+\emph on
+, 
+\emph default
+e.g., by having at least one review vs.
+ not being reviewed at all.
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "resnick2006value"
@@ -1866,8 +1978,17 @@ key "pallais2014inefficient"
 
 \end_inset
 
- investigate the link between review volume and demand using experiments.
+ implement experiment of this nature.
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 5864038 1513263882
  
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand citet
 key "resnick2006value"
@@ -1909,6 +2030,8 @@ key "pallais2014inefficient"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 5864038 1513263886
 An important aspect of both of these studies is that neither experiment
  manipulated review volume at the margin.
  Instead, sellers with no reviews were compared to reviewed sellers.
@@ -1923,10 +2046,35 @@ e.g., by having at least one detailed review.
  the marginal impact of a unit increase in review volume on demand and prices
  remains open, in part because there is no straightforward way to experimentally
  manipulate review volume in the field.
+\change_inserted 5864038 1513263890
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5864038 1513264353
+Overall, the evidence in the literature points to economically significant
+ effects of establishing a reputation: consumers tend to trust products
+ (or sellers) with few or no reviews less than well reviewed products.
+ Therefore, additional reviews can improve sales even if they do not affect
+ a product's average rating.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
 Review content 
+\change_inserted 5864038 1513261381
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:review-content"
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
