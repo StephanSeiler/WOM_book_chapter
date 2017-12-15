@@ -1739,6 +1739,18 @@ SS: sorry for the heavy edits, this seemed generally too long and the magnitude
  I moved some of the new content here to the description of that paper in
  the volume section.
  It seemed more natural there.
+\change_inserted 5864038 1513360673
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513360748
+GZ: I initally had it only in review volume.
+ The problem is that paper is mostly about ratings, and volume is discussed
+ very briefly.
+ So to only mention it in the volume section felt weird.
+ I agree with you that substantive estimates are difficult to interpret.
 \change_unchanged
 
 \end_layout
@@ -2670,7 +2682,18 @@ status open
 \begin_layout Plain Layout
 
 \change_inserted -1412874244 1513321345
-SS: paragraph below got moved to the very end.
+SS: paragraph below got moved to the very end
+\change_inserted 5864038 1513361039
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 5864038 1513361065
+GZ: I don't see it – I am fine with deleting it, just making sure you didn't
+ accidentally forget to copy paste it.
+\change_deleted 5864038 1513361047
+.
 \change_unchanged
 
 \end_layout
@@ -3475,8 +3498,14 @@ Summary
 \end_layout
 
 \begin_layout Standard
-In this paper we outlined the state of the academic literature with regards
- to the impact of WOM on demand.
+In this 
+\change_deleted 5864038 1513360928
+paper
+\change_inserted 5864038 1513360930
+chapter,
+\change_unchanged
+ we outlined the state of the academic literature with regards to the impact
+ of WOM on demand.
  Measuring impact is difficult in the context of WOM due to the fact that
  WOM is likely to react to changes in demand and because WOM cannot be directly
  manipulated by firms.
@@ -3491,8 +3520,17 @@ n discontinuity designs.
 
 \begin_layout Standard
 With regards to consumer reviews, the evidence points towards review valence
- and volume having substantial economical impact, though the magnitudes
- of these effects varies depending on context.
+ and volume having substantial economic
+\change_deleted 5864038 1513360949
+al
+\change_unchanged
+ impact, though the magnitudes of these effects 
+\change_deleted 5864038 1513360953
+varies
+\change_inserted 5864038 1513360953
+vary
+\change_unchanged
+ depending on context.
  The evidence regarding content is more preliminary and only partially causal.
  Across many studies, results are consistent with the idea that prior informatio
 n about a product determines how impactful reviews are in terms of increasing
