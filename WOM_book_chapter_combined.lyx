@@ -2499,6 +2499,8 @@ it is well-established that
 average ratings 
 \change_inserted -192373176 1513611847
 are well known 
+\change_inserted -503570337 1513643262
+to 
 \change_unchanged
 have a substantial causal impact on demand, though the magnitude of this
  effect
@@ -2720,7 +2722,11 @@ Airbnb and Uber.
  These markets connect consumers with individual suppliers, most of whom
  have no outside reputation.
  To inform consumers about the quality of suppliers, peer-to-peer markers
- therefore tend to rely on reviews.
+ 
+\change_deleted -503570337 1513643304
+therefore tend to 
+\change_unchanged
+rely on reviews.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2773,60 +2779,15 @@ key "sun2012variance"
  presents empirical evidence that increased variance in ratings has a positive
  impact on the demand of low-rated products.
  The key intuition behind this result is that low-rated products with some
- high individual ratings (
-\emph on
-i.e
-\change_inserted -192373176 1513612125
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -192373176 1513612128
-
-\emph on
-dont' italitcize
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-.
-\emph default
-, high variance) may be appealing to at least a certain subset of consumers,
- wh
+ high individual ratings (i.e., high variance) may be appealing to at least
+ a certain subset of consumers, wh
 \change_inserted -192373176 1513612134
 ereas
 \change_deleted -192373176 1513612133
 ile
 \change_unchanged
- products with consistently low ratings (
-\emph on
-i.e.
-\change_inserted -192373176 1513612143
-
-\emph default
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -192373176 1513612145
-don't italicize
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-, low variance) are less likely to be appealing to anyone.
+ products with consistently low ratings (i.e., low variance) are less likely
+ to be appealing to anyone.
 \end_layout
 
 \begin_layout Subsection
@@ -2955,7 +2916,13 @@ is
 \change_inserted -192373176 1513612299
 in
 \change_unchanged
-to the economic benefits for establishing a reputation
+to the economic benefits 
+\change_deleted -503570337 1513643386
+for
+\change_inserted -503570337 1513643386
+of
+\change_unchanged
+ establishing a reputation
 \emph on
 , 
 \change_inserted -192373176 1513612382
@@ -3533,9 +3500,14 @@ key "babic2016effect"
 
  conduct a meta analysis of existing studies to show that early reviews
  are more important than recent reviews in driving the sales of new products.
- Because product quality remains relatively fixed, early reviews can resolve
- quality uncertainty, and subsequent reviews provide little additional informati
-on to consumers.
+ Because product quality remains relatively 
+\change_deleted -503570337 1513643773
+fixed
+\change_inserted -503570337 1513643775
+stable
+\change_unchanged
+, early reviews can resolve quality uncertainty, and subsequent reviews
+ provide little additional information to consumers.
  A notable exception are services, whose quality can vary significantly
  over time
 \change_inserted -192373176 1513615284
@@ -3553,14 +3525,7 @@ to
 \change_deleted -192373176 1513615288
  
 \change_unchanged
-date information about service quality are the main driver of demand (
-\begin_inset CommandInset citation
-LatexCommand cite
-key "babic2016effect"
-
-\end_inset
-
-).
+date information about service quality are the main driver of demand.
  
 \end_layout
 
