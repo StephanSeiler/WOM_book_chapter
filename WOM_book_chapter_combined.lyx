@@ -100,9 +100,6 @@
 \html_be_strict false
 \author -1412874244 "sseiler"
 \author -503570337 "v-gizerv"
-\author -192373176 "bobbie"
-\author 5864038 "zg"
-\author 2105412453 "Song Yao"
 \end_header
 
 \begin_body
@@ -403,181 +400,6 @@ name "sec:intro"
 \end_layout
 
 \begin_layout Standard
-
-\change_inserted -1412874244 1512500956
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512501024
-Giorgos, please provide some number review volume and time trends.
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512525066
-Song, please provide number on conversation volume
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1512525088
-SS: I will re-write this to focus on WOM volume instead of social media
- spending.
-\change_inserted 2105412453 1512847637
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 2105412453 1512847724
-SY: These are the numbers.
- I am not sure how SS wants to re-write the intro; so I chose not putting
- them into the text directly.
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 2105412453 1512847766
-http://www.internetlivestats.com/twitter-statistics/
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 2105412453 1512852510
-
-\series bold
-Twitter:
-\series default
- 
-\end_layout
-
-\begin_layout Itemize
-
-\change_inserted 2105412453 1512852516
-Number of tweets: Every second, on average, around 6,000 tweets are tweeted
- on Twitter, implying 500 million tweets per day and around 200 billion
- tweets per year.
- The volume of tweets is growing at around 30% per year.
- (source: http://www.internetlivestats.com/twitter-statistics/)
-\change_unchanged
-
-\end_layout
-
-\begin_layout Itemize
-
-\change_inserted 2105412453 1512853965
-Monthly active user as of Q3 2017: 330M global, 69M US, 4% YoY growth (source:
- Twitter's financial report, https://investor.twitterinc.com/common/download/downl
-oad.cfm?companyid=AMDA-2F526X&fileid=961125&filekey=EB20419D-CCD5-4A07-9F2A-23660
-5AE1C3C&filename=2017_Q3_Earnings_Slides.pdf)
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 2105412453 1512854512
-Facebook:
-\end_layout
-
-\begin_layout Itemize
-
-\change_inserted 2105412453 1512854674
-I cannot find any stats about the number of FB posts.
-\end_layout
-
-\begin_layout Itemize
-
-\change_inserted 2105412453 1512854656
-Monthly active user as of Q3 2017: 2.07B, 16% YoY growth (source: FB's financial
- report, http://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/06205619-7ced-42ed-b8
-c8-4621b5a121e9.pdf)
-\change_inserted 5864038 1513098265
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098266
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098294
-TripAdvisor:
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098324
-570m reviews, 455m monthly uniques, 7m hotels/restos/attractions reviewed
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098325
-https://tripadvisor.mediaroom.com/
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098339
-Yelp:
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098340
-https://www.yelp.com/factsheet
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098359
-Average monthly desktop unique visitors; 84m
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098369
-Average monthly mobile web unique visitors: 74m
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098377
-Average monthly mobile app unique users: 30m
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513098390
-142m reviews
-\change_inserted -503570337 1513188967
- up from 50M in 2014 – so 3x growth in review volume in 3 years
-\change_inserted -1412874244 1513128698
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513128702
-SS: growth stats for reviews?
-\change_inserted 5864038 1513098390
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 One of the biggest changes in the marketing landscape in recent years has
  been a shift toward fostering word-of-mouth (WOM) to let consumers advocate
  on a brand's behalf.
@@ -597,49 +419,19 @@ see http://www.internetlivestats.com/twitter-statistics/
  Similar patterns apply to other social media platforms such as Facebook,
  as well as to platforms that host costumer reviews.
  TripAdvisor and Yelp host 570 million and 142 million reviews, respectively,
- and are visited by 455 million and 74 million unique users each month.
+ and are visited by 455 million and 188 million users each month.
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-see https://tripadvisor.mediaroom.com/ and https://www.yelp.com/factsheet (mobile
- web users).
+see https://tripadvisor.mediaroom.com/ and https://www.yelp.com/factsheet.
 \end_layout
 
 \end_inset
 
-
-\change_inserted -1412874244 1513309952
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513292855
-SS: guys, please double-check the numbers in the previous sentence.
- Also, did I cite the necessary sources?
-\change_inserted 2105412453 1513351664
- SY: OK on my stat.
- For the yelp user numbers, it is the mobile web users.
- There are another two numbers (mobile app 30M and desktop 84M).
- So I added a note in the footnote.
- 
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
  However, reliably measuring the impact of WOM on demand is subject to some
- unique challenges
-\change_inserted -192373176 1513603047
-,
-\change_unchanged
- and many marketing managers admit that measuring WOM effectiveness remains
- difficult.
+ unique challenges, and many marketing managers admit that measuring WOM
+ effectiveness remains difficult.
 \begin_inset Foot
 status open
 
@@ -650,27 +442,6 @@ ds/sites/15/2017/04/The_CMO_Survey-Topline_Report-Feb-2016.pdf.
 
 \end_inset
 
-
-\change_inserted -1412874244 1513310085
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513292766
-SS: Song, I think we had a quote in our paper to this end, could you find
- it insert the citation, please?
-\change_inserted 2105412453 1513351647
- SY: Done.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
 
 \end_layout
 
@@ -729,6 +500,18 @@ methods for measuring advertising effectiveness, which are fairly well developed
 
 .
  What is the point we are trying to make here? It is unclear to me.
+
+\change_inserted -1412874244 1513708834
+ SS: it sounds fine to me, so not sure if any changes are needed.
+ it says 
+\begin_inset Quotes eld
+\end_inset
+
+diverge in several ways
+\begin_inset Quotes erd
+\end_inset
+
+ and then goes on to explain how it diverges.
 \change_unchanged
 
 \end_layout
@@ -1382,14 +1165,10 @@ A method that is related to the one just outlined, but more readily available,
 indirect
 \emph default
  manipulation of WOM.
-\change_inserted 2105412453 1513633852
-
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted 2105412453 1513633901
 As discussed earlier in section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1398,14 +1177,10 @@ reference "subsec: measurement challenges"
 \end_inset
 
 , A/B tests that directly manipulate WOM are often infeasible.
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
  The key idea is to use information on any activity a firm might be using
  to foster WOM among its users.
  For instance, a firm might be running a targeted advertising campaign to
@@ -1476,13 +1251,8 @@ s that affect WOM without also directly affecting demand.
  In our first example above, the targeted advertising campaign likely not
  only affects the amount of WOM, but also makes the users receiving advertising
  more likely to buy the product.
- Hence, the instrument will affect demand directly and not 
-\change_deleted 2105412453 1513634484
-only
-\change_inserted 2105412453 1513634484
-just
-\change_unchanged
- via its impact on WOM.
+ Hence, the instrument will affect demand directly and not only via its
+ impact on WOM.
  In this particular case, the problem could be solved if one can track the
  sales of users who were targeted with advertising and only study the impact
  of WOM on the demand of users who did not receive any advertising.
@@ -1538,29 +1308,12 @@ The approach is most easily explained by focusing on the particular application
 \end_layout
 
 \begin_layout Standard
-Note 
-\change_deleted -192373176 1513611004
-that 
-\change_unchanged
-this
-\change_inserted 2105412453 1513634674
- comparison
-\change_unchanged
- is different from comparing 
-\change_deleted 5864038 1513702293
-ALL
-\change_inserted 5864038 1513702294
-all
-\change_unchanged
- products with, say, 4 versus 4.5 stars.
+Note this comparison is different from comparing all products with, say,
+ 4 versus 4.5 stars.
  We might reasonably believe products with higher star ratings are systematicall
 y different along other dimensions that correlate with demand.
  Instead, those products near the rounding threshold are likely to be similar
- except for their 
-\change_inserted 5864038 1513702348
-rounded 
-\change_unchanged
-star ratings.
+ except for their rounded star ratings.
  Hence, the causal impact of the star ratings can be obtained by comparing
  demand for products marginally above and marginally below the rounding
  threshold.
@@ -2311,102 +2064,6 @@ key "lewis2016welfare"
  from zero to 25% between 2004 and 2014.
 \end_layout
 
-\begin_layout Standard
-
-\change_deleted -1412874244 1513279751
-Consumer Reviews: Summary
-\change_inserted -1412874244 1513321338
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513321345
-SS: paragraph below got moved to the very end
-\change_inserted 5864038 1513361039
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 5864038 1513361065
-GZ: I don't see it – I am fine with deleting it, just making sure you didn't
- accidentally forget to copy paste it.
-\change_deleted 5864038 1513361047
-.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -1412874244 1513279741
-The literature on consumer reviews is large and continues to grow.
- In this chapter, we have reviewed studies whose focus is on measuring the
- causal impact of reviews on demand and pricing.
- Overall, the evidence presented in these studies points towards reviews
- having substantial econonical effects, though the magnitudes of these effects
- varies depending on context.
- Beyond measuring the impact of reviews on demand, a lot of work has also
- been devoted to answering a variety of other interesting research question
- related to consumer reviews such as investigating the motivations of consumers
- to write reviews
-\begin_inset CommandInset citation
-LatexCommand citep
-key "reportingandreciprocity"
-
-\end_inset
-
-, understanding firms' incentives to commit review fraud
-\begin_inset CommandInset citation
-LatexCommand citep
-key "mayzlin2014promotional,luca2016fake"
-
-\end_inset
-
-, and using reviews to characterize market stucture
-\begin_inset CommandInset citation
-LatexCommand citep
-key "berry2010product"
-
-\end_inset
-
-.
- For a comprehensive review of the literature on consumer reviews we point
- the reader to 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "dellarocas2003digitization"
-
-\end_inset
-
-, 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "berger2014word"
-
-\end_inset
-
- and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "luca2015user"
-
-\end_inset
-
-.
-\change_unchanged
-
-\end_layout
-
 \begin_layout Section
 Online Conversations
 \end_layout
@@ -2519,68 +2176,6 @@ key "Seiler_et_al_2017"
 
 \begin_layout Subsection
 Content of conversations
-\change_inserted -1412874244 1512099255
-
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted -1412874244 1512098070
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS:
-\change_inserted -1412874244 1513285325
- 
-\change_unchanged
-Are there not studies similar to the ones Giorgos cites that analyze tweet
- content (I remember Xiao Liu has a paper on something like that).
- These will suffer from not being causal.
- Nevertheless, it might be nice to mention those papers here.
- It would also helps us keep a somewhat parallel structure between the review
- and conversation sections.
-\change_inserted -1412874244 1513285326
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513285339
-SS: how about the Xiao Liu paper (or similar ones).
- Does that not fit here?
-\change_inserted 2105412453 1513358129
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 2105412453 1513358280
-SY: Liu et al.
- is mainly about text mining, using some specific phrases in the tweets
- (e.g., 
-\begin_inset Quotes eld
-\end_inset
-
-I am going to watch the show tonight
-\begin_inset Quotes erd
-\end_inset
-
- to predict ratings.
- I don't find it has much bearing on our causal discussion, and it is more
- about 
-\emph on
-prediction.
- 
-\emph default
-The only place I can see is to put it purely as a citation 
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2595,34 +2190,11 @@ key "liu_et_al2016"
 
 ).
  The two dimensions that studies have focused on so far are (1) positive
- or negative sentiment that is expressed in online conversations
-\change_deleted -192373176 1513615724
-,
-\change_unchanged
- and (2) whether content is informative in the sense that it contains factual
- information about a product.
- This
-\change_inserted 2105412453 1513639086
- taxonomy
-\change_inserted -192373176 1513615730
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -192373176 1513615731
-this what?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
- is in contrast to the literature on reviews discussed earlier, where a
- broader set of content-related constructs has been analyzed.
+ or negative sentiment that is expressed in online conversations and (2)
+ whether content is informative in the sense that it contains factual informatio
+n about a product.
+ This focus is in contrast to the literature on reviews discussed earlier,
+ where a broader set of content-related constructs has been analyzed.
 \end_layout
 
 \begin_layout Standard
@@ -2685,31 +2257,9 @@ key "Seiler_et_al_2017"
 In summary, the small amount of evidence on the content of conversations
  is very mixed, and no study has used a research design that can obtain
  causal effects.
- Hence, although 
-\change_deleted 2105412453 1513639159
-this
-\change_inserted 2105412453 1513639164
-the content of WOM
-\change_inserted -192373176 1513615871
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -192373176 1513615872
-this what?
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
- is an interesting area for future research, no general findings have been
- established with regards to which content is more effective in increasing
- demand.
+ Hence, although the content of WOM is an interesting area for future research,
+ no general findings have been established with regards to which content
+ is more effective in increasing demand.
 \end_layout
 
 \begin_layout Subsection
@@ -2784,30 +2334,6 @@ In this paper, no direct data on conversations are available, and conversations
 \end_inset
 
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-SS: what is the specific test for informative effect here? SY: Is this explanati
-on clear enough? SS: I shorten it a bit.
- Not sure whether my statement is quite correct, please double-check.
- In general, what does this paper do, it is a little unclear to me from
- the text.
- There is no data on conversations, so what exactly is the test for WOM
- effect they run? 
-\change_inserted 2105412453 1513639704
-SY: I personally feel the tests Moretti ran were not very convincing.
- He used the size of a person's social network (teen vs.
- non-teen movies) as a moderator, showing larger network of peers has a
- stronger effect (section 6.3).
- The prior uncertainty is in Section 6.2.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
