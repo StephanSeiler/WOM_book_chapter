@@ -93,7 +93,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -2050,8 +2050,14 @@ key "ghose2011estimating"
 
 \end_inset
 
- study the text of Amazon.com reviews and find that objectivity, readability,
- and lack of spelling errors are correlated with higher product sales.
+ study the text of 
+\change_deleted -503570337 1513647565
+Amazon.com
+\change_inserted -503570337 1513647566
+travel
+\change_unchanged
+ reviews and find that objectivity, readability, and lack of spelling errors
+ are correlated with higher product sales.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2059,32 +2065,22 @@ key "archak2011deriving"
 
 \end_inset
 
- and 
+ 
+\change_deleted -503570337 1513647711
+and 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "ghose2012designing"
 
 \end_inset
 
- extract product features from review text.
-\change_inserted -1412874244 1513282144
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513282129
-SS: just noting this for future iterations: do the two papers mentioned
- above talk about correlations with sales (or some sales proxy)?
+ 
 \change_unchanged
-
-\end_layout
-
-\end_inset
-
-
+extract product features from review text
+\change_inserted -503570337 1513647697
+, and use these features to predict future product sales
 \change_unchanged
+.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2238,24 +2234,6 @@ key "hollenbeck2016online"
 \end_inset
 
 .
-\change_inserted -1412874244 1513282786
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -1412874244 1513282805
-SS: it was not clear to me what it means that the impact of brands on demand
- decreased by 50%.
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
  Overall, the literature suggests that although consumers continue to rely
  on brands to learn about quality, review platforms can act as a substitute
  source of information.
