@@ -93,7 +93,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -155,11 +155,15 @@ baselineskip}
 
 \series bold
 \size larger
-Causal Inference of Word-of-Mouth Impact on Demand: 
+Causal Inference in Word-of-Mouth Research: 
 \begin_inset Newline newline
 \end_inset
 
 Methods and Results
+\begin_inset Formula $^{*}$
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -340,6 +344,35 @@ Preliminary and incomplete, please do not circulate without the authors'
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
+
+\size footnotesize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+*Contact: Stephan Seiler, sseiler@stanford.edu; Song Yao, syao@umn.edu; Georgios
+ Zervas, zg@bu.edu
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -373,7 +406,7 @@ name "sec:intro"
 
 \change_inserted -1412874244 1512500956
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2050,14 +2083,8 @@ key "ghose2011estimating"
 
 \end_inset
 
- study the text of 
-\change_deleted -503570337 1513647565
-Amazon.com
-\change_inserted -503570337 1513647566
-travel
-\change_unchanged
- reviews and find that objectivity, readability, and lack of spelling errors
- are correlated with higher product sales.
+ study the text of travel reviews and find that objectivity, readability,
+ and lack of spelling errors are correlated with higher product sales.
  
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -2065,22 +2092,8 @@ key "archak2011deriving"
 
 \end_inset
 
- 
-\change_deleted -503570337 1513647711
-and 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "ghose2012designing"
-
-\end_inset
-
- 
-\change_unchanged
-extract product features from review text
-\change_inserted -503570337 1513647697
-, and use these features to predict future product sales
-\change_unchanged
-.
+ extract product features from review text, and use these features to predict
+ future product sales.
  
 \begin_inset CommandInset citation
 LatexCommand citet
