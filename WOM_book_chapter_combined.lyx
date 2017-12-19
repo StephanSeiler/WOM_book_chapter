@@ -1545,28 +1545,22 @@ that
 this
 \change_inserted 2105412453 1513634674
  comparison
-\change_inserted -192373176 1513611006
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted -192373176 1513611008
-this what?
 \change_unchanged
-
-\end_layout
-
-\end_inset
-
-
+ is different from comparing 
+\change_deleted 5864038 1513702293
+ALL
+\change_inserted 5864038 1513702294
+all
 \change_unchanged
- is different from comparing ALL products with, say, 4 versus 4.5 stars.
+ products with, say, 4 versus 4.5 stars.
  We might reasonably believe products with higher star ratings are systematicall
 y different along other dimensions that correlate with demand.
  Instead, those products near the rounding threshold are likely to be similar
- except for their star ratings.
+ except for their 
+\change_inserted 5864038 1513702348
+rounded 
+\change_unchanged
+star ratings.
  Hence, the causal impact of the star ratings can be obtained by comparing
  demand for products marginally above and marginally below the rounding
  threshold.
