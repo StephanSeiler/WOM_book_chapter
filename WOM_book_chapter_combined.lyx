@@ -100,6 +100,7 @@
 \html_be_strict false
 \author -1412874244 "sseiler"
 \author -503570337 "v-gizerv"
+\author 2105412453 "Song Yao"
 \end_header
 
 \begin_body
@@ -458,7 +459,7 @@ In this chapter, we outline the current state of the academic literature
  WOM.
  The latter instead are less structured and can take place before and/or
  after consumption.
- These two areas are sufficiently different to be treated separately.
+ These two areas are sufficiently different and shall be treated separately.
  
 \end_layout
 
@@ -527,10 +528,13 @@ diverge in several ways
 As an illustration for the general measurement framework, we consider the
  case of a firm offering multiple products that are characterized by different
  advertising and WOM intensities.
- The firm has historic data on marketing activities, namely, WOM and advertising
-, and demand (e.g., quantity sold, click-through rates, conversions) at the
- product level and wishes to understand the impact of WOM and advertising
- on demand.
+ The firm has historic
+\change_inserted 2105412453 1513743399
+al
+\change_unchanged
+ data on marketing activities, namely, WOM and advertising, and demand (e.g.,
+ quantity sold, click-through rates, conversions) at the product level and
+ wishes to understand the impact of WOM and advertising on demand.
  The general logic of our arguments below easily extends to situations in
  which data are available at the consumer rather than the product level.
  For the remainder of this section, we refer generically to 
@@ -608,7 +612,11 @@ causal
  product, has to be uncorrelated with advertising / WOM.
  Random assignment of marketing in an A/B-test setting does assure no such
  correlation exists.
- Here we consider the situation in which marketing activity is not necessarily
+ Here
+\change_inserted 2105412453 1513746946
+, however,
+\change_unchanged
+ we consider the situation in which marketing activity is not necessarily
  randomly assigned.
  We start with a discussion of (the more familiar case of) measuring the
  advertising impact as a reference point, and then highlight similarities
@@ -624,6 +632,10 @@ With regards to advertising, we need to ask ourselves whether marketing
 \begin_inset Formula $\varepsilon_{j}$
 \end_inset
 
+
+\change_inserted 2105412453 1513747119
+ when they are not controled in the regression.
+\change_unchanged
 ).
  A likely scenario in many settings is the case in which popular products
  that sold well in the past are advertised more heavily.
@@ -731,9 +743,14 @@ In contrast to the cross-sectional approach, we are now relating changes
  in marketing over time to changes in demand; that is, we are asking whether
  in time periods with relatively higher marketing intensity for a given
  product, demand for that product increases.
- Importantly, any product characteristics that do not change over time do
- not pose a problem when using this approach, because we control for the
- influence of such factors through product fixed effects (
+ Importantly, any product characteristics that 
+\change_deleted 2105412453 1513796196
+do not change
+\change_inserted 2105412453 1513796198
+stay stable
+\change_unchanged
+ over time do not pose a problem when using this approach, because we control
+ for the influence of such factors through product fixed effects (
 \begin_inset Formula $\xi_{j}$
 \end_inset
 
@@ -1159,14 +1176,19 @@ A/B tests as instruments
 \end_layout
 
 \begin_layout Standard
-A method that is related to the one just outlined, but more readily available,
- is an 
+A method that is related to the 
+\change_deleted 2105412453 1513798259
+one
+\change_inserted 2105412453 1513798270
+natural experiment approach
+\change_unchanged
+ just outlined, but more readily available, is an 
 \emph on
 indirect
 \emph default
  manipulation of WOM.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 As discussed earlier in section 
@@ -1176,12 +1198,23 @@ reference "subsec: measurement challenges"
 
 \end_inset
 
-, A/B tests that directly manipulate WOM are often infeasible.
+, A/B tests that 
+\emph on
+directly
+\emph default
+ manipulate WOM are often infeasible.
 \end_layout
 
 \end_inset
 
- The key idea is to use information on any activity a firm might be using
+ The key idea is to use information on any activity a firm might be 
+\change_inserted 2105412453 1513798770
+able to 
+\change_deleted 2105412453 1513798771
+using
+\change_inserted 2105412453 1513798784
+leverage
+\change_unchanged
  to foster WOM among its users.
  For instance, a firm might be running a targeted advertising campaign to
  users that provided positive WOM in the past.
@@ -1220,7 +1253,28 @@ key "Eckles_et_al_2016"
  Although this study does not measure the impact of WOM on demand but rather
  on user behavior within Facebook, the general framework is identical to
  the one described above.
- In this case, the assignment to an interface that makes feedback more likely
+ In this case, the assignment to 
+\change_inserted 2105412453 1513799313
+the
+\change_deleted 2105412453 1513799308
+an
+\change_inserted 2105412453 1513799207
+ platform
+\change_unchanged
+ interface
+\change_inserted 2105412453 1513799356
+,
+\change_unchanged
+ 
+\change_deleted 2105412453 1513799359
+that
+\change_inserted 2105412453 1513799359
+which
+\change_unchanged
+ makes feedback more likely
+\change_inserted 2105412453 1513799363
+,
+\change_unchanged
  serves as an instrument for the actual feedback behavior.
 \begin_inset Foot
 status open
@@ -1267,7 +1321,11 @@ A final approach that can be useful to measure the impact of a specific
  type of WOM is a regression discontinuity (RD) approach.
  Although this approach is more narrow in its application, it does provide
  a broadly applicable approach to measuring the impact of review valence,
- that is, the impact of a higher average review rating (e.g., 
+ that is, the impact of a higher average review rating 
+\change_inserted 2105412453 1513799692
+on demand 
+\change_unchanged
+(e.g., 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Luca_2016"
@@ -1425,6 +1483,10 @@ hotels in San Francisco
 eBay's reputation system, which allows buyers and sellers on the platform
  to rate each other, was among the first to be studied and has been the
  focus of many studies (
+\change_inserted 2105412453 1513803659
+e.g., 
+\change_unchanged
+
 \begin_inset CommandInset citation
 LatexCommand citet
 key "ba2002evidence"
