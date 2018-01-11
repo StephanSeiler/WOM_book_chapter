@@ -93,7 +93,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
+\tracking_changes false
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
@@ -162,12 +162,35 @@ Methods and Results
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+\begin_inset VSpace 0.2in
+\end_inset
+
+
+\series bold
+\size large
+In preparation for 
 \begin_inset Newline newline
 \end_inset
 
 
-\size large
-- In preparation for ABC edited by S.
+\shape italic
+Customer Analytics for Maximum Impact: 
+\begin_inset Newline newline
+\end_inset
+
+Academic Insights and Business Use Cases, 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+Taylor & Francis (CRC Press), edited by S.
  Seetharaman
 \end_layout
 
@@ -313,14 +336,6 @@ today
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\shape italic
-Preliminary and incomplete, please do not circulate without the authors'
- permission.
 \end_layout
 
 \begin_layout Standard
